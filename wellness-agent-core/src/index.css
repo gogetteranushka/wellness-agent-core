@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Wellness color palette - calming, health-focused */
+    --background: 210 40% 98%;
+    --foreground: 215 25% 27%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    /* Primary: Calming Teal */
+    --primary: 187 85% 43%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 187 85% 65%;
+
+    /* Secondary: Soft Green (Wellness) */
+    --secondary: 142 76% 36%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Muted: Soft gray-blue */
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    /* Accent: Lavender */
+    --accent: 270 50% 70%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Warm accent: Peachy */
+    --warm: 25 95% 65%;
+    --warm-foreground: 215 25% 27%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 187 85% 43%;
+
+    --radius: 1rem;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(187 85% 43%) 0%, hsl(270 50% 70%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100% / 0.9) 0%, hsl(210 40% 98% / 0.8) 100%);
+    --gradient-warm: linear-gradient(135deg, hsl(25 95% 65%) 0%, hsl(187 85% 43%) 100%);
+    
+    /* Shadows with glow */
+    --shadow-glow: 0 8px 32px hsl(187 85% 43% / 0.15);
+    --shadow-card: 0 4px 24px hsl(215 25% 27% / 0.08);
+    --shadow-elevated: 0 12px 48px hsl(215 25% 27% / 0.12);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .dark {
+    --background: 215 28% 17%;
+    --foreground: 210 40% 98%;
+
+    --card: 215 28% 20%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 215 28% 20%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 187 85% 50%;
+    --primary-foreground: 215 28% 17%;
+    --primary-glow: 187 85% 65%;
+
+    --secondary: 142 70% 45%;
+    --secondary-foreground: 215 28% 17%;
+
+    --muted: 215 28% 25%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 270 50% 65%;
+    --accent-foreground: 215 28% 17%;
+
+    --warm: 25 95% 60%;
+    --warm-foreground: 215 28% 17%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 28% 28%;
+    --input: 215 28% 28%;
+    --ring: 187 85% 50%;
+
+    --shadow-glow: 0 8px 32px hsl(187 85% 43% / 0.25);
+    --shadow-card: 0 4px 24px hsl(0 0% 0% / 0.3);
+    --shadow-elevated: 0 12px 48px hsl(0 0% 0% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply backdrop-blur-lg bg-white/80 dark:bg-card/80 rounded-2xl shadow-[var(--shadow-card)] border border-white/20;
+  }
+
+  .glass-card-elevated {
+    @apply backdrop-blur-xl bg-white/90 dark:bg-card/90 rounded-2xl shadow-[var(--shadow-elevated)] border border-white/30;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+
+  .btn-glow {
+    @apply shadow-[var(--shadow-glow)] hover:shadow-[0_12px_40px_hsl(187_85%_43%/0.25)] transition-all duration-300;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { 
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
