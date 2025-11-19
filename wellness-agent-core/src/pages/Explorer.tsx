@@ -1,18 +1,30 @@
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import { Book, Search, Heart, Apple, Leaf, AlertCircle, CheckCircle } from 'lucide-react';
+import {
+  Book,
+  Search,
+  Heart,
+  Apple,
+  Leaf,
+  AlertCircle,
+  CheckCircle,
+} from 'lucide-react';
+import { supabase } from '../../supabaseClient';
 
 const Explorer = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCondition, setSelectedCondition] = useState('Type 2 Diabetes');
-
-  const conditions = [
-    'Type 2 Diabetes', 'Hypertension', 'High Cholesterol', 'Anemia', 
-    'Osteoporosis', 'Heart Disease', 'Digestive Issues'
-  ];
-
-  const nutrients = [
+  const [conditions, setConditions] = useState([
+    'Type 2 Diabetes',
+    'Hypertension',
+    'High Cholesterol',
+    'Anemia',
+    'Osteoporosis',
+    'Heart Disease',
+    'Digestive Issues',
+  ]);
+  const [nutrients, setNutrients] = useState([
     {
       name: 'Fiber',
       benefit: 'Helps regulate blood sugar levels',
@@ -41,9 +53,8 @@ const Explorer = () => {
       icon: CheckCircle,
       color: 'from-warm to-orange-500',
     },
-  ];
-
-  const foods = [
+  ]);
+  const [foods, setFoods] = useState([
     {
       name: 'Quinoa',
       category: 'Whole Grains',
@@ -68,7 +79,33 @@ const Explorer = () => {
       benefits: ['Heart healthy', 'Blood sugar control', 'Satisfying'],
       nutrients: ['Fiber', 'Magnesium', 'Healthy fats'],
     },
-  ];
+  ]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  // Example: If you want to load real data for these lists, use an effect:
+  useEffect(() => {
+    async function fetchData() {
+      setLoading(true);
+      setError(null);
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        const token = session?.access_token;
+
+        // Fetch conditions from backend API (example URL, replace with real)
+        // const resConditions = await fetch('http://localhost:5000/api/conditions', { headers: { Authorization: `Bearer ${token}` } });
+        // const condData = await resConditions.json();
+        // setConditions(condData);
+
+        // Similarly, fetch nutrients and foods
+
+      } catch (err: any) {
+        setError(err.message);
+      }
+      setLoading(false);
+    }
+    fetchData();
+  }, []);
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -82,6 +119,8 @@ const Explorer = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Discover the relationship between health conditions, nutrients, and foods
           </p>
+          {loading && <p>Loading data...</p>}
+          {error && <p className="text-red-600">{error}</p>}
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
@@ -89,7 +128,7 @@ const Explorer = () => {
           <div className="lg:col-span-1">
             <div className="glass-card-elevated p-6 sticky top-24 animate-slide-up">
               <h2 className="text-xl font-bold mb-4">Conditions</h2>
-              
+
               <div className="relative mb-4">
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                 <Input
@@ -102,7 +141,7 @@ const Explorer = () => {
 
               <div className="space-y-2">
                 {conditions
-                  .filter(c => c.toLowerCase().includes(searchQuery.toLowerCase()))
+                  .filter((c) => c.toLowerCase().includes(searchQuery.toLowerCase()))
                   .map((condition) => (
                     <button
                       key={condition}
@@ -131,7 +170,7 @@ const Explorer = () => {
               <p className="text-muted-foreground mb-6">
                 Understanding key nutrients and foods that can help manage this condition through diet.
               </p>
-              
+
               <div className="flex flex-wrap gap-2">
                 <Badge className="bg-primary">Manageable with Diet</Badge>
                 <Badge variant="secondary">Evidence-Based</Badge>
@@ -181,7 +220,7 @@ const Explorer = () => {
             <div className="animate-slide-up" style={{ animationDelay: '200ms' }}>
               <h3 className="text-2xl font-bold mb-6">Recommended Foods</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {foods.map((food, index) => (
+                {foods.map((food) => (
                   <div key={food.name} className="glass-card-elevated p-6">
                     <div className="flex items-start justify-between mb-4">
                       <div>

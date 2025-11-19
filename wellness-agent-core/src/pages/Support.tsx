@@ -1,17 +1,17 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { 
-  Accordion, AccordionContent, AccordionItem, AccordionTrigger 
-} from '@/components/ui/accordion';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { HelpCircle, MessageCircle, Mail, Send, Smile, Meh, Frown } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { supabase } from '../../supabaseClient';
 
 const Support = () => {
   const [feedback, setFeedback] = useState('');
   const [selectedRating, setSelectedRating] = useState<number | null>(null);
   const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const faqs = [
     {
@@ -44,7 +44,7 @@ const Support = () => {
     },
   ];
 
-  const handleSubmitFeedback = () => {
+  const handleSubmitFeedback = async () => {
     if (!feedback || selectedRating === null) {
       toast({
         title: 'Missing information',
@@ -54,12 +54,36 @@ const Support = () => {
       return;
     }
 
-    toast({
-      title: 'Thank you!',
-      description: 'Your feedback has been submitted successfully.',
-    });
-    setFeedback('');
-    setSelectedRating(null);
+    setIsSubmitting(true);
+
+    try {
+      const { data: { session } } = await supabase.auth.getSession();
+      const token = session?.access_token;
+      // Submit feedback to your backend here
+      // await fetch('http://localhost:5000/api/feedback', {
+      //   method: 'POST',
+      //   headers: {
+      //     'Content-Type': 'application/json',
+      //     Authorization: `Bearer ${token}`,
+      //   },
+      //   body: JSON.stringify({ feedback, rating: selectedRating }),
+      // });
+
+      toast({
+        title: 'Thank you!',
+        description: 'Your feedback has been submitted successfully.',
+      });
+      setFeedback('');
+      setSelectedRating(null);
+    } catch (error) {
+      toast({
+        title: 'Error',
+        description: 'Failed to submit feedback. Please try again later.',
+        variant: 'destructive',
+      });
+    }
+
+    setIsSubmitting(false);
   };
 
   return (
@@ -144,15 +168,12 @@ const Support = () => {
 
             <div className="space-y-2">
               <label className="text-sm font-medium">Message</label>
-              <Textarea 
-                placeholder="Describe your issue or question..."
-                rows={5}
-              />
+              <Textarea placeholder="Describe your issue or question..." rows={5} />
             </div>
 
-            <Button variant="hero" className="w-full">
+            <Button variant="hero" className="w-full" onClick={handleSubmitFeedback} disabled={isSubmitting}>
               <Send className="mr-2 h-4 w-4" />
-              Send Message
+              {isSubmitting ? 'Sending...' : 'Send Message'}
             </Button>
           </div>
         </div>
@@ -160,7 +181,7 @@ const Support = () => {
         {/* Feedback Section */}
         <div className="glass-card-elevated p-8 animate-slide-up" style={{ animationDelay: '300ms' }}>
           <h2 className="text-2xl font-bold mb-6">Share Your Feedback</h2>
-          
+
           <div className="space-y-6">
             <div>
               <p className="text-sm font-medium mb-4">How would you rate your experience?</p>
@@ -177,9 +198,7 @@ const Support = () => {
                       key={rating.value}
                       onClick={() => setSelectedRating(rating.value)}
                       className={`flex flex-col items-center gap-2 p-4 rounded-xl transition-all ${
-                        isSelected 
-                          ? 'bg-muted scale-110' 
-                          : 'hover:bg-muted/50'
+                        isSelected ? 'bg-muted scale-110' : 'hover:bg-muted/50'
                       }`}
                     >
                       <Icon className={`h-12 w-12 ${rating.color}`} />
@@ -199,25 +218,18 @@ const Support = () => {
                 rows={4}
               />
             </div>
-
-            <Button 
-              variant="hero" 
-              className="w-full" 
-              onClick={handleSubmitFeedback}
-            >
-              Submit Feedback
-            </Button>
           </div>
         </div>
 
         {/* Contact Info */}
         <div className="text-center mt-8 text-muted-foreground animate-fade-in">
           <p className="mb-2">
-            Email us at <a href="mailto:support@aiwellness.com" className="text-primary hover:underline">support@aiwellness.com</a>
+            Email us at{' '}
+            <a href="mailto:support@aiwellness.com" className="text-primary hover:underline">
+              support@aiwellness.com
+            </a>
           </p>
-          <p>
-            Response time: Usually within 24 hours
-          </p>
+          <p>Response time: Usually within 24 hours</p>
         </div>
       </div>
     </div>

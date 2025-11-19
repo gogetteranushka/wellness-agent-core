@@ -11,3 +11,12 @@ python-dotenv         # Load environment variables from .env
 
 #google-generativeai   # ONLY if using Gemini instead of OpenAI
 tiktoken             # ONLY if using OpenAI (for token counting)
+scikit-learn
+joblib
+pyjwt
+requests
+cryptography
+supabase
+dotenv
+matplotlib
+seaborn
