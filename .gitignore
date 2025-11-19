@@ -1,13 +1,6 @@
 # ============================================
 # Python Backend
 # ============================================
-# Virtual Environment
-venv/
-env/
-ENV/
-agentic-wellness-backend/venv/
-*/venv/
-**/venv/
 
 # Python cache
 __pycache__/
@@ -15,6 +8,22 @@ __pycache__/
 *$py.class
 *.pyc
 *.pyo
+# Python Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+agentic-wellness-backend/venv/
+venv/
+env/
+ENV/
+venv/
+*/venv/
+**/venv/
+
 
 # Environment Variables
 .env
@@ -40,3 +49,40 @@ build/
 # Logs
 # ============================================
 *.log
+.env.*.local
+agentic-wellness-backend/.env
+
+# Vector Database
+agentic-wellness-backend/rag_chatbot/vectorstore/chromadb/
+*.db
+*.sqlite
+
+# React Frontend
+wellness-agent-core/node_modules/
+wellness-agent-core/dist/
+wellness-agent-core/build/
+wellness-agent-core/.next/
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package managers (optional)
+package-lock.json
+yarn.lock

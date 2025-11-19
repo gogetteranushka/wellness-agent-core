@@ -1,10 +1,32 @@
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Activity, Apple, Book, ArrowRight, CheckCircle, Star, Play } from 'lucide-react';
 import heroImage from '@/assets/hero-wellness.jpg';
+import { supabase } from '../../supabaseClient';
 
 const Home = () => {
-  const features = [
+  const [testimonials, setTestimonials] = useState([
+    {
+      name: 'Sarah Chen',
+      role: 'Wellness Enthusiast',
+      content: 'This platform transformed how I approach my health. The AI insights are incredibly accurate!',
+      rating: 5,
+    },
+    {
+      name: 'Michael Torres',
+      role: 'Fitness Coach',
+      content: 'The diet planning feature is outstanding. My clients love the personalized recommendations.',
+      rating: 5,
+    },
+    {
+      name: 'Emma Williams',
+      role: 'Health Professional',
+      content: 'A powerful tool for understanding health conditions and making informed decisions.',
+      rating: 5,
+    },
+  ]);
+  const [features, setFeatures] = useState([
     {
       icon: Activity,
       title: 'Symptom Checker',
@@ -26,39 +48,39 @@ const Home = () => {
       link: '/explorer',
       color: 'from-accent to-purple-400',
     },
-  ];
+  ]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const testimonials = [
-    {
-      name: 'Sarah Chen',
-      role: 'Wellness Enthusiast',
-      content: 'This platform transformed how I approach my health. The AI insights are incredibly accurate!',
-      rating: 5,
-    },
-    {
-      name: 'Michael Torres',
-      role: 'Fitness Coach',
-      content: 'The diet planning feature is outstanding. My clients love the personalized recommendations.',
-      rating: 5,
-    },
-    {
-      name: 'Emma Williams',
-      role: 'Health Professional',
-      content: 'A powerful tool for understanding health conditions and making informed decisions.',
-      rating: 5,
-    },
-  ];
+  useEffect(() => {
+    async function fetchData() {
+      setLoading(true);
+      setError(null);
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        // You can fetch dynamic testimonials or features here with an authenticated API call
+        // const token = session?.access_token;
+        // const resTestimonial = await fetch(...);
+        // const newTestimonials = await resTestimonial.json();
+        // setTestimonials(newTestimonials);
+      } catch (err: any) {
+        setError(err.message);
+      }
+      setLoading(false);
+    }
+    fetchData();
+  }, []);
 
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-hero opacity-10" />
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{ backgroundImage: `url(${heroImage})` }}
         />
-        
+
         <div className="container relative mx-auto px-4 py-20 md:py-32">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
@@ -70,7 +92,7 @@ const Home = () => {
               optimize your nutrition, and achieve your wellness goals.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link to="/symptom-checker">
+              <Link to="/auth">
                 <Button variant="hero" size="lg" className="btn-glow">
                   Get Started <ArrowRight className="ml-2" />
                 </Button>
@@ -80,15 +102,17 @@ const Home = () => {
                   Sign In
                 </Button>
               </Link>
+
               <Button variant="ghost" size="lg" className="group">
                 <Play className="mr-2 group-hover:scale-110 transition-transform" />
                 Watch Demo
               </Button>
             </div>
+            {loading && <p>Loading content...</p>}
+            {error && <p className="text-red-600">{error}</p>}
           </div>
         </div>
 
-        {/* Animated background elements */}
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
       </section>
 
@@ -219,6 +243,7 @@ const Home = () => {
               Get Started Free <ArrowRight className="ml-2" />
             </Button>
           </Link>
+
         </div>
       </section>
     </div>

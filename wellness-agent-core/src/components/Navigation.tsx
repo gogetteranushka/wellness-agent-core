@@ -3,7 +3,8 @@ import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { 
   Menu, X, Heart, Home, Activity, Apple, BarChart3, 
-  Book, LayoutDashboard, HelpCircle, Settings, User 
+  Book, LayoutDashboard, HelpCircle, Settings, User,
+  MessageCircle  // ← ADD THIS IMPORT
 } from 'lucide-react';
 
 const Navigation = () => {
@@ -14,6 +15,8 @@ const Navigation = () => {
     { path: '/', label: 'Home', icon: Home },
     { path: '/symptom-checker', label: 'Symptoms', icon: Activity },
     { path: '/diet-plan', label: 'Diet Plan', icon: Apple },
+    { path: '/ai-chatbot', label: 'AI Chat', icon: MessageCircle }, // ← ADD THIS
+    { path: '/nutrition-predictor', label: 'Nutrition AI', icon: ChefHat },
     { path: '/analytics', label: 'Analytics', icon: BarChart3 },
     { path: '/explorer', label: 'Explorer', icon: Book },
     { path: '/profile', label: 'Profile', icon: User },
@@ -76,6 +79,12 @@ const Navigation = () => {
               </Button>
             </Link>
           </div>
+          <Button onClick={async () => {
+            await supabase.auth.signOut();
+            window.location.href = "/auth";
+          }}>
+            Sign Out
+          </Button>
 
           {/* Mobile menu button */}
           <Button
@@ -87,6 +96,8 @@ const Navigation = () => {
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
         </div>
+        
+
 
         {/* Mobile Navigation */}
         {isOpen && (
