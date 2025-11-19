@@ -1,0 +1,42 @@
+# ============================================
+# Python Backend
+# ============================================
+# Virtual Environment
+venv/
+env/
+ENV/
+agentic-wellness-backend/venv/
+*/venv/
+**/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Environment Variables
+.env
+.env.local
+agentic-wellness-backend/.env
+
+# Vector Database
+vectorstore/
+chromadb/
+agentic-wellness-backend/rag_chatbot/vectorstore/
+**/chromadb/
+
+# ============================================
+# React/Node Frontend
+# ============================================
+node_modules/
+wellness-agent-core/node_modules/
+dist/
+build/
+.next/
+
+# ============================================
+# Logs
+# ============================================
+*.log
