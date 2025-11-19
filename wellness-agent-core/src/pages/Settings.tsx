@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Switch } from '@/components/ui/switch';
 import { Label } from '@/components/ui/label';
-import { 
-  Settings as SettingsIcon, Bell, Lock, Download, 
-  Trash2, Moon, Sun, Shield, Database 
+import {
+  Settings as SettingsIcon, Bell, Lock, Download,
+  Trash2, Moon, Sun, Shield, Database
 } from 'lucide-react';
 import {
   AlertDialog,
@@ -43,6 +43,7 @@ const Settings = () => {
       title: 'Settings updated',
       description: 'Your notification preferences have been saved.',
     });
+    // TODO: Add backend API call to persist settings
   };
 
   const handlePrivacyChange = (key: string, value: boolean) => {
@@ -51,6 +52,7 @@ const Settings = () => {
       title: 'Privacy settings updated',
       description: 'Your privacy preferences have been saved.',
     });
+    // TODO: Add backend API call to persist settings
   };
 
   const handleExportData = () => {
@@ -58,6 +60,7 @@ const Settings = () => {
       title: 'Export started',
       description: 'Your data export will be ready shortly and sent to your email.',
     });
+    // TODO: Trigger backend export API
   };
 
   const handleDeleteAccount = () => {
@@ -66,6 +69,7 @@ const Settings = () => {
       description: 'Your account and all associated data have been permanently deleted.',
       variant: 'destructive',
     });
+    // TODO: Call backend API to delete account then sign user out
   };
 
   return (
@@ -165,21 +169,21 @@ const Settings = () => {
 
             <div className="space-y-4">
               {[
-                { 
-                  key: 'analytics', 
-                  label: 'Usage Analytics', 
+                {
+                  key: 'analytics',
+                  label: 'Usage Analytics',
                   desc: 'Help us improve by sharing anonymous usage data',
                   icon: Database,
                 },
-                { 
-                  key: 'sharing', 
-                  label: 'Data Sharing', 
+                {
+                  key: 'sharing',
+                  label: 'Data Sharing',
                   desc: 'Share health insights with healthcare providers',
                   icon: Database,
                 },
-                { 
-                  key: 'twoFactor', 
-                  label: 'Two-Factor Authentication', 
+                {
+                  key: 'twoFactor',
+                  label: 'Two-Factor Authentication',
                   desc: 'Add an extra layer of security',
                   icon: Lock,
                 },
