@@ -2,3 +2,12 @@ flask==3.0.0
 flask-cors==4.0.0
 pandas==2.1.0
 numpy==1.24.0
+
+langchain              # RAG orchestration framework
+chromadb              # Vector database for storing embeddings
+sentence-transformers # Generate embeddings from text
+openai                # If using OpenAI's GPT models
+python-dotenv         # Load environment variables from .env
+
+#google-generativeai   # ONLY if using Gemini instead of OpenAI
+tiktoken             # ONLY if using OpenAI (for token counting)

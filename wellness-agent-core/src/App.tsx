@@ -18,6 +18,10 @@ import Support from "./pages/Support";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
 
+/*------- New Import for AI Chatbot Page -------*/
+import AIChatbot from './pages/AIChatbot';
+
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -36,6 +40,9 @@ const App = () => (
               <Route path="/update-data" element={<UpdateData />} />
               <Route path="/symptom-checker" element={<SymptomChecker />} />
               <Route path="/diet-plan" element={<DietPlan />} />
+              /*------- New Route for AI Chatbot Page -------*/
+              <Route path="/ai-chatbot" element={<AIChatbot />} />
+
               <Route path="/analytics" element={<Analytics />} />
               <Route path="/explorer" element={<Explorer />} />
               <Route path="/dashboard" element={<Dashboard />} />
