@@ -1,0 +1,1993 @@
+user_id,recipe_id,recipe_name,rating,timestamp,user_persona
+1,863,Carrot and Ginger Spiced Dosa Recipe,3,2025-08-06 00:48:23.225915,foodie
+1,12620,Spanish Omelette Recipe (Tortilla Espanola),5,2025-09-12 00:48:23.226290,foodie
+1,3467,Kongunadu Urulai Kurma Recipe (Curried Potatoes from Kongunadu),4,2025-08-09 00:48:23.226472,foodie
+1,324,Thulli Recipe (Broken Wheat Halwa),3,2025-09-27 00:48:23.226633,foodie
+1,3520,Whole Moong Dal Vada Recipe,4,2025-08-07 00:48:23.226782,foodie
+1,8377,हरा चना मसाला रेसिपी - Hara Chana Masala (Recipe In Hindi),4,2025-08-12 00:48:23.226927,foodie
+1,2277,Mint & Coriander Chilli Potato Salad Recipe - No Mayo Salad,4,2025-08-31 00:48:23.227075,foodie
+1,6420,Pavlova Recipe With Strawberries,5,2025-09-10 00:48:23.227221,foodie
+1,2624,Irish Cream Bundt Cake Recipe,4,2025-08-21 00:48:23.227362,foodie
+1,856,Chicken Sweet Potato & Dill Curry Recipe,4,2025-10-16 00:48:23.227507,foodie
+1,6768,Banana Date Chocolate Chip Cake Recipe,5,2025-08-22 00:48:23.227648,foodie
+1,1423,Carrot Beet Amaranth Super Salad Recipe,4,2025-10-07 00:48:23.227791,foodie
+1,1700,Coconut French Toast with Chocolate Chips Recipe,5,2025-10-22 00:48:23.227931,foodie
+1,5204,Iyengar Style Thavala Adai Recipe,5,2025-10-13 00:48:23.228093,foodie
+1,429,Indian Beaten Coffee Recipe | Dalgona Coffee,3,2025-08-10 00:48:23.228240,foodie
+1,1280,Pacha Payir Kulambu Recipe (South Indian Style Green Gram Curry),4,2025-10-17 00:48:23.228376,foodie
+1,4630,Kumaon Style Thechwani Recipe-Mooli Aloo Sabzi,2,2025-10-02 00:48:23.228525,foodie
+1,2592,"Oats, Peas & Tofu Stuffed Paratha Recipe",4,2025-10-24 00:48:23.228670,foodie
+1,236,Fig Honey & Paprika Preserve Recipe,4,2025-08-31 00:48:23.228815,foodie
+1,9920,Fresh Mango Salsa Recipe,4,2025-10-10 00:48:23.228958,foodie
+1,3608,Poha Stars Recipe (Poha Potato Fritters Flavoured With Kasuri Methi),4,2025-09-12 00:48:23.229095,foodie
+1,8163,Mushroom Tikka Masala Dry Recipe,4,2025-08-06 00:48:23.229233,foodie
+1,5711,Vegetarian Corn Chowder Soup Recipe,5,2025-10-15 00:48:23.229382,foodie
+1,8516,Bhaji Vada Recipe (Lentil And Vegetable Fritters),5,2025-10-09 00:48:23.229521,foodie
+1,7274,South Indian Bajji Recipe - Onion Bajji | Raw Banana Bajji | Potato Bajji,3,2025-08-16 00:48:23.229660,foodie
+2,4289,Mysore Masala Dosa Made With Ragi Dosa Batter,2,2025-09-08 00:48:23.230774,diet_restricted
+2,12036,Broccoli Peanut Oats Tikki Recipe,5,2025-08-31 00:48:23.230945,diet_restricted
+2,4740,कर्नाटका स्टाइल सोरक्कै पाल्या रेसिपी - Karnataka Style Sorakkai Palya (Recipe In Hindi),5,2025-10-10 00:48:23.231100,diet_restricted
+2,3016,Apple Cinnamon French Toast Recipe,5,2025-10-18 00:48:23.231244,diet_restricted
+2,1891,चनार दालना रेसिपी - Chanar Dalna (Recipe In Hindi),3,2025-10-28 00:48:23.231392,diet_restricted
+2,2267,Himachal Pahari Style Teliah Mah Recipe (Brown Horse Gram Curry),5,2025-08-08 00:48:23.231538,diet_restricted
+2,370,"Corn Salad With Radishes, Jalapeño And Lime In Mint Mayo Recipe",1,2025-09-22 00:48:23.231689,diet_restricted
+2,9218,Palak Makhana Recipe (Navratri Fasting/Vrat Recipe),5,2025-09-01 00:48:23.231832,diet_restricted
+2,5572,Cheesy Pull Apart Bread Recipe,4,2025-10-14 00:48:23.231985,diet_restricted
+2,1261,Vazhakkai Varuval Recipe- Raw Banana Roast Recipe,5,2025-09-16 00:48:23.232613,diet_restricted
+2,12766,Hawaiian Chicken Skewers Recipe,4,2025-09-27 00:48:23.233188,diet_restricted
+2,5427,Ragi Pachchai Maa Puli Upma Recipe - Ragi Flour Upma Recipe,3,2025-08-03 00:48:23.233832,diet_restricted
+2,1893,Kerala Style Eggplant Curry Recipe,5,2025-08-12 00:48:23.234247,diet_restricted
+2,2192,Chocolate Chip Cookies With Coconut Recipe,2,2025-10-11 00:48:23.234575,diet_restricted
+2,12201,Ambade Kaarle Lonche Recipe - Hog Plums & Bitter Gourd Pickle,5,2025-08-25 00:48:23.234879,diet_restricted
+2,4360,Kollu Pachadi Recipe (Sprouted Horse gram Raita Recipe),5,2025-08-20 00:48:23.235160,diet_restricted
+2,11984,Sago Kheer Recipe - Tapioca Milk Pudding,3,2025-10-01 00:48:23.235429,diet_restricted
+2,10998,Chettinad Idiyappam Recipe,3,2025-09-13 00:48:23.235680,diet_restricted
+2,7658,Strawberry Panna Cotta Tart With Chocolate Ganache Recipe,5,2025-10-20 00:48:23.235964,diet_restricted
+2,6310,Sweet Potato Tacos With Black Beans And Avocado Cream Recipe,4,2025-09-28 00:48:23.236211,diet_restricted
+2,3452,भोगिची भाजी रेसिपी - Bhogichi Bhaji (Recipe In Hindi),5,2025-09-22 00:48:23.236438,diet_restricted
+2,6959,साउथ इंडियन गाजर पोरियल रेसिपी - Carrot Poriyal (Recipe In Hindi),3,2025-10-18 00:48:23.236704,diet_restricted
+3,2548,Gujarati Mooli Bajra Muthia Recipe - Radish And Bajra-Besan Dmplings,3,2025-10-17 00:48:23.237864,health_conscious
+3,7048,Old Fashioned Bread Pudding Recipe,3,2025-10-23 00:48:23.238134,health_conscious
+3,2209,Mooli Bhurji Recipe,5,2025-09-07 00:48:23.238498,health_conscious
+3,3915,Jeera Hing Aloo Recipe - No Onion No Garlic Recipe,3,2025-08-11 00:48:23.238697,health_conscious
+3,11099,वेजिटेबल पराठा रोल रेसिपी - Healthy Vegetable Paratha Rolls Recipe,3,2025-09-14 00:48:23.238867,health_conscious
+3,12131,Creamy and Delicious Fruit Custard Recipe,3,2025-10-16 00:48:23.239254,health_conscious
+3,8506,Nimki Aloo Anardana Curry Recipe - Potato And Nimki Curry,3,2025-08-10 00:48:23.239502,health_conscious
+3,10411,Chicken Dimsums Recipe - Steamed Chicken Dumplings,3,2025-10-22 00:48:23.239681,health_conscious
+3,4402,Chickpea Salad Recipe With Raw Mango,3,2025-09-17 00:48:23.239855,health_conscious
+3,2108,Mysore Chutney Recipe - Chana Dal Chutney,3,2025-08-03 00:48:23.240136,health_conscious
+3,127,Sukhi Suran Masala Sabzi Recipe,4,2025-08-17 00:48:23.240417,health_conscious
+3,3337,Andhra Dondakaya Ulli Kura Karam Recipe | Andhra Kovakkai Fry,4,2025-08-01 00:48:23.240609,health_conscious
+3,1842,Homemade Summer Pasta Salad Recipe With Herbs,5,2025-09-21 00:48:23.240774,health_conscious
+3,393,Chana Dal Chutney Recipe,3,2025-08-22 00:48:23.240932,health_conscious
+3,1162,Foxtail Millet Rava Idli Recipe,4,2025-09-29 00:48:23.241083,health_conscious
+3,1235,Dhaba Style Egg Curry Recipe in Electric Pressure Cooker,1,2025-08-04 00:48:23.241262,health_conscious
+4,3420,आंध्रा स्टाइल मूंगफली चटनी रेसिपी - Andhra Style Peanut Chutney Recipe,5,2025-09-07 00:48:23.243499,time_constrained
+4,960,Dal Tadka Recipe Flavored with Lemon and Coriander,3,2025-08-14 00:48:23.243860,time_constrained
+4,4585,Baale Dindu Kadale Palya - Banana Stem Curry With Chickpeas Recipe,1,2025-08-26 00:48:23.244212,time_constrained
+4,4268,Eggless Coffee Souffle Recipe With Chocolate Sauce,5,2025-08-02 00:48:23.244521,time_constrained
+4,3498,Vazhaithandu Mor Kootu Recipe (Tamil Nadu Style Banana Stem Recipe),5,2025-08-24 00:48:23.244846,time_constrained
+4,223,Gehu Bajra Thepla Recipe - Bajra Masala Paratha,4,2025-09-08 00:48:23.245196,time_constrained
+4,7771,Subz Noor E Chashm Recipe (Nawabi Curry Recipe ),2,2025-08-20 00:48:23.245457,time_constrained
+4,4880,Milk Peda Recipe,4,2025-08-18 00:48:23.245629,time_constrained
+4,6630,दही सुरन की कढ़ी रेसिपी - Dahi Suran Ki Kadhi Recipe,3,2025-08-05 00:48:23.245781,time_constrained
+4,1233,Homemade Nachos Recipe,4,2025-10-26 00:48:23.245925,time_constrained
+4,11562,Sweet Potato Mash Recipe,5,2025-10-25 00:48:23.246066,time_constrained
+4,666,Konkani Style Vengaya Sagle Recipe - Eggplant Drumstick Curry,4,2025-10-22 00:48:23.246217,time_constrained
+4,9173,Sweet Pumpkin Green Smoothie Recipe,2,2025-10-04 00:48:23.246383,time_constrained
+4,9225,Sindhi Bhuga Chawal Recipe - Sindhi Style Browned Rice Pulao,3,2025-08-23 00:48:23.246533,time_constrained
+4,5560,Dahi Wali Singhare Ki Sabzi Recipe,4,2025-08-23 00:48:23.246677,time_constrained
+4,2403,Methi Namak Pare Recipe,4,2025-08-13 00:48:23.246819,time_constrained
+4,3384,Cherupayar Thoran Recipe - Kerala Style Green Gram Sabzi,5,2025-08-11 00:48:23.246953,time_constrained
+4,8468,Falsa/Phalsa Ka Sharbat Recipe - Indian Berry Juice,4,2025-10-28 00:48:23.247089,time_constrained
+4,7599,Ragi Malpua With Rabri Recipe (Indian Pancakes With Creamy Pudding),2,2025-09-14 00:48:23.247246,time_constrained
+4,3900,Shrimp Sambal Recipe,5,2025-08-15 00:48:23.247385,time_constrained
+4,7913,Surul Appam Recipe,5,2025-08-24 00:48:23.247517,time_constrained
+4,4787,सब्जी वाली रवा इडली रेसिपी - Veggie Rava Idli (Recipe In Hindi),3,2025-08-23 00:48:23.247653,time_constrained
+5,2483,Besan Katli Ki Sabzi Recipe,4,2025-08-28 00:48:23.248627,foodie
+5,6514,Kodava Kootu Curry Recipe - Coorg Style Mixed Vegetable Stew,3,2025-08-23 00:48:23.248803,foodie
+5,8896,Mini Key Lime Pie Recipe (No Bake And Eggless),5,2025-08-25 00:48:23.248985,foodie
+5,3050,पालक बैंगन की सब्ज़ी रेसिपी - Palak Baingan Ki Sabzi (Recipe In Hindi),4,2025-10-05 00:48:23.249345,foodie
+5,2506,Beetroot Rosti Recipe,5,2025-10-06 00:48:23.249647,foodie
+5,4337,Bhapa Ilish Recipe (Steamed Hilsa),4,2025-09-03 00:48:23.249919,foodie
+5,3136,Chinese Style Stir Fried Water Chest Nut with Vegetables Recipe,4,2025-09-19 00:48:23.250249,foodie
+5,4891,तुरई बैंगन की सब्ज़ी रेसिपी - Turai Baingan Ki Sabzi Recipe,3,2025-08-22 00:48:23.250576,foodie
+5,3485,Sakkare Achhu Recipe (Festive Sugar Figurines),3,2025-10-20 00:48:23.250926,foodie
+5,12131,Creamy and Delicious Fruit Custard Recipe,4,2025-08-22 00:48:23.251226,foodie
+5,349,Til Chikki Recipe - Healthy Sesame Bars,4,2025-10-21 00:48:23.251497,foodie
+5,7848,Asian Style Tofu in Spicy Orange Sauce Recipe,5,2025-09-17 00:48:23.252193,foodie
+5,2049,Bhaji Miligai And Baby Potato Fry Recipe,5,2025-08-05 00:48:23.252388,foodie
+5,4294,Strawberry Bundt Cake with Muesli and Oats Recipe,5,2025-10-22 00:48:23.252545,foodie
+5,3260,Tomato Noodle Soup recipe,3,2025-09-04 00:48:23.252697,foodie
+6,985,Soft and Crispy Cheese Stuffed Puff Sticks Recipe,3,2025-09-01 00:48:23.253706,traditional
+6,10679,Kara Kadubu Recipe (Malanad Style Steamed Spiced Rice Dumplings),3,2025-09-29 00:48:23.253906,traditional
+6,3166,Namak Para Recipe (Deep Fried Biscuits),5,2025-08-28 00:48:23.254079,traditional
+6,256,Milk Powder Chena Burfi Recipe,5,2025-08-06 00:48:23.254269,traditional
+6,4945,Mavinakayi Chutney Recipe - South Canara Raw Mango Chutney,3,2025-09-04 00:48:23.254448,traditional
+6,1122,Alfredo Spaghetti with Roasted Mushroom & Broccoli Recipe,3,2025-09-21 00:48:23.254623,traditional
+6,8974,Kashmiri Style Nadru Ke Kabab Recipe-Lotus Stem in Spicy Gravy,2,2025-10-19 00:48:23.254976,traditional
+6,1463,Pandu Mirapakaya Pachadi  - Andhra Red Chilli Chutney Recipe,2,2025-09-01 00:48:23.255404,traditional
+6,660,Tomato Basil Chicken Recipe,4,2025-08-12 00:48:23.255892,traditional
+6,2856,Beer Batter Prawns Recipe,5,2025-10-28 00:48:23.261565,traditional
+6,1633,Red Lentil Curry Without Coconut Recipe,5,2025-08-17 00:48:23.262061,traditional
+6,5915,कीरई वडई रेसिपी - Keerai Vadai Recipe,5,2025-10-02 00:48:23.262864,traditional
+6,4632,Chicken Ranch Wraps Recipe,1,2025-08-27 00:48:23.263216,traditional
+6,2321,Dhaba Style Green Moong Dal Tadka Recipe,5,2025-08-31 00:48:23.263486,traditional
+6,9067,खट्टे पुदीना आलू रेसिपी - Khatte Pudina Aloo Recipe,5,2025-08-10 00:48:23.263757,traditional
+6,6705,Jaggery Coffee Without Milk Recipe,5,2025-09-15 00:48:23.264033,traditional
+6,5008,Dal Shorba Recipe - Indian Style Lentil Soup,5,2025-09-26 00:48:23.264246,traditional
+6,252,Sweet & Spicy Vegetable Hong Kong Style Recipe,2,2025-09-23 00:48:23.264518,traditional
+6,6291,Peanut Butter Cookies Recipe,2,2025-10-09 00:48:23.264785,traditional
+7,1321,पालक चना दाल रेसिपी - Palak Chana Dal Recipe,5,2025-08-29 00:48:23.266245,foodie
+7,658,मदुराई टमाटर की चटनी रेसिपी - Madurai Spicy Tomato Chutney Recipe,4,2025-10-23 00:48:23.266503,foodie
+7,3369,Peshawari Karahi Gosht Recipe,4,2025-10-16 00:48:23.266782,foodie
+7,8414,Honey and Sesame Tossed Flat Noodles with Toasted Tofu Recipe,4,2025-09-11 00:48:23.267162,foodie
+7,3610,Apple And Pomegranate Smoothie Recipe,4,2025-08-01 00:48:23.267451,foodie
+7,3943,Tri Color Rotini Spirali Pasta Recipe Tossed in Creamy Basil Sauce,4,2025-10-21 00:48:23.267709,foodie
+7,471,Banana Digestive Pudding Recipe With Pistachios,4,2025-10-05 00:48:23.268006,foodie
+7,3299,Spicy Aloo Naan Recipe,4,2025-09-24 00:48:23.268285,foodie
+7,6276,No Bake Oreo Chocolate Tart Recipe,5,2025-09-09 00:48:23.268581,foodie
+7,5884,Savory Carrot Olive Spinach Sandwich Spread Recipe,4,2025-10-18 00:48:23.268834,foodie
+7,2827,Vegetarian Sago Dumpling Recipe,5,2025-10-09 00:48:23.269136,foodie
+7,138,Dry Sweet Potato Thoran Recipe,4,2025-10-27 00:48:23.269456,foodie
+7,6737,North Indian Style Green Raw Papaya Curry Recipe,3,2025-09-30 00:48:23.269702,foodie
+7,3856,Cinnamon Spiced Orange Iced Tea Recipe,5,2025-07-31 00:48:23.269966,foodie
+7,3585,Ragi Appam Recipe - A Healthy Twist To The Classic Kerala Appam,5,2025-08-17 00:48:23.270225,foodie
+7,9259,Karnataka Style Haalbai Recipe,3,2025-10-08 00:48:23.270422,foodie
+7,12584,हिमाचली कच्चे आम की चटनी रेसिपी - Himachali Dry Raw Mango Chutney Recipe,3,2025-09-12 00:48:23.270634,foodie
+7,4231,Kathiawadi Dhokli Nu Shaak Recipe,4,2025-09-09 00:48:23.270789,foodie
+7,4175,Melon Salsa Recipe,5,2025-10-19 00:48:23.270950,foodie
+7,5879,गोंगुरा चिकन करी रेसिपी - Gongura Chicken Curry Recipe,2,2025-08-06 00:48:23.271099,foodie
+7,11869,पितोर की सब्ज़ी रेसिपी - Pitor Ki Sabzi Recipe,4,2025-08-27 00:48:23.271233,foodie
+7,3840,Masala Khichia Recipe (Spicy Corn Flour Papad),4,2025-08-23 00:48:23.271369,foodie
+8,3413,Chukku Kaapi Recipe - Dry Ginger Coffee,3,2025-09-07 00:48:23.272390,foodie
+8,5745,Nawabi Paneer Curry Recipe,4,2025-08-25 00:48:23.272553,foodie
+8,1354,Shikampuri Kebab Recipe - Kebabs made with Brown Chickpeas,4,2025-09-05 00:48:23.272696,foodie
+8,3993,चेटिनाड स्टाइल काली मिर्च मशरुम रेसिपी - Chettinad Style Pepper Mushroom (Recipe In Hindi),4,2025-10-16 00:48:23.272837,foodie
+8,2157,Broccoli Egg Bhurji Recipe,4,2025-10-04 00:48:23.272998,foodie
+8,238,Himachali Dry Raw Mango Chutney Recipe,5,2025-08-17 00:48:23.273143,foodie
+8,11036,Gajar Methi Sabzi Recipe (Carrot Fenugreek Leaves Stir Fry),3,2025-10-05 00:48:23.273355,foodie
+8,6703,Oats Apple Phirni Recipe,2,2025-08-25 00:48:23.273736,foodie
+8,6126,महाराष्ट्रियन आलू भूजने रेसिपी - Potato Stir Fry (Recipe In Hindi),4,2025-10-17 00:48:23.274116,foodie
+8,1428,Tamatar Wali Arbi Sabzi Recipe,3,2025-09-07 00:48:23.274433,foodie
+8,5890,पनीर कालीमिर्च रेसिपी - Paneer Kalimirch (Recipe In Hindi),3,2025-08-07 00:48:23.274717,foodie
+8,1579,Kerala Style Chemmeen Moilee Recipe - Prawn Curry,3,2025-08-07 00:48:23.275578,foodie
+8,12502,Ginger Garlic Chicken Recipe,3,2025-08-07 00:48:23.276119,foodie
+8,2736,Malabar Parotta Recipe - Kerala Parotta Recipe,5,2025-08-21 00:48:23.276525,foodie
+8,4129,Pineapple Banana & Oat Smoothie Recipe,5,2025-09-01 00:48:23.276927,foodie
+8,842,Mirchi Bajji Recipe - Mirapakaya Bajji/Green Chilli Fritters,3,2025-08-08 00:48:23.277183,foodie
+8,1103,Sobji Diye Bhaja Muger Dal Recipe - Bengali Style Moong Dal with Winter Vegetables,4,2025-10-06 00:48:23.277501,foodie
+8,8306,Broccoli Keema And Cheese Uttapam Recipe,3,2025-10-06 00:48:23.277821,foodie
+8,4429,Potato Latkes Recipe,3,2025-09-09 00:48:23.278093,foodie
+8,734,Karnataka Style Orange Peels Curry Recipe,4,2025-09-30 00:48:23.278261,foodie
+8,8174,आलू पत्ता गोभी सब्ज़ी रेसिपी - Aloo Patta Gobi Sabzi Recipe,4,2025-09-08 00:48:23.278408,foodie
+9,3140,Kumaoni Style Palak & Methi Ka Kapa Recipe,4,2025-08-03 00:48:23.279759,health_conscious
+9,7848,Asian Style Tofu in Spicy Orange Sauce Recipe,5,2025-08-08 00:48:23.280144,health_conscious
+9,9479,Badanekaayi Gojju (Brinjal Curry) Recipe,4,2025-09-25 00:48:23.280540,health_conscious
+9,6431,Mocha Chingri Manohara Recipe (Shrimps Stuffed Banana Flower Kofta Curry),4,2025-09-16 00:48:23.280830,health_conscious
+9,1147,Chicken Sholay Kebab Recipe,3,2025-09-11 00:48:23.281033,health_conscious
+9,2659,"Roasted Cauliflower, Celery And Carrot Creamy Vegetable Soup Recipe",4,2025-10-01 00:48:23.281218,health_conscious
+9,322,Tamil Nadu Style Vellai Paniyaram Recipe - Semi Sweet Rice & Dal Fritters,4,2025-09-26 00:48:23.281382,health_conscious
+9,6293,Creamy Polenta Recipe  - Savory Cornmeal Porridge,4,2025-10-03 00:48:23.281544,health_conscious
+9,10209,Instant Kalakand Recipe -Indian Festive Sweet Recipe,3,2025-09-16 00:48:23.281697,health_conscious
+9,4344,Mullangi Poriyal recipe - South Indian Style Radish Stir Fry,5,2025-08-10 00:48:23.281881,health_conscious
+9,3639,Orange Rasam Recipe,3,2025-08-26 00:48:23.282043,health_conscious
+9,111,North Indian Style Mushroom Matar Masala Recipe,4,2025-10-16 00:48:23.282197,health_conscious
+9,399,Chicken and Mushroom Pot Pie Recipe,2,2025-09-22 00:48:23.282345,health_conscious
+9,2049,Bhaji Miligai And Baby Potato Fry Recipe,4,2025-10-25 00:48:23.282487,health_conscious
+9,11,Homemade Baked Beans Recipe (Wholesome & Healthy),1,2025-08-09 00:48:23.282637,health_conscious
+9,1679,Moong Matar Kebab Recipe - Green Lentil And Peas Kebab,5,2025-10-12 00:48:23.282816,health_conscious
+9,2963,Tomato and Sunflower Seed Dip Recipe,4,2025-10-22 00:48:23.282967,health_conscious
+9,11895,सौंफ वाली हरी गोबी सब्ज़ी रेसिपी - Saunf Wali Hari Gobi Sabzi (Recipe In Hindi),4,2025-10-15 00:48:23.283111,health_conscious
+9,9474,वाघरेला रोटली रेसिपी - Vagharela Rotli Recipe,4,2025-09-10 00:48:23.283251,health_conscious
+9,1805,सब्ज़ी रवा उपमा रेसिपी - Savory Semolina Breakfast Pudding (Recipe In Hindi),4,2025-09-14 00:48:23.283394,health_conscious
+9,3130,"Black Rice, Barley & Flax Seeds Congee Recipe",4,2025-08-01 00:48:23.283539,health_conscious
+9,12179,Spicy Baked Beans With Potato Cakes Recipe,4,2025-08-15 00:48:23.283681,health_conscious
+9,1846,Kadai Egg Masala Recipe,2,2025-09-27 00:48:23.283825,health_conscious
+9,4883,Oriya Style Ambila Recipe-Sweet & Spicy Mixed Vegetable Sabzi,3,2025-08-13 00:48:23.283966,health_conscious
+9,5347,Raab Recipe - Immunity Building Home Remedy Made From Millet Flour,4,2025-09-25 00:48:23.284103,health_conscious
+10,5708,Ilish Macher Korma Recipe - Hilsa Fish Curry In Rich Gravy,4,2025-10-11 00:48:23.284993,time_constrained
+10,3766,लहसुनि चकुंदर रसम रेसिपी - Beetroot Garlic Lemon Rasam (Recipe In Hindi),5,2025-08-08 00:48:23.285150,time_constrained
+10,1150,बीटरूट पोरियल रेसिपी - Beetroot Poriyal (Recipe In Hindi),3,2025-08-20 00:48:23.285297,time_constrained
+10,1144,Lemon Oats Recipe,3,2025-09-16 00:48:23.285434,time_constrained
+10,186,Aloo Bhey Ki Sabzi Recipe (Potato Lotus Stem Curry),3,2025-08-27 00:48:23.285582,time_constrained
+10,1252,Sweet Potato & Neem Leaves Vegetable Curry Recipe,1,2025-09-23 00:48:23.285723,time_constrained
+10,4796,Pineapple Ladoo Recipe,4,2025-10-09 00:48:23.285858,time_constrained
+10,4910,गुट्टी वांकाया रेसिपी - Gutti Vankaya Recipe,4,2025-08-28 00:48:23.285996,time_constrained
+10,6788,लहसुनि पुदीना चटनी रेसिपी - Lehsuni Pudina Chutney Recipe,3,2025-10-25 00:48:23.286131,time_constrained
+10,5961,Mochar Ghonto Recipe (Traditional Banana Blossom Curry From West Bengal),2,2025-09-10 00:48:23.286264,time_constrained
+10,2351,Besan Bread Toast Recipe On Tawa - Vegetarian French Toast,5,2025-08-22 00:48:23.286393,time_constrained
+10,596,Konkani Style Maskasangi Magge Koddel Recipe-Drumstick and Mangalore Cucumber Curry,3,2025-10-10 00:48:23.286526,time_constrained
+10,1249,Prawn Balchao Recipe,4,2025-08-13 00:48:23.286660,time_constrained
+10,5522,Assamese Bilahi Boror Tenga Recipe (Sour Curry With Red Lentil Fritters),2,2025-09-03 00:48:23.286811,time_constrained
+10,408,Homemade Spicy Ramen with Tofu Recipe,2,2025-10-19 00:48:23.286957,time_constrained
+11,2054,Carrot Capsicum Poriyal Recipe,3,2025-08-27 00:48:23.287791,foodie
+11,5185,Suran Kofta Curry Recipe - Yam Kofta Curry,2,2025-08-18 00:48:23.287946,foodie
+11,7496,Coconut Peanut Chutney Recipe (No Onion No Garlic Recipe),5,2025-10-03 00:48:23.288090,foodie
+11,5304,Vepampoo Kara Kuzhambu Recipe (Dried Neem Flower Gravy),3,2025-09-05 00:48:23.288227,foodie
+11,5537,Achari Chicken Masala Pasta Recipe,5,2025-08-13 00:48:23.288367,foodie
+11,58,दलिया पकोरा रेसिपी - Dalia Pakora Recipe,2,2025-10-05 00:48:23.288505,foodie
+11,2394,Grated Cucumber Raita Recipe,3,2025-09-09 00:48:23.288643,foodie
+11,4585,Baale Dindu Kadale Palya - Banana Stem Curry With Chickpeas Recipe,4,2025-10-18 00:48:23.288774,foodie
+11,12429,Mexican Taco Recipe With Refried Beans & Fresh Summer Salad,5,2025-09-28 00:48:23.288939,foodie
+11,3740,Andhra Style Pappu Urumindi Recipe,3,2025-09-21 00:48:23.289086,foodie
+11,1765,Milk Braid Rolls Recipe,5,2025-09-28 00:48:23.289220,foodie
+11,4637,Olive & Tofu In Harissa Curry Recipe,5,2025-09-13 00:48:23.289358,foodie
+11,3033,Karnataka Style Bassaru Recipe - Dill flavored Coconut Rasam,5,2025-09-28 00:48:23.289664,foodie
+11,26,Kesar Mango Lassi Recipe - Saffron Mango Lassi Recipe,4,2025-09-14 00:48:23.289983,foodie
+11,7963,Creamy Dal Makhani Recipe,4,2025-10-04 00:48:23.290166,foodie
+11,726,Jeera Milagu Rasam Recipe  - South Indian Pepper Cumin Rasam,3,2025-10-17 00:48:23.290356,foodie
+11,2410,Andhra Style Pulihora Recipe (Spicy & Tangy Tamarind Rice),5,2025-08-11 00:48:23.290514,foodie
+11,11515,Avalakki Porridge In Warm Spiced Berries Recipe,3,2025-09-12 00:48:23.290691,foodie
+11,7740,Vegetable Spring Rolls Recipe,4,2025-10-20 00:48:23.291050,foodie
+11,8723,Green Moong Dal Cheela Recipe - Savory Green Mung Bean Pancakes,4,2025-09-02 00:48:23.291284,foodie
+11,3965,Garlic & Ginger Spiced Potato Wedges Recipe (Baked),4,2025-10-19 00:48:23.291532,foodie
+11,6769,"Lettuce, Apple And Carrot Salad With Chilli Dressing Recipe ",4,2025-09-09 00:48:23.291753,foodie
+12,4716,Kashmiri Style Apple Tamatar Sabzi Recipe - No Onion No Garlic,4,2025-08-23 00:48:23.292806,diet_restricted
+12,8460,Aloo Matar Korma Recipe In White Gravy,5,2025-08-25 00:48:23.292999,diet_restricted
+12,2192,Chocolate Chip Cookies With Coconut Recipe,1,2025-10-15 00:48:23.293156,diet_restricted
+12,780,Kachi Tikya Recipe  - Chicken In Tomato Gravy With Potatoes,5,2025-10-09 00:48:23.293303,diet_restricted
+12,8615,Mambhazam Pulissery Recipe,5,2025-08-22 00:48:23.293450,diet_restricted
+12,2424,सुखी मूंग पालक दाल रेसिपी - Sookhi Moong Palak Dal (Recipe In Hindi),1,2025-08-21 00:48:23.293604,diet_restricted
+12,9555,Chicken Kofta Curry Recipe,3,2025-10-03 00:48:23.293790,diet_restricted
+12,797,Crispy Bakwan Sayur Recipe (No Onion No Garlic Vegetable Fritter),3,2025-10-16 00:48:23.293939,diet_restricted
+12,388,Rosemary Roasted Potatoes And Pepper Salad Recipe,5,2025-08-11 00:48:23.294078,diet_restricted
+12,4714,Spiced Rajma Pulao Recipe - Spiced Kidney Bean Rice,4,2025-08-04 00:48:23.294233,diet_restricted
+12,4752,Mango Shrikhand Taco Recipe - Sweet Mango Yogurt Dip Taco,5,2025-09-30 00:48:23.294380,diet_restricted
+12,2321,Dhaba Style Green Moong Dal Tadka Recipe,4,2025-09-10 00:48:23.294525,diet_restricted
+12,1943,Red Chilli and Tomato Pachadi Recipe,3,2025-10-15 00:48:23.294671,diet_restricted
+12,2543,Creamy Alfredo Cauliflower Pasta Recipe,5,2025-08-24 00:48:23.294816,diet_restricted
+12,3089,Khatte Pudina Aloo Recipe - Tangy Mint Potatoes,3,2025-09-09 00:48:23.294984,diet_restricted
+12,1089,Easy Potato Kurma Recipe,3,2025-10-26 00:48:23.295132,diet_restricted
+12,1997,गाजर शिमला मिर्च पोरियल रेसिपी - Carrot Capsicum Poriyal Recipe,5,2025-08-22 00:48:23.295273,diet_restricted
+12,784,Kathiri Urulai Masala Kuzhambu Recipe - Brinjal And Potato Masala Gravy,5,2025-08-28 00:48:23.295412,diet_restricted
+12,9622,Puri for Pani Puri Recipe -Golgappa/ Puchka Puri Recipe,5,2025-09-08 00:48:23.295548,diet_restricted
+12,9906,नवाबी कोफ्ता करी रेसिपी - Nawabi Kofta Curry Recipe,4,2025-10-16 00:48:23.295692,diet_restricted
+12,606,Bengali Beetroot And Raw Banana Chop Recipe (Spiced Cutlet Recipe),4,2025-09-25 00:48:23.295837,diet_restricted
+12,9659,Chicken Korma Recipe - Mughlai Style Chicken Curry,4,2025-09-03 00:48:23.295982,diet_restricted
+13,5671,5 Grain Greek Yogurt Fruit Parfait Recipe,5,2025-10-23 00:48:23.296784,foodie
+13,5241,"South Indian Style Green Moong Sprouts, Raw Mango Salad Recipe",3,2025-09-13 00:48:23.296967,foodie
+13,6694,Masala Couscous Pulao Recipe,3,2025-09-21 00:48:23.297116,foodie
+13,4209,Karnataka Style Badanekayi Palya Recipe - Long Brinjal In Spicy Coconut Recipe,5,2025-09-17 00:48:23.297253,foodie
+13,1878,Pohala Jhola Recipe (Pohala Fish Curry),5,2025-08-13 00:48:23.297401,foodie
+13,5052,Mexican Style Red Chicken Chilaquiles Recipe,4,2025-10-22 00:48:23.297541,foodie
+13,285,मटर बेसन और पनीर चीला रेसिपी - Matar Besan And Paneer Cheela Recipe,4,2025-08-05 00:48:23.297681,foodie
+13,1762,चम्मंथी चटनी रेसिपी - Chammanthi Chutney Recipe,3,2025-09-17 00:48:23.297818,foodie
+13,5013,Bengali Doi Maach Recipe (Fish In Yogurt Curry),3,2025-08-03 00:48:23.297955,foodie
+13,1556,Andhra Style Pappu Charu Recipe (Lentil Soup Style Curry),4,2025-10-25 00:48:23.298086,foodie
+13,8438,पिस्ता लेमन कुकी रेसिपी - Pistachio Lemon Cookie Recipe,5,2025-10-27 00:48:23.298216,foodie
+13,6743,Cinnamon Spiced Black Lemon Tea Recipe,3,2025-08-02 00:48:23.298350,foodie
+13,5674,Ripe Mango Pachadi Recipe - Ripe Mambazha Curry Recipe,3,2025-09-12 00:48:23.298483,foodie
+13,6587,धनिया पुदीना चटनी रेसिपी - Green Chutney Recipe,3,2025-09-08 00:48:23.298619,foodie
+13,10958,Sweet Chili Lime Grilled Chicken Recipe,5,2025-08-01 00:48:23.298752,foodie
+13,1205,Mushroom & Goat Cheese Omelette with Spinach Recipe,5,2025-10-27 00:48:23.298907,foodie
+14,5058,Creamy Cinnamon Peach Milkshake Recipe With Chia Seeds,4,2025-08-02 00:48:23.299709,health_conscious
+14,4130,Eggless Orange and Apple Ice Cream Recipe,2,2025-10-17 00:48:23.299871,health_conscious
+14,4192,Hara Bhara Kebab Recipe with Millets,5,2025-09-01 00:48:23.300018,health_conscious
+14,2489,Broken Wheat And Apple Porridge Recipe,3,2025-10-28 00:48:23.300159,health_conscious
+14,6050,चेटिनाड बीन्स और गोभी पोरियल रेसिपी - Chettinad Beans & Cauliflower Poriyal (Recipe In Hindi),5,2025-09-21 00:48:23.300300,health_conscious
+14,11475,Thinai Thakkali Sadam Recipe (Foxtail Millet Tomato Rice),5,2025-09-07 00:48:23.300443,health_conscious
+14,2266,Pan Grilled Balsamic Chicken Breast And Mushrooms Recipe,5,2025-09-24 00:48:23.300593,health_conscious
+14,9481,Assamese Bhendir Sorsori Recipe (Okra In Mustard Sauce),4,2025-10-28 00:48:23.300742,health_conscious
+14,8503,"ब्रॉकली, पनीर और पीनट सैंडविच रेसिपी - Broccoli, Paneer & Peanut Sandwich Recipe",5,2025-09-28 00:48:23.300902,health_conscious
+14,1118,Begun Basanti Recipe - Eggplant In Mustard Yogurt Curry,4,2025-10-28 00:48:23.301048,health_conscious
+14,745,Kadai Broccoli Masala Recipe - Broccoli Cooked With Indian Spices,4,2025-08-15 00:48:23.301192,health_conscious
+14,6989,Spiced Rice Breakfast Porridge Recipe,4,2025-09-29 00:48:23.301336,health_conscious
+14,1852,निम्बू पुदीना कढ़ी पत्ता शिकंजी रेसिपी - Lemon Pudina Curry Leaf Shikanji Recipe in Hindi,5,2025-08-05 00:48:23.301473,health_conscious
+14,1757,बेक्ड चना दाल वड़ा रेसिपी - Baked Chana Dal Vada Recipe,5,2025-09-26 00:48:23.301610,health_conscious
+14,471,Banana Digestive Pudding Recipe With Pistachios,3,2025-08-02 00:48:23.301750,health_conscious
+14,8573,Kulia Fruit Chaat Recipe,5,2025-10-25 00:48:23.301886,health_conscious
+14,6508,Savoury Yogurt Parfait Recipe,5,2025-09-02 00:48:23.302022,health_conscious
+14,6333,Vendaikai (Okra) Puli Kootu Recipe,5,2025-08-03 00:48:23.302160,health_conscious
+14,6903,Whole Wheat Crepe With Eggs And Roasted Peppers Recipe,1,2025-09-08 00:48:23.302300,health_conscious
+14,10423,Thai Style Mango Chicken Coconut Curry Recipe,4,2025-10-18 00:48:23.302435,health_conscious
+14,722,Masala Palak Bhurji Recipe,2,2025-09-15 00:48:23.302580,health_conscious
+14,12468,Konkani Style Phanna Doddak Recipe-Tempered Dosa Recipe,4,2025-10-28 00:48:23.302734,health_conscious
+14,1531,खट्टा मीठा लौकी करी रेसिपी - Tangy and Sweet Bottle Gourd Curry (Recipe In Hindi),3,2025-09-23 00:48:23.302889,health_conscious
+14,10026,Gulab Sandesh Recipe - Cottage Cheese Flavored with Rose Water,3,2025-09-13 00:48:23.303040,health_conscious
+14,11686,Saagwala Chicken  Recipe - Palak Chicken Curry,3,2025-09-24 00:48:23.303178,health_conscious
+15,6620,Matki Kala Chana Salad Recipe,3,2025-09-12 00:48:23.304010,foodie
+15,7572,Avocado Egg Sandwich Recipe,5,2025-09-14 00:48:23.304163,foodie
+15,7307,Soya Keema Matar Masala Recipe,3,2025-08-31 00:48:23.304312,foodie
+15,3545,Mughalai Shahi Kaju Aloo Ki Sabzi Recipe,3,2025-08-26 00:48:23.304448,foodie
+15,6188,Beetroot Soft Tart Recipe,5,2025-09-23 00:48:23.304579,foodie
+15,3464,दोंडकई पुली करी रेसिपी - Dondakkai Puli Curry Recipe,4,2025-08-26 00:48:23.304716,foodie
+15,3587,Vegan Malai Gobhi Recipe,5,2025-10-08 00:48:23.304855,foodie
+15,9351,Spinach And Sweet Potato Bombs Recipe,4,2025-09-24 00:48:23.305020,foodie
+15,5273,Green Beans Salad Recipe,5,2025-10-06 00:48:23.305156,foodie
+15,3105,Stuffed Mooli Paratha Recipe With Radish Greens,4,2025-08-16 00:48:23.305351,foodie
+15,10240,Sindhi Toor Dal Recipe With Aam Papad - Aam Papad Dal Recipe,5,2025-09-02 00:48:23.305805,foodie
+15,7772,Roasted Chickpeas With Apples Salad Recipe,5,2025-09-14 00:48:23.306081,foodie
+15,6589,Andhra Style Karivepaku Pachadi Recipe (Curry Leaf Chutney Recipe),3,2025-10-15 00:48:23.306278,foodie
+15,1321,पालक चना दाल रेसिपी - Palak Chana Dal Recipe,3,2025-09-18 00:48:23.306450,foodie
+15,4716,Kashmiri Style Apple Tamatar Sabzi Recipe - No Onion No Garlic,3,2025-09-23 00:48:23.306872,foodie
+15,10473,Kadali Bhanda O Chingudi Tarkari Recipe (Odia Style Banana Blossom & Prawn Curry),4,2025-09-18 00:48:23.307215,foodie
+15,8141,Bengali Egg Curry Recipe,4,2025-08-21 00:48:23.307519,foodie
+15,12620,Spanish Omelette Recipe (Tortilla Espanola),4,2025-08-30 00:48:23.307713,foodie
+15,1888,Tandoori Chicken Crostini Recipe,4,2025-08-26 00:48:23.307987,foodie
+15,10764,Nippattu Masala Chaat Recipe- South Indian Style Chaat,5,2025-09-05 00:48:23.308161,foodie
+15,9814,Low Fat Apple Crumble with Muesli Recipe,5,2025-10-21 00:48:23.308309,foodie
+15,1829,छेना उप्पेरि रेसिपी - Eggplant Foot Yam Stir Fry Recipe,4,2025-09-10 00:48:23.308477,foodie
+15,5065,Ragi Nippattu Recipe With Peanuts And Sesame - Ragi Thattai / Chekkalu,5,2025-08-05 00:48:23.308626,foodie
+15,2612,Nepalese Mutton Curry Recipe,3,2025-09-22 00:48:23.308766,foodie
+15,5890,पनीर कालीमिर्च रेसिपी - Paneer Kalimirch (Recipe In Hindi),5,2025-09-10 00:48:23.308901,foodie
+16,127,Sukhi Suran Masala Sabzi Recipe,4,2025-09-25 00:48:23.309992,time_constrained
+16,7879,Quick And Easy Chilli Bean Dip Recipe With Chips,5,2025-10-08 00:48:23.310157,time_constrained
+16,7977,Dahi Ma Bheeda Recipe (Dahi Bhindi - Parsi Style Okras Cooked In Yogurt Recipe),4,2025-09-23 00:48:23.310307,time_constrained
+16,2258,Stuffed Bharwa Tinda Recipe (Stuffed Apple Gourd),3,2025-09-21 00:48:23.310451,time_constrained
+16,2460,Herb & Cheese Mushroom Omelette Recipe,4,2025-09-14 00:48:23.310593,time_constrained
+16,6808,Poppetjes Recipe - Sweet Puffy Wheat Dumpling Recipe,2,2025-08-07 00:48:23.310736,time_constrained
+16,4851,Oats Chivda Recipe- Oats Poha Mixture- No Onion No Garlic,2,2025-09-01 00:48:23.310876,time_constrained
+16,3928,Dark Chocolate Cherry Cake Recipe,2,2025-08-31 00:48:23.311014,time_constrained
+16,8794,Mexican Chicken Tostadas Recipe,4,2025-08-25 00:48:23.311153,time_constrained
+16,380,Khatta Meetha Petha Recipe (Yellow Pumpkin Sabzi),4,2025-08-20 00:48:23.311317,time_constrained
+16,6992,Baingan Musallam Recipe (Mughlai Style Eggplant Simmered In Rich Tomato Curry),1,2025-08-18 00:48:23.311458,time_constrained
+16,3814,Bean Spinach And Corn Quesadilla Recipe,1,2025-08-05 00:48:23.311595,time_constrained
+16,4463,Egg Rolls With Moringa Leaves Recipe-Eggs with Drumstick Leaves,3,2025-10-04 00:48:23.311731,time_constrained
+16,13406,Basbousa Recipe With Egg,3,2025-10-07 00:48:23.311865,time_constrained
+16,9331,Andhra Style Patoli Recipe (Dal Usli/ Crumbled Dal Recipe),2,2025-08-20 00:48:23.312000,time_constrained
+16,3388,Bharli Bhendi Recipe - Maharashtrian Style Stuffed Bhindi,1,2025-08-25 00:48:23.312131,time_constrained
+16,2499,Kacche Aam Ki Launji Recipe,3,2025-09-12 00:48:23.312274,time_constrained
+16,2522,Super Food Green Smoothie Recipe With Greek Yogurt Papaya Spirulina & Wheat Grass,5,2025-10-25 00:48:23.312403,time_constrained
+16,2459,Broken Wheat and Mixed Millet Upma Recipe,1,2025-10-12 00:48:23.312538,time_constrained
+16,5158,Orange And Poppy Seeds Muffins Recipe,2,2025-09-26 00:48:23.312672,time_constrained
+16,9568,Seer Fish Fry Recipe,4,2025-09-01 00:48:23.312804,time_constrained
+16,7987,Potato Basil Fritters Recipe,2,2025-10-25 00:48:23.312936,time_constrained
+16,5013,Bengali Doi Maach Recipe (Fish In Yogurt Curry),3,2025-09-24 00:48:23.313071,time_constrained
+16,3058,Dhaba Mutton Recipe-Spicy Mutton Gravy,3,2025-09-14 00:48:23.313205,time_constrained
+17,4061,Sukhi Urad Dal Sabzi Recipe,5,2025-10-27 00:48:23.314154,traditional
+17,2233,Roasted Tomato Basil Pasta & Pizza Sauce Recipe,3,2025-08-11 00:48:23.314342,traditional
+17,9526,Moroccan Spiced Millet And Lentil Salad Recipe,3,2025-09-19 00:48:23.314522,traditional
+17,11986,छोटो आलूर दम रेसिपी - Choto Aloor Dum (Recipe In Hindi),5,2025-10-12 00:48:23.314708,traditional
+17,247,Andhra Style Vendakaya Charu Recipe - Ladies Finger Rasam,3,2025-09-08 00:48:23.314883,traditional
+17,7071,Maharashtrian Style Sheng Sola Recipe (Vegetable Stew),5,2025-08-26 00:48:23.315053,traditional
+17,4702,Spicy Mushroom Veggie Burger Recipe,2,2025-09-10 00:48:23.315224,traditional
+17,374,Grilled Eggplant With Tahini & Yogurt Dip Recipe,3,2025-07-31 00:48:23.315429,traditional
+17,1252,Sweet Potato & Neem Leaves Vegetable Curry Recipe,5,2025-08-15 00:48:23.315575,traditional
+17,2192,Chocolate Chip Cookies With Coconut Recipe,2,2025-08-25 00:48:23.315743,traditional
+17,3691,Carrot Cauliflower Peas Sabzi Recipe - Gajar Gobi Matar Sabzi,5,2025-09-11 00:48:23.315887,traditional
+17,1167,अचारी पनीर रेसिपी - Spicy Pickled Paneer Gravy (Recipe In Hindi),5,2025-08-30 00:48:23.316078,traditional
+17,2843,Baked Amritsari Kulcha Recipe (Without Yeast),5,2025-10-15 00:48:23.316249,traditional
+17,3136,Chinese Style Stir Fried Water Chest Nut with Vegetables Recipe,3,2025-09-27 00:48:23.316419,traditional
+17,2477,Bengali Dhokar Dalna Recipe,5,2025-10-14 00:48:23.316571,traditional
+17,1490,North Arcot Special Godumai Rava Puliyodharai Recipe - Broken Wheat/Dalia Puliogare,5,2025-09-19 00:48:23.316710,traditional
+17,1406,Palak Paneer Bhurji Recipe -Spiced Cottage Cheese Scramble With Spinach Recipe,5,2025-10-14 00:48:23.316846,traditional
+17,524,Healthy Fruit & Nut Watermelon Dessert Recipe With Greek Yogurt,2,2025-08-01 00:48:23.317017,traditional
+17,863,Carrot and Ginger Spiced Dosa Recipe,5,2025-10-15 00:48:23.317165,traditional
+17,7468,Okra Bamia Recipe,3,2025-10-11 00:48:23.317355,traditional
+17,4735,Perfect Gooey Mozzarella Garlic Bread Recipe,2,2025-08-24 00:48:23.317528,traditional
+17,12503,प्याज का रायता रेसिपी - Onion Raita Recipe,5,2025-09-17 00:48:23.317692,traditional
+18,1005,लौकी भरता रेसिपी - Lauki Bharta (Recipe In Hindi),5,2025-10-22 00:48:23.318508,foodie
+18,4934,French Madeleine Recipe,5,2025-10-20 00:48:23.318659,foodie
+18,3304,Noodle Soup Recipe with Vegetables,4,2025-08-29 00:48:23.318802,foodie
+18,7210,Zucchini Paratha Recipe,5,2025-08-19 00:48:23.318943,foodie
+18,6276,No Bake Oreo Chocolate Tart Recipe,5,2025-10-11 00:48:23.319082,foodie
+18,5532,Sour Cream Onion Dip Recipe,4,2025-08-01 00:48:23.319220,foodie
+18,1786,Macha Mahura Recipe - Odia Style Fish Curry With Vegetables,3,2025-08-29 00:48:23.319383,foodie
+18,1548,Dahi Suran Ki Sabzi Recipe (Stir Fried Yam in Dry Yogurt Curry Recipe),4,2025-10-05 00:48:23.319519,foodie
+18,5039,पैन फ्राइड एवोकाडो कोफ्ता रेसिपी - Pan Fried Avocado Kofta (Recipe In Hindi),3,2025-10-26 00:48:23.319654,foodie
+18,4982,Spicy Mullangi Thogayal Recipe (Radish Chutney),5,2025-10-17 00:48:23.319795,foodie
+18,4183,Lal Bhoplyacha Bharit Recipe (Red Pumpkin Raita),4,2025-08-12 00:48:23.319939,foodie
+18,8468,Falsa/Phalsa Ka Sharbat Recipe - Indian Berry Juice,3,2025-10-01 00:48:23.320075,foodie
+18,8626,Kabuli Chana Kofta Biryani Recipe - Chickpea Kofta Biryani,4,2025-09-15 00:48:23.320209,foodie
+18,890,Pineapple Rasam Recipe,4,2025-10-22 00:48:23.320342,foodie
+18,798,Spicy Sichuan Cauliflower Recipe,4,2025-08-07 00:48:23.320475,foodie
+19,6387,Aloo Beetroot and Baby Corn Mixed Sabzi Recipe,4,2025-10-17 00:48:23.321697,time_constrained
+19,9732,Diabetic Friendly Moong Sprout Cutlet Recipe,5,2025-08-23 00:48:23.321981,time_constrained
+19,502,Puli Upma Recipe - Tamarind & Rice Rava Upma,5,2025-10-19 00:48:23.322191,time_constrained
+19,7162,Andhra Style Peanut Chutney Recipe With Tomatoes,5,2025-09-20 00:48:23.322339,time_constrained
+19,3338,Bengali Bhetki Begum Bahar Recipe (Spicy Fish Fillets Curry),2,2025-09-19 00:48:23.322486,time_constrained
+19,3320,Tandoori Paneer Tikka Skillet Pizza Recipe,4,2025-08-26 00:48:23.322628,time_constrained
+19,5,आंध्रा स्टाइल आलम पचड़ी रेसिपी - Adrak Chutney (Recipe In Hindi),5,2025-09-01 00:48:23.322764,time_constrained
+19,1500,Manipuri Style Sana Thongpa Recipe-Paneer and Green Beans in Milk Gravy Recipe,5,2025-09-27 00:48:23.322925,time_constrained
+19,2473,Mangalore Cucumber Chana Dal Subzi Recipe,2,2025-10-05 00:48:23.323096,time_constrained
+19,3719,Multigrain Pizza with Roasted Vegetables Recipe,3,2025-10-04 00:48:23.323307,time_constrained
+19,12129,Lauki Thepla Recipe,3,2025-08-02 00:48:23.323549,time_constrained
+19,5263,Cheesy Baked Ziti Pasta Recipe with Roasted Mushroom & Corn,5,2025-08-06 00:48:23.323808,time_constrained
+19,7264,Hing Pani Puri Recipe-Asafoetida Pani Puri,5,2025-07-31 00:48:23.323963,time_constrained
+19,275,हुनासे गोज्जु रेसिपी - Hunase Gojju Recipe,4,2025-10-11 00:48:23.324119,time_constrained
+19,107,Tamil Nadu Style Spicy Egg Fry Recipe,2,2025-10-21 00:48:23.324258,time_constrained
+19,7790,Manathakkali Thayir Pachadi Recipe,5,2025-08-05 00:48:23.324391,time_constrained
+19,7984,Thai Style Mung Bean Fritter Recipe,2,2025-10-03 00:48:23.324574,time_constrained
+19,11003,Mixed Vegetables Ajethna Recipe - Mangalorean Style Mixed Vegetables Sabzi,4,2025-09-02 00:48:23.324724,time_constrained
+19,1720,Khatti Meethi Mirchi Ki Sabzi Recipe,4,2025-10-11 00:48:23.324884,time_constrained
+20,257,Carrot Orange Walnut Raita (Fruity Nutty Yogurt) Recipe,4,2025-08-10 00:48:23.325739,traditional
+20,8068,Cauliflower Pepper Fry Recipe (Chettinad Style),3,2025-09-16 00:48:23.325932,traditional
+20,2189,Chatpata Lobia Chaat Recipe - Healthy Black Eyed Bean Snack,5,2025-09-13 00:48:23.326097,traditional
+20,4175,Melon Salsa Recipe,2,2025-10-23 00:48:23.326269,traditional
+20,7924,"South Indian Kosambari Recipe With Raw Mango, Cucumber, Carrot & Beetroot",5,2025-09-23 00:48:23.326412,traditional
+20,497,Pacha Manga Pachadi Recipe - Raw Mango Pachadi,2,2025-09-09 00:48:23.326582,traditional
+20,2395,सुरन फोड़ी रेसिपी - Suran Fodi Recipe,3,2025-09-24 00:48:23.326772,traditional
+20,5956,Mixed Vegetable Koora Recipe - Mixed Vegetable Poriyal,3,2025-08-16 00:48:23.326967,traditional
+20,1221,Strawberry Smoothie Bowl with chia seeds and Muesli Recipe,3,2025-09-21 00:48:23.327137,traditional
+20,3438,Creamy Sweet Corn And Jalapeno Dip Recipe,2,2025-08-16 00:48:23.327307,traditional
+20,2580,Bannada Saute Majjige Huli Recipe (Malabar Cucumber Mor Kuzhambu),4,2025-10-06 00:48:23.327475,traditional
+20,8896,Mini Key Lime Pie Recipe (No Bake And Eggless),2,2025-09-29 00:48:23.327642,traditional
+20,6805,Apple Carrot Sweet Potato Soup With Garam Masala Roasted Chickpeas Recipe,3,2025-08-18 00:48:23.327814,traditional
+20,7214,Chana Dal Aloo Cutlet Recipe - Gram Dal Potato Cutlet Recipe,5,2025-08-21 00:48:23.327957,traditional
+20,6935,Blueberry Muffin Cake Recipe,3,2025-08-13 00:48:23.328122,traditional
+21,6260,Cabbage and Methi Paratha Recipe,3,2025-08-19 00:48:23.328983,diet_restricted
+21,2587,Moong Bhajji Recipe-Moong Fritters,5,2025-10-15 00:48:23.329178,diet_restricted
+21,4007,Chocolate Peda Recipe,5,2025-09-18 00:48:23.329327,diet_restricted
+21,4620,Sindhi Style Chicken Curry Recipe Using Preethi Electric Pressure Cooker,3,2025-10-05 00:48:23.329473,diet_restricted
+21,7719,Verusenaga Sambar Recipe (Fresh Groundnuts Sambar),4,2025-09-20 00:48:23.329616,diet_restricted
+21,7939,Vellai/Jaggery Dosa Recipe,5,2025-09-08 00:48:23.329756,diet_restricted
+21,1963,Himachali Bhey Recipe - Stir Fried Lotus Stem,4,2025-09-27 00:48:23.329897,diet_restricted
+21,3233,Spiced Apple Crumble Recipe with Greek Yogurt,5,2025-09-09 00:48:23.330036,diet_restricted
+21,1449,Chicken Burrito Recipe,4,2025-10-27 00:48:23.330180,diet_restricted
+21,1151,टमाटर प्याज की चटनी रेसिपी - Tomato Onion Chutney Recipe,5,2025-10-18 00:48:23.330319,diet_restricted
+21,6946,पुदीना चटनी पास्ता रेसिपी - Pasta In Pudina Chutney Sauce Recipe,4,2025-08-17 00:48:23.330461,diet_restricted
+21,6310,Sweet Potato Tacos With Black Beans And Avocado Cream Recipe,4,2025-10-05 00:48:23.330600,diet_restricted
+21,3911,Chocolate And Salted Caramel Tart Recipe,5,2025-10-07 00:48:23.330734,diet_restricted
+21,1107,Zucchini And Bell Pepper Stir Fry Recipe,2,2025-08-14 00:48:23.330892,diet_restricted
+21,1211,Mambazha Pulissery Recipe - Mango Mor Kuzhambu Recipe,4,2025-08-25 00:48:23.331045,diet_restricted
+21,1231,कचुम्बर सलाद रेसिपी - Kachumber Salad Recipe,5,2025-10-25 00:48:23.331181,diet_restricted
+21,5733,"Summer Salad Recipe-Red Cabbage, Lettuce Onions & Tomatoes ",4,2025-08-07 00:48:23.331321,diet_restricted
+21,191,Chettinad Takkali Sadam Recipe (Chettinad Style Tomato Rice),1,2025-10-20 00:48:23.331465,diet_restricted
+21,3965,Garlic & Ginger Spiced Potato Wedges Recipe (Baked),5,2025-10-07 00:48:23.331609,diet_restricted
+21,3845,Mexican Low Fat Fish Wraps Recipe,5,2025-10-13 00:48:23.331745,diet_restricted
+21,2953,Crispy Pan Fried Pomfret Recipe,4,2025-09-02 00:48:23.331888,diet_restricted
+21,361,Paneer In Coconut Gravy Recipe,2,2025-09-24 00:48:23.332031,diet_restricted
+21,8344,Kongunad Chicken Fry Recipe,4,2025-10-15 00:48:23.332175,diet_restricted
+21,8284,Paneer Stuffed Kuzhi Paniyaram Recipe,1,2025-08-30 00:48:23.332318,diet_restricted
+22,3220,पालक तरबूज सलाद रेसिपी - Spinach Watermelon Salad Recipe,2,2025-08-15 00:48:23.333165,health_conscious
+22,1871,Lehsuni Pudina Chutney Recipe,5,2025-09-07 00:48:23.333326,health_conscious
+22,4344,Mullangi Poriyal recipe - South Indian Style Radish Stir Fry,4,2025-08-01 00:48:23.333473,health_conscious
+22,214,Stuffed Arbi Paratha Recipe,5,2025-09-28 00:48:23.333619,health_conscious
+22,12149,Eerulli Palya Recipe - Vengaya Poriyal Recipe,4,2025-10-04 00:48:23.333768,health_conscious
+22,9132,Indian Spicy Masala Cookie Recipe (Khara Biscuit),4,2025-10-01 00:48:23.333916,health_conscious
+22,393,Chana Dal Chutney Recipe,3,2025-09-16 00:48:23.334060,health_conscious
+22,10945,Baked Bitter Gourd Bhajji Recipe - Karela Fritters,3,2025-09-15 00:48:23.334209,health_conscious
+22,6631,लहसुन की खीर रेसिपी - Garlic Kheer (Recipe In Hindi),2,2025-09-12 00:48:23.334355,health_conscious
+22,291,फालगुनी दाल रेसिपी - Phalguni Dal (Recipe In Hindi),4,2025-09-24 00:48:23.334511,health_conscious
+22,2002,Masala Jowar Bhakri Recipe,5,2025-09-16 00:48:23.334653,health_conscious
+22,1826,White Chocolate Maltesers Fudge Recipe,3,2025-09-25 00:48:23.334796,health_conscious
+22,892,Mediterranean Orzo Pasta Salad With Feta Vinaigrette Recipe,4,2025-08-04 00:48:23.334959,health_conscious
+22,8354,Stove Top Green Peas Seekh Kebab Recipe,5,2025-09-14 00:48:23.335107,health_conscious
+22,1660,Milagai Podi Uthappam Recipe - Spicy Chilli Powder Pancake Recipe,4,2025-10-21 00:48:23.335248,health_conscious
+22,482,Tarkari Ni Kari Recipe (Parsi Style Vegetable Curry),4,2025-10-14 00:48:23.335393,health_conscious
+23,10401,Haryanvi Saag Gosht Recipe,3,2025-09-09 00:48:23.336204,health_conscious
+23,472,Chawli Ki Phali & Aloo Sabzi Recipe,3,2025-10-05 00:48:23.336369,health_conscious
+23,10957,Vegan Soya Aloo Curry Recipe,2,2025-09-01 00:48:23.336521,health_conscious
+23,44,बैंगन भरता रेसिपी - Baingan Bharta (Recipe In Hindi),4,2025-10-19 00:48:23.336667,health_conscious
+23,2598,Roasted Tomato And Mozzarella Caprese Salad With Basil Balsamic Vinegar Recipe,1,2025-09-02 00:48:23.336815,health_conscious
+23,8117,Spicy Soya Bhurji Recipe - North Indian Soya Matar Bhurji,3,2025-08-20 00:48:23.336982,health_conscious
+23,5470,Chilli Chicken Recipe - Delicious Indian Style Chinese Chicken,3,2025-10-10 00:48:23.337281,health_conscious
+23,1096,Greek Style Briami Recipe (Simple Vegetable Stew Recipe),4,2025-10-14 00:48:23.337660,health_conscious
+23,7950,Mexican Vegetarian Fajitas Recipe,4,2025-10-24 00:48:23.337932,health_conscious
+23,2786,Eggless Mango Cheesecake Recipe,4,2025-08-12 00:48:23.338102,health_conscious
+23,11859,Spicy & Tangy Goan Chicken Stew Recipe With Vegetables,4,2025-10-02 00:48:23.338259,health_conscious
+23,2640,Crispy Corn And Bell Peppers Chaat Recipe,2,2025-09-05 00:48:23.338412,health_conscious
+23,4186,Tomato Mozzarella Bites Recipe,1,2025-08-24 00:48:23.338562,health_conscious
+23,2291,Scrambled Tofu Noodles Recipe,5,2025-09-03 00:48:23.338706,health_conscious
+23,6431,Mocha Chingri Manohara Recipe (Shrimps Stuffed Banana Flower Kofta Curry),4,2025-09-15 00:48:23.338853,health_conscious
+23,15,Saunf Aloo (Fennel Potato Curry) Recipe,2,2025-08-01 00:48:23.339020,health_conscious
+24,9492,Kashmiri Style Al Rogan Josh Recipe- Pumpkin In Red Curry,3,2025-10-09 00:48:23.339925,traditional
+24,1192,Spiced Coconut Oatmeal With Assorted Fruits Recipe,3,2025-09-04 00:48:23.340154,traditional
+24,7769,Tangy Red Purifier - Tomato Beetroot Juice Recipe,5,2025-10-14 00:48:23.340349,traditional
+24,3691,Carrot Cauliflower Peas Sabzi Recipe - Gajar Gobi Matar Sabzi,5,2025-09-22 00:48:23.340628,traditional
+24,109,Appalam Vatha Kuzhambu Recipe - Papad In Tamarind Gravy,5,2025-10-06 00:48:23.340852,traditional
+24,1561,Palak Chole Recipe (Spinach & Chickpea Curry),5,2025-09-04 00:48:23.341042,traditional
+24,3402,Kashmiri Style Mutton Gogji Syun Recipe - Mutton & Turnip,2,2025-08-07 00:48:23.341216,traditional
+24,5020,Quick & Easy Apple Cake Recipe,3,2025-08-24 00:48:23.341390,traditional
+24,4811,Maharashtrian Style Dudhi Kajuchi Sonari Amti Recipe - Bottle Gourd And Cashew Nut Sabzi,5,2025-09-25 00:48:23.341551,traditional
+24,8963,Savory Bread Pudding with Broccoli and Tomato Recipe,4,2025-10-07 00:48:23.341732,traditional
+24,4650,Kongunadu Style Senai Kilangu Masala Recipe - Yam in Spicy Gravy,4,2025-09-02 00:48:23.341911,traditional
+24,3238,Rajasthani Ghevar Recipe,3,2025-08-30 00:48:23.342079,traditional
+24,1292,Karatyacho Fodi Recipe - Pan Fried Bitter Gourd,3,2025-10-08 00:48:23.342244,traditional
+24,8130,Bengali Style Dimer Torka Recipe (Egg Tadka Dal Recipe),5,2025-08-12 00:48:23.342395,traditional
+24,1240,Pepper Mushroom Stir Fry Recipe,5,2025-10-18 00:48:23.342548,traditional
+24,372,गोअन पोई रेसिपी - Goan Poee Recipe,2,2025-08-30 00:48:23.342722,traditional
+24,5761,Chammanthi Chutney Recipe (Coconut And Onion Chutney),5,2025-08-23 00:48:23.342876,traditional
+24,7880,Pasta In Pudina Chutney Sauce - A Indian Fusion Recipe,3,2025-10-07 00:48:23.343066,traditional
+25,959,Penne Pasta In White Sauce Recipe,3,2025-09-10 00:48:23.343901,diet_restricted
+25,3233,Spiced Apple Crumble Recipe with Greek Yogurt,5,2025-08-05 00:48:23.344059,diet_restricted
+25,8814,Rajma Cutlet (Kidney Beans Patties) Recipe,2,2025-10-02 00:48:23.344209,diet_restricted
+25,5171,Zucchini Boats With Chickpeas In Tomato Hummus Recipe,3,2025-10-28 00:48:23.344363,diet_restricted
+25,1804,Karnataka Style Southekayi Seppe Chutney Recipe (Mangalore Cucumber Peel Chutney Recipe),4,2025-09-24 00:48:23.344502,diet_restricted
+25,5288,Cheesy Pav Bhaji Recipe,4,2025-09-13 00:48:23.344644,diet_restricted
+25,2623,Ayala Fish Fry Recipe,4,2025-10-16 00:48:23.344787,diet_restricted
+25,2943,Kerala Chicken Curry Recipe - Nadan Kozhi Curry,4,2025-09-21 00:48:23.344929,diet_restricted
+25,4546,Fluffy & Crispy Cheese Herbed Biscuits Recipe,3,2025-10-15 00:48:23.345098,diet_restricted
+25,869,Fruit Sandwich Recipe,5,2025-09-30 00:48:23.345256,diet_restricted
+25,2725,Chocolate Rava Ladoo Recipe,4,2025-10-20 00:48:23.345490,diet_restricted
+25,13956,Mahali Kizhangu Thayir Urugaai Recipe (Mahali Root Curd Pickle),1,2025-08-19 00:48:23.345641,diet_restricted
+25,2960,Awadhi Style Chickpea Kofta Biryani Recipe,3,2025-09-09 00:48:23.345786,diet_restricted
+25,9467,Makhana Ka Raita Recipe,4,2025-09-12 00:48:23.345927,diet_restricted
+25,3090,Red Chilli Thecha - Maharashtrian Style Red Chilli Chutney Recipe,5,2025-08-23 00:48:23.346066,diet_restricted
+25,6321,Savory Melon Salad Recipe - Spiced with Ginger & Mint,3,2025-10-19 00:48:23.346207,diet_restricted
+25,4462,Spinach And Corn Au Gratin Recipe With Cheesy Dip,2,2025-10-03 00:48:23.346352,diet_restricted
+25,6420,Pavlova Recipe With Strawberries,5,2025-09-25 00:48:23.346491,diet_restricted
+25,5335,Andhra Style Beetroot Vepudu Recipe (Stir Fried Beetroot),4,2025-09-10 00:48:23.346630,diet_restricted
+26,4717,Eggless Marble Cake Recipe,2,2025-09-05 00:48:23.347499,traditional
+26,6740,Uppu Mani Kozhukattai Recipe - Kara Pidi Kozhukattai,5,2025-08-20 00:48:23.347660,traditional
+26,606,Bengali Beetroot And Raw Banana Chop Recipe (Spiced Cutlet Recipe),5,2025-10-02 00:48:23.347831,traditional
+26,12564,Vegetarian Mexican Chili for Tacos Recipe - Made from Horse Gram,4,2025-10-13 00:48:23.348003,traditional
+26,9870,Beetroot and Fig Chutney Recipe,5,2025-09-18 00:48:23.348156,traditional
+26,10017,Pudina Dahi Chutney Recipe- Mint Yoghurt Dip,4,2025-10-06 00:48:23.348309,traditional
+26,1930,Gavar Pumpkin Sabji Recipe,5,2025-09-07 00:48:23.348470,traditional
+26,6788,लहसुनि पुदीना चटनी रेसिपी - Lehsuni Pudina Chutney Recipe,5,2025-08-21 00:48:23.348636,traditional
+26,5249,तिल के आलू रेसिपी - Til Ke Aloo (Recipe In Hindi),5,2025-09-01 00:48:23.348797,traditional
+26,12352,Ratalu Ki Chutney Recipe - Yam Chutney Recipe,5,2025-09-03 00:48:23.348939,traditional
+26,2335,Strawberry and Avocado Caprese Salad Recipe,3,2025-10-10 00:48:23.349141,traditional
+26,1317,Cheesy Pasta Casserole With Broccoli And Cheese Recipe,2,2025-10-24 00:48:23.349313,traditional
+26,5921,चाउ चाउ पोरिचा कूटू रेसिपी - Chow Chow Poricha Kootu Recipe,3,2025-08-12 00:48:23.349500,traditional
+26,6980,Mangalorean Style Ambe Upkari Recipe - Ripe Mango Curry,3,2025-08-07 00:48:23.349655,traditional
+26,3387,Cucumber Tomato Corn Peanut Salad With Lemon Recipe,5,2025-09-16 00:48:23.349805,traditional
+27,6836,Green Chilli Chicken Fry Recipe,3,2025-10-18 00:48:23.350621,time_constrained
+27,9705,"Beetroot, Aloo & Amaranth Leaves Sabzi Recipe",3,2025-09-11 00:48:23.350775,time_constrained
+27,3276,Bengali Doi Potol Recipe (Pointed Gourd In Thick Yogurt Based Gravy),4,2025-08-06 00:48:23.350917,time_constrained
+27,2635,Asian Style Bean Sprout & Corn Salad Recipe,5,2025-07-31 00:48:23.351080,time_constrained
+27,425,Akoori with Green Peas Recipe (Parsi Style Scrambled Eggs with Green Peas),5,2025-08-05 00:48:23.351217,time_constrained
+27,2592,"Oats, Peas & Tofu Stuffed Paratha Recipe",3,2025-09-07 00:48:23.351352,time_constrained
+27,7534,Bihari Style Kadhi Badi Recipe,2,2025-09-23 00:48:23.351495,time_constrained
+27,3454,दाल तड़का रेसिपी - Dal Tadka Recipe Flavoured With Lemon And Coriander,2,2025-09-28 00:48:23.351632,time_constrained
+27,10086,Papad Raita Recipe,5,2025-09-07 00:48:23.351773,time_constrained
+27,10318,Biuli Dal Er Boda Recipe - Bengali Style Urad Dal Vada,5,2025-10-17 00:48:23.351909,time_constrained
+27,3220,पालक तरबूज सलाद रेसिपी - Spinach Watermelon Salad Recipe,5,2025-08-20 00:48:23.352040,time_constrained
+27,2737,Lahori Aloo Recipe,2,2025-10-22 00:48:23.352178,time_constrained
+27,4840,Chicken Steak Recipe With Pan Roasted Vegetables & Potato Mash,2,2025-08-02 00:48:23.352311,time_constrained
+27,6970,Eggless Chocolate Pistachio Biscotti Recipe,1,2025-07-31 00:48:23.352445,time_constrained
+27,546,Dum Pukht Gosht Recipe - Slow Cooked Mutton Curry,3,2025-09-21 00:48:23.352577,time_constrained
+28,3534,Crispy Palak Pakora Recipe - Monsoon Snack,4,2025-08-01 00:48:23.353566,foodie
+28,724,Kadhai Tofu Sabji Recipe,4,2025-09-06 00:48:23.354029,foodie
+28,3999,Thenkuzhal Murukku Recipe - South Indian Snack,3,2025-09-09 00:48:23.354408,foodie
+28,10673,Cottage Cheese And Peas Oatmeal Pancakes Recipe,4,2025-10-25 00:48:23.354638,foodie
+28,7336,Broccoli And Tofu Green Curry Recipe,4,2025-10-25 00:48:23.354832,foodie
+28,3237,टिन्डोरा सम्भारो रेसिपी - Tindora Sambharo Recipe,3,2025-08-20 00:48:23.355013,foodie
+28,2431,Makai Wali Bhindi Recipe,4,2025-09-25 00:48:23.355184,foodie
+28,4650,Kongunadu Style Senai Kilangu Masala Recipe - Yam in Spicy Gravy,3,2025-10-16 00:48:23.355381,foodie
+28,11977,Sattu Ka Namkeen Sharbat Recipe,5,2025-10-03 00:48:23.355769,foodie
+28,7510,Gajar Shalgam Ka Paani Wala Achar Recipe - Carrot And Turnip Pickle,4,2025-09-03 00:48:23.355951,foodie
+28,11118,वेगन सोया आलू की सब्ज़ी रेसिपी - Vegan Soya Aloo Curry (Recipe In Hindi),5,2025-08-13 00:48:23.356105,foodie
+28,6687,Hummus Flavoured With Garlic Recipe,5,2025-10-13 00:48:23.356246,foodie
+28,1883,Macaroni With Tahini Sauce Recipe,4,2025-10-25 00:48:23.356399,foodie
+28,9244,Thelivu Rasam Recipe,3,2025-10-19 00:48:23.356672,foodie
+28,1217,"Beetroot, Sweet Potato And Oatmeal Cutlet Recipe",3,2025-08-24 00:48:23.356841,foodie
+28,5605,Eggless Chocolate Chip Cupcakes With Spinach Recipe,5,2025-08-05 00:48:23.356979,foodie
+28,7915,Punjabi Choori Recipe (Sweet Crumbled Rotis),5,2025-10-17 00:48:23.357119,foodie
+28,6431,Mocha Chingri Manohara Recipe (Shrimps Stuffed Banana Flower Kofta Curry),5,2025-09-23 00:48:23.357272,foodie
+28,2113,Caprese Empanada Recipe With Tomato Basil And Mozzarella,5,2025-09-09 00:48:23.357413,foodie
+28,5001,Badam And Besan Ladoo Recipe,4,2025-09-13 00:48:23.357545,foodie
+28,1732,Palak Kichdi Recipe,3,2025-10-28 00:48:23.357681,foodie
+28,3459,Kumro Patai Ilish Paturi Recipe - Hilsa Fish In Pumpkin Leaves,4,2025-08-15 00:48:23.357840,foodie
+28,3621,Spinach Oats Vada Recipe,4,2025-10-10 00:48:23.357972,foodie
+28,8486,Almond Meal Muffins Recipe (Gluten Free and Grain Free),5,2025-10-28 00:48:23.358106,foodie
+28,10725,Maharashtrian Gopalkala Recipe (Curd Poha With Fruits),3,2025-10-07 00:48:23.358239,foodie
+29,9386,Achari Masala Recipe For Fresh Pickles - Sambharo Masala,5,2025-10-15 00:48:23.359118,health_conscious
+29,9622,Puri for Pani Puri Recipe -Golgappa/ Puchka Puri Recipe,3,2025-08-19 00:48:23.359308,health_conscious
+29,8941,Papad Nachos With Salsa Recipe,2,2025-09-13 00:48:23.359467,health_conscious
+29,3294,Poblano Chili Rellenos Recipe - Baked Cheese Stuffed Chilies,5,2025-10-21 00:48:23.359616,health_conscious
+29,2583,मसाला छास रेसिपी - Masala Chaas Recipe,4,2025-09-25 00:48:23.359764,health_conscious
+29,4720,Gulkand Kala Jamun Recipe,5,2025-10-08 00:48:23.359910,health_conscious
+29,4241,Doodhibhoplyacha Bharit Recipe - Maharashtrian Style Lauki Bharta,4,2025-08-07 00:48:23.360056,health_conscious
+29,3130,"Black Rice, Barley & Flax Seeds Congee Recipe",5,2025-08-12 00:48:23.360214,health_conscious
+29,4591,Healthy Lauki Kofta Curry Recipe | Non Fried Bottle Gourd Kofta Curry | Dhoodi Kofta,4,2025-10-06 00:48:23.360360,health_conscious
+29,7017,चना मेथी दाल रेसिपी - Chana Methi Dal Recipe,4,2025-09-21 00:48:23.360502,health_conscious
+29,2854,Bengali Special Chocolate Sandesh Recipe (Chocolate Infused Cottage Cheese Dessert),2,2025-07-31 00:48:23.360649,health_conscious
+29,139,Oreo Milkshake Recipe,4,2025-08-30 00:48:23.360793,health_conscious
+29,1934,Awadhi Style Sultani Dal Recipe,1,2025-08-13 00:48:23.360936,health_conscious
+29,4939,Chocolate Kaju Katli Recipe - Chocolate Kaju Barfi,4,2025-10-26 00:48:23.361086,health_conscious
+29,6187,Paneer Tikka Momo Recipe,5,2025-10-28 00:48:23.361228,health_conscious
+29,8896,Mini Key Lime Pie Recipe (No Bake And Eggless),5,2025-08-23 00:48:23.361675,health_conscious
+29,5495,Chocolate Pancakes With Banana Recipe,3,2025-09-14 00:48:23.361936,health_conscious
+30,4654,No Onion No Garlic Aloo Gajar Ki Sabzi Recipe,4,2025-09-17 00:48:23.363008,health_conscious
+30,3416,Vegetable Chops Recipe,3,2025-08-27 00:48:23.363281,health_conscious
+30,6962,ग्रीक सलाद रेसिपी - Classic Greek Salad Recipe,3,2025-10-26 00:48:23.363510,health_conscious
+30,9667,Carrot And Coriander Soup Recipe,5,2025-08-23 00:48:23.363715,health_conscious
+30,8438,पिस्ता लेमन कुकी रेसिपी - Pistachio Lemon Cookie Recipe,1,2025-09-25 00:48:23.363884,health_conscious
+30,3116,Open Burger with Vegetable Patty Recipe,3,2025-08-19 00:48:23.364033,health_conscious
+30,7603,Beguni Recipe - Baingan/Eggplant Pakora,3,2025-08-12 00:48:23.364182,health_conscious
+30,8352,Srilankan Prawn Curry Recipe,2,2025-08-27 00:48:23.364329,health_conscious
+30,1561,Palak Chole Recipe (Spinach & Chickpea Curry),2,2025-08-29 00:48:23.364475,health_conscious
+30,9300,Beans Muttai Poriyal Recipe - Chettinad Egg Scramble with Beans,3,2025-10-14 00:48:23.364631,health_conscious
+30,6905,अदरक की चटनी रेसिपी - Ginger Chutney Recipe,4,2025-10-05 00:48:23.364775,health_conscious
+30,1941,"Ginger, Lemon And Honey Kadha Recipe",5,2025-10-04 00:48:23.364915,health_conscious
+30,4864,Vietnamese Rice Noodle Salad Recipe,2,2025-10-05 00:48:23.365059,health_conscious
+30,2394,Grated Cucumber Raita Recipe,5,2025-09-09 00:48:23.365197,health_conscious
+30,140,Mexican Grilled Corn Flavoured With Cheesy Garlic Mayo Recipe,3,2025-08-23 00:48:23.365370,health_conscious
+30,1617,Masala Vada Curry Recipe - Chana Dal Vada Curry Recipe,3,2025-08-19 00:48:23.365521,health_conscious
+30,8267,Aloo Posto Recipe (Potatoes In Poppy Seed Paste),2,2025-08-20 00:48:23.365668,health_conscious
+30,5406,Jowar Dhani Chivda Recipe,2,2025-10-03 00:48:23.365813,health_conscious
+30,5006,Boiled Peanut Raita Recipe,5,2025-10-10 00:48:23.365950,health_conscious
+30,1256,No-Bake Tangy Lemon Pie Recipe,5,2025-09-28 00:48:23.366093,health_conscious
+30,10221,Æbleskivers Recipe- Danish Chocolate Pancake Puffs,4,2025-09-21 00:48:23.366240,health_conscious
+31,1805,सब्ज़ी रवा उपमा रेसिपी - Savory Semolina Breakfast Pudding (Recipe In Hindi),2,2025-08-23 00:48:23.367055,diet_restricted
+31,4720,Gulkand Kala Jamun Recipe,5,2025-09-16 00:48:23.367211,diet_restricted
+31,667,Kerala Style Fish Curry Recipe,5,2025-08-12 00:48:23.367388,diet_restricted
+31,7901,भरमा बैंगन और प्याज की सब्ज़ी रेसिपी - Bharma Baingan Aur Pyaaz Ki Sabzi (Recipe In Hindi),2,2025-09-12 00:48:23.367541,diet_restricted
+31,7210,Zucchini Paratha Recipe,5,2025-09-11 00:48:23.367682,diet_restricted
+31,7495,Kacche Aam Aur Lehsun Ki Dal Recipe -Curried Lentils With Mango & Garlic,2,2025-09-17 00:48:23.367828,diet_restricted
+31,11283,Thengai Poornam Kozhukattai / Ukadiche Modak Recipe With Rice Flour,5,2025-10-24 00:48:23.367969,diet_restricted
+31,9436,अमृतसरी सूखी दाल रेसिपी - Amritsari Sookhi Dal Recipe,4,2025-10-22 00:48:23.368108,diet_restricted
+31,6911,Lauki Badi Ki Sabzi Recipe,5,2025-08-25 00:48:23.368255,diet_restricted
+31,2277,Mint & Coriander Chilli Potato Salad Recipe - No Mayo Salad,4,2025-08-14 00:48:23.368397,diet_restricted
+31,5386,Eggless Ragi & Whole Wheat Crisp Biscuits Recipe,5,2025-09-13 00:48:23.368539,diet_restricted
+31,508,High Protein Spinach Basil & Cheese Omelette Recipe,3,2025-09-20 00:48:23.368680,diet_restricted
+31,7425,Muttai Kuzhambu Recipe - South Indian Egg Curry,4,2025-10-15 00:48:23.368823,diet_restricted
+31,5003,Apple Jalebi Recipe,4,2025-10-03 00:48:23.368959,diet_restricted
+31,3493,Homemade Healthy Sour Cream Recipe,2,2025-08-07 00:48:23.369101,diet_restricted
+32,9532,"Roasted Apple, Onions and Cheese Focaccia Recipe",5,2025-09-30 00:48:23.369928,foodie
+32,10582,Achari Aloo Gobi Recipe - Spicy Indian Cauliflower Stir Fry,4,2025-08-13 00:48:23.370084,foodie
+32,907,Grilled Tomato And Cheese Sandwich Recipe,5,2025-09-11 00:48:23.370228,foodie
+32,2765,Bhindi Masala Curry Recipe,3,2025-09-21 00:48:23.370365,foodie
+32,7491,Indo Chinese Soya Stir Fry Recipe With Cashew Nuts,5,2025-10-01 00:48:23.370502,foodie
+32,10958,Sweet Chili Lime Grilled Chicken Recipe,3,2025-09-16 00:48:23.370638,foodie
+32,8592,Chicken Manchurian Recipe,4,2025-09-18 00:48:23.370769,foodie
+32,8853,Motichoor Modak Recipe,3,2025-10-24 00:48:23.370901,foodie
+32,1899,अमृतसरी अजवाइनी पनीर रेसिपी - Amritsari Ajwaini Paneer (Recipe In Hindi),4,2025-09-15 00:48:23.371036,foodie
+32,431,लौकी बड़ी की सब्ज़ी - Lauki Badi Ki Sabzi (Recipe In Hindi),2,2025-10-10 00:48:23.371172,foodie
+32,7063,Sweet & Spicy Soy Dipping Sauce Recipe,5,2025-08-01 00:48:23.371329,foodie
+32,2097,Classic Greek salad Recipe,3,2025-09-01 00:48:23.371470,foodie
+32,3601,Red Capsicum Chutney Recipe - Red Bell Pepper Chutney,5,2025-08-08 00:48:23.371617,foodie
+32,10706,Bihari Style Baingan Ka Chokha Recipe (Smoked & Spiced Eggplant),3,2025-09-12 00:48:23.371754,foodie
+32,4090,Punjabi Style Tinda Sabzi Recipe,3,2025-10-06 00:48:23.371890,foodie
+32,1885,Thayir Vada Recipe (Spicy Fritter Soaked In Sweet Yogurt Recipe),3,2025-10-05 00:48:23.372020,foodie
+32,5876,Eggless Cake Pops Recipe,5,2025-08-27 00:48:23.372162,foodie
+32,1417,Guacamole Soup Recipe - Spiced Avocado Soup,5,2025-09-03 00:48:23.372298,foodie
+32,8081,Kolhapuri Akkha Masoor Dal Recipe (Masoor Dal in Kholapuri Masala),4,2025-08-03 00:48:23.372434,foodie
+32,5895,Pineapple Mushroom Tikka Recipe With Tandoori Masala,4,2025-10-17 00:48:23.372563,foodie
+32,745,Kadai Broccoli Masala Recipe - Broccoli Cooked With Indian Spices,4,2025-10-15 00:48:23.372699,foodie
+32,2965,Dry Chilli Baby Corn Recipe (Indian Chinese Style Recipe),4,2025-08-14 00:48:23.372833,foodie
+32,1101,केरला स्टाइल वेदक्कै पछड़ी रेसिपी - Kerala Style Vendakkai Pachadi (Recipe in Hindi),4,2025-08-02 00:48:23.372962,foodie
+32,5009,Sabudana Khatti Meethi Namkeen Recipe,4,2025-10-21 00:48:23.373098,foodie
+33,2886,Chettinad Kavuni Arisi Sweet Recipe (Black Rice Pudding),4,2025-08-19 00:48:23.373952,time_constrained
+33,3243,Potato And Cauliflower In Peanut Curry Recipe,3,2025-08-27 00:48:23.374109,time_constrained
+33,6320,Apple Pie Ice Cream Recipe,4,2025-10-12 00:48:23.374254,time_constrained
+33,2500,Lemongrass Tomato Corn Soup Recipe,3,2025-10-27 00:48:23.374395,time_constrained
+33,2054,Carrot Capsicum Poriyal Recipe,5,2025-10-19 00:48:23.374529,time_constrained
+33,1563,Spinach Stir Fry Recipe With Garlic,5,2025-09-22 00:48:23.374664,time_constrained
+33,4337,Bhapa Ilish Recipe (Steamed Hilsa),5,2025-08-26 00:48:23.374798,time_constrained
+33,6946,पुदीना चटनी पास्ता रेसिपी - Pasta In Pudina Chutney Sauce Recipe,3,2025-09-14 00:48:23.374936,time_constrained
+33,3214,आलू भिन्डी की सब्ज़ी रेसिपी - Spicy Potatoes and Lady's Finger Stir Fry (Recipe In Hindi),4,2025-08-19 00:48:23.375081,time_constrained
+33,2310,Fruit-Chia Rice paper rolls in a Mango Tahini Dipping sauce Recipe,2,2025-09-16 00:48:23.375218,time_constrained
+33,7901,भरमा बैंगन और प्याज की सब्ज़ी रेसिपी - Bharma Baingan Aur Pyaaz Ki Sabzi (Recipe In Hindi),2,2025-10-28 00:48:23.375375,time_constrained
+33,924,Pavakka Pachadi Recipe - Bitter Gourd Pachadi,5,2025-09-30 00:48:23.375512,time_constrained
+33,909,Odia Chatu Besara Recipe (Mushrooms in Spicy Mustard Curry),2,2025-09-07 00:48:23.375646,time_constrained
+33,7883,Oriya Kancha Kadali Bara Recipe (Raw Banana Cutlets),2,2025-08-07 00:48:23.375779,time_constrained
+33,12742,Restaurant Style Hara Bhara Kebab Recipe - Vegetarian Green Patties,3,2025-08-26 00:48:23.375913,time_constrained
+33,9488,बंगाली स्टाइल छोलार दाल रेसिपी - Bengali Style Cholar Dal (Recipe In Hindi),3,2025-08-06 00:48:23.376047,time_constrained
+33,4787,सब्जी वाली रवा इडली रेसिपी - Veggie Rava Idli (Recipe In Hindi),3,2025-09-23 00:48:23.376182,time_constrained
+33,5935,Egg And Ridge Gourd Burji - Peerkangai Muttai Poriyal Recipe,4,2025-08-14 00:48:23.376317,time_constrained
+33,9310,Lachedar Kakdi Pyaz Kachumber Recipe - Onion Cucumber Salad,5,2025-09-28 00:48:23.376448,time_constrained
+34,7771,Subz Noor E Chashm Recipe (Nawabi Curry Recipe ),2,2025-08-25 00:48:23.377240,time_constrained
+34,5844,Eggless Carrot Muffins Recipe,5,2025-08-05 00:48:23.377546,time_constrained
+34,4630,Kumaon Style Thechwani Recipe-Mooli Aloo Sabzi,3,2025-08-13 00:48:23.377901,time_constrained
+34,7225,Kerala Style Mutton Pepper Fry Recipe,3,2025-10-09 00:48:23.378191,time_constrained
+34,10017,Pudina Dahi Chutney Recipe- Mint Yoghurt Dip,5,2025-09-25 00:48:23.378355,time_constrained
+34,11705,Motichoor Ladoo Yogurt Cheesecake Recipe,5,2025-10-14 00:48:23.378502,time_constrained
+34,7179,Classic Caesar Salad Recipe,5,2025-10-18 00:48:23.378642,time_constrained
+34,6358,Mushroom and Broccoli Soup Recipe,3,2025-10-04 00:48:23.378780,time_constrained
+34,1949,Instant Palkova Recipe (Milk Based Sweet Recipe),5,2025-09-27 00:48:23.378926,time_constrained
+34,1096,Greek Style Briami Recipe (Simple Vegetable Stew Recipe),3,2025-10-27 00:48:23.379063,time_constrained
+34,12149,Eerulli Palya Recipe - Vengaya Poriyal Recipe,5,2025-09-27 00:48:23.379227,time_constrained
+34,2517,Herbed Muffins With Cheese Recipe,3,2025-09-20 00:48:23.379365,time_constrained
+34,2448,Homemade Low Fat Strawberry Frozen Yogurt Recipe,3,2025-09-07 00:48:23.379501,time_constrained
+34,3508,Mango Sago Kheer Recipe - Sabudana Kheer With Mangoes,3,2025-10-28 00:48:23.379638,time_constrained
+34,8941,Papad Nachos With Salsa Recipe,5,2025-10-25 00:48:23.379766,time_constrained
+34,583,Chatpata Rajma Salad Recipe - Kidney Beans Salad Recipe,4,2025-09-02 00:48:23.379899,time_constrained
+34,1667,Eggless Chocolate Chip And Honey Cookies Recipe,3,2025-10-11 00:48:23.380029,time_constrained
+34,8915,Turmeric Milk Recipe - Haldi Doodh / Golden Milk,4,2025-10-17 00:48:23.380168,time_constrained
+34,1363,Chettinad Poondu Rasam Recipe | Spicy Garlic Rasam,4,2025-08-31 00:48:23.380303,time_constrained
+34,3416,Vegetable Chops Recipe,1,2025-08-31 00:48:23.380434,time_constrained
+34,4702,Spicy Mushroom Veggie Burger Recipe,2,2025-10-24 00:48:23.380565,time_constrained
+34,447,Gur Paare Recipe (A traditional Punjabi Wedding Sweet),3,2025-10-06 00:48:23.380696,time_constrained
+35,4125,Spicy Moroccan Rice With Chicken Recipe,3,2025-09-11 00:48:23.381576,diet_restricted
+35,3537,Bengali Style Chingri Posto Recipe (Prawns Cooked In Poppy Seed Gravy),5,2025-08-03 00:48:23.381741,diet_restricted
+35,7527,Kobiche Vade Recipe - Cabbage And Multigrain Fritters,5,2025-10-02 00:48:23.381888,diet_restricted
+35,1394,Papad er Dalna Recipe - Bengali Papad Curry,3,2025-09-01 00:48:23.382035,diet_restricted
+35,2941,Apple Almond Cake Recipe | With Eggless Version,3,2025-10-28 00:48:23.382193,diet_restricted
+35,9052,Methi Corn Dal Vada Recipe,5,2025-10-15 00:48:23.382331,diet_restricted
+35,5053,Kala Chana Amti Recipe - Maharashtrian Black Chickpea Curry,1,2025-09-22 00:48:23.382484,diet_restricted
+35,4415,Classic Indian Sliced Salad Recipe,5,2025-10-07 00:48:23.382630,diet_restricted
+35,3630,Raw Mango Prawns Curry Recipe,5,2025-09-01 00:48:23.382772,diet_restricted
+35,5315,Indo Japanese Rice Cakes Recipe,5,2025-09-17 00:48:23.382915,diet_restricted
+35,3797,One Pot Vegetable Pasta With Beans Recipe,3,2025-09-15 00:48:23.383061,diet_restricted
+35,5768,Kodava Kummu Curry Recipe- Coorg Style Mushroom Curry,4,2025-10-15 00:48:23.383225,diet_restricted
+35,7318,Sabudana Thalipeeth Recipe - Tapioca Pearl Spicy Flat Bread,5,2025-09-25 00:48:23.383369,diet_restricted
+35,2310,Fruit-Chia Rice paper rolls in a Mango Tahini Dipping sauce Recipe,3,2025-08-12 00:48:23.383508,diet_restricted
+35,4821,Jowar Atta Pyaz Thepla Recipe – Sorghum Wheat Onion Thepla,4,2025-08-03 00:48:23.383652,diet_restricted
+35,2408,Cheese Balls With Capsicum Recipe,5,2025-10-09 00:48:23.383787,diet_restricted
+35,2777,Walnut Mushroom Veg Bolognese Recipe With A Twist,4,2025-07-31 00:48:23.383927,diet_restricted
+35,3789,Cheesy Baked Potato Gratin With Sweet Corn,4,2025-10-17 00:48:23.384066,diet_restricted
+35,765,Arugula & Fig Salad Recipe,2,2025-08-08 00:48:23.384208,diet_restricted
+35,5005,Jaisalmer Kala Chana Kadhi Recipe - Rajasthani Chickpea Curry,4,2025-10-27 00:48:23.384349,diet_restricted
+35,1532,Raw Banana Cutlet Recipe - No Onion No Garlic Jain Cutlet,2,2025-10-14 00:48:23.384492,diet_restricted
+36,9071,Eggless Apple Strudel Recipe With Homemade Pastry Sheet,3,2025-08-14 00:48:23.385307,time_constrained
+36,8438,पिस्ता लेमन कुकी रेसिपी - Pistachio Lemon Cookie Recipe,2,2025-10-06 00:48:23.385464,time_constrained
+36,313,Crispy Vegetable Tempura Recipe,5,2025-09-01 00:48:23.385603,time_constrained
+36,3552,One Pot Pressure Cooker Chicken Curry Recipe,3,2025-09-28 00:48:23.385742,time_constrained
+36,11178,"Cucumber, Red Radish, Tomatoes & Onion Salad Recipe",5,2025-10-08 00:48:23.385887,time_constrained
+36,135,Pasi Paruppu Kosumalli Recipe (Spiced Lentil Salad Recipe),4,2025-09-06 00:48:23.386025,time_constrained
+36,11283,Thengai Poornam Kozhukattai / Ukadiche Modak Recipe With Rice Flour,2,2025-09-09 00:48:23.386162,time_constrained
+36,10656,Spiced Whole Wheat Cookie Recipe (Atta Biscuit),1,2025-08-09 00:48:23.386299,time_constrained
+36,874,Ukadpendi Recipe - Maharashtrian Style Spiced Rice Flour Porridge,5,2025-09-22 00:48:23.386431,time_constrained
+36,1983,Roasted Potatoes With Za'atar Recipe,4,2025-10-01 00:48:23.386567,time_constrained
+36,8522,Aam Papad Recipe (Tasty Mango Bars),3,2025-10-22 00:48:23.386702,time_constrained
+36,688,Assamese Narasingh Masor Jhol Recipe (Fish In Curry Leaves Gravy),5,2025-08-31 00:48:23.386831,time_constrained
+36,4870,Padpe Uppukari -  Harive Soppu Palya Recipe,5,2025-09-27 00:48:23.386962,time_constrained
+36,1681,Gluten-Free Mango and Coconut Milk Ice-Cream Recipe,2,2025-10-19 00:48:23.387096,time_constrained
+36,5383,Three Bean Salad Recipe,5,2025-08-07 00:48:23.387249,time_constrained
+36,2388,Stuffed Capsicum With Sweet Potato Recipe,4,2025-08-07 00:48:23.387386,time_constrained
+36,8117,Spicy Soya Bhurji Recipe - North Indian Soya Matar Bhurji,5,2025-09-11 00:48:23.387517,time_constrained
+36,1599,Kale & Leeks Frittata Recipe,4,2025-08-22 00:48:23.387649,time_constrained
+36,5608,Sprouted Green Gram Kosambari Recipe- With Pomegranates,4,2025-10-14 00:48:23.387779,time_constrained
+37,5793,Crunchy Ragi And Oats Breakfast Bowl Recipe,4,2025-09-07 00:48:23.388563,time_constrained
+37,6294,Croissant Recipe,3,2025-08-23 00:48:23.388715,time_constrained
+37,2753,Bottle Gourd & Mint Vegetable Juice Recipe - Lauki Juice,5,2025-09-15 00:48:23.388852,time_constrained
+37,2333,Veg Chilli Milli Recipe,2,2025-09-18 00:48:23.388991,time_constrained
+37,1184,Kachcha Kela Masala Sabzi Recipe (Raw Banana with Tomatoes & Spices),2,2025-09-10 00:48:23.389126,time_constrained
+37,5203,Lemon Pepper Fish Recipe,5,2025-08-03 00:48:23.389292,time_constrained
+37,9437,कर्नाटका स्टाइल मूलांगी चटनी रेसिपी - Karnataka Style Moolangi Chutney (Recipe In Hindi),5,2025-09-26 00:48:23.389427,time_constrained
+37,2322,Carrot And Orange Loaf Cake Recipe,2,2025-08-25 00:48:23.389563,time_constrained
+37,12754,Kashmiri Mutton Yakhni Recipe,3,2025-08-04 00:48:23.389700,time_constrained
+37,7707,Asian Red Cabbage Salad With Roasted Peanuts Recipe,4,2025-09-28 00:48:23.389834,time_constrained
+37,3718,Spinach And Soya Sub Sandwich Recipe,3,2025-08-02 00:48:23.389995,time_constrained
+37,11372,Awadhi Style Sheermal Recipe - Sweet Flat Bread,2,2025-08-28 00:48:23.390129,time_constrained
+37,153,राजस्थानी कचरी की चटनी रेसिपी - Rajasthani Kachri Ki Chutney Recipe,5,2025-10-20 00:48:23.390259,time_constrained
+37,3916,Cheesy Potatoes Recipe,1,2025-08-01 00:48:23.390393,time_constrained
+37,547,Idli Manchurian Recipe With Oriental Twist,3,2025-10-23 00:48:23.390525,time_constrained
+37,11173,No Onion No Garlic Kadamba Sambar Sadam - Kovil Sadam Recipe,2,2025-09-14 00:48:23.390658,time_constrained
+37,7527,Kobiche Vade Recipe - Cabbage And Multigrain Fritters,4,2025-08-30 00:48:23.390794,time_constrained
+37,1546,Skillet Potato And Eggs Recipe,3,2025-10-28 00:48:23.390926,time_constrained
+37,8229,वेजीटेरियन मलाई कबाब रेसिपी - Vegetarian Malai Kebab Recipe,3,2025-09-23 00:48:23.391059,time_constrained
+37,1805,सब्ज़ी रवा उपमा रेसिपी - Savory Semolina Breakfast Pudding (Recipe In Hindi),4,2025-08-12 00:48:23.391191,time_constrained
+37,1926,Hariyali Paneer Tikka Masala Gravy Recipe -No Onion No Garlic Recipe,3,2025-10-26 00:48:23.391356,time_constrained
+38,1231,कचुम्बर सलाद रेसिपी - Kachumber Salad Recipe,4,2025-10-20 00:48:23.392166,foodie
+38,4186,Tomato Mozzarella Bites Recipe,3,2025-10-08 00:48:23.392320,foodie
+38,9555,Chicken Kofta Curry Recipe,4,2025-09-23 00:48:23.392463,foodie
+38,8606,Spiced Bottle Gourd And Spinach Juice Recipe,5,2025-08-22 00:48:23.392613,foodie
+38,1784,आलू मटर सब्ज़ी रेसिपी - Aloo Matar Sabzi Recipe,4,2025-08-30 00:48:23.392753,foodie
+38,10958,Sweet Chili Lime Grilled Chicken Recipe,5,2025-10-05 00:48:23.392889,foodie
+38,2145,Veg Makhanwala Recipe - North Indian Mixed Vegetables Gravy,4,2025-08-27 00:48:23.393026,foodie
+38,955,Omakka Curry Recipe - Kerala Style Papaya Curry,4,2025-08-06 00:48:23.393161,foodie
+38,7707,Asian Red Cabbage Salad With Roasted Peanuts Recipe,3,2025-10-24 00:48:23.393322,foodie
+38,6017,Umm Ali Recipe - Egyptian Dessert Recipe With Puff Pastry,3,2025-09-28 00:48:23.393511,foodie
+38,3654,Gajar Methi Poriyal Recipe - Carrot Fenugreek Stir Fry,3,2025-08-28 00:48:23.393849,foodie
+38,6400,Roasted Baby Potatoes Recipe,4,2025-08-22 00:48:23.394107,foodie
+38,11686,Saagwala Chicken  Recipe - Palak Chicken Curry,4,2025-09-19 00:48:23.394266,foodie
+38,4025,वन पॉट आलू गोभी रेसिपी - One Pot Aloo Gobi (Recipe In Hindi),2,2025-09-17 00:48:23.394412,foodie
+38,2290,Ragi & Oats Rava Idli Recipe-Finger Millet and Oats Idli,3,2025-10-14 00:48:23.394554,foodie
+38,7505,Szechwan Hakka Noodle Momo Recipe,3,2025-08-17 00:48:23.394690,foodie
+38,5052,Mexican Style Red Chicken Chilaquiles Recipe,5,2025-08-30 00:48:23.394828,foodie
+38,623,Smoked Tandoori Paneer Tikka Recipe,4,2025-08-16 00:48:23.394959,foodie
+38,12049,Hash Brown With Spinach & Cheese Recipe,4,2025-09-13 00:48:23.395119,foodie
+38,2935,Coconut & Ricotta Dip with Banana Chips Recipe,5,2025-08-25 00:48:23.395270,foodie
+38,3894,3 Beans Stuffed Quesadillas Recipe,5,2025-08-13 00:48:23.395405,foodie
+38,7273,Savory Oatmeal Bowl with Sautéed Carrot and Green Bean Recipe,5,2025-10-17 00:48:23.395537,foodie
+38,1521,Vegan Cashew Mayonnaise Recipe,4,2025-10-25 00:48:23.395670,foodie
+39,6735,Potato Spinach Roulade Recipe With Parmesan Cheese & Herbed Butter Sauce,1,2025-09-05 00:48:23.396525,time_constrained
+39,3789,Cheesy Baked Potato Gratin With Sweet Corn,3,2025-09-10 00:48:23.396682,time_constrained
+39,2779,Sambal Telor with Nasi Uduk Recipe (Indonesian Style Eggs Cooked in Sambal and Lemongrass Coconut Rice),4,2025-08-25 00:48:23.396824,time_constrained
+39,1912,Karnataka Style Badnekayi Mosaru Gojju Recipe,2,2025-10-03 00:48:23.396964,time_constrained
+39,4191,Low Fat Aloo Bonda Recipe - Made In Kuzhi Paniyaram Pan,3,2025-08-26 00:48:23.397109,time_constrained
+39,4706,Stuffed Kathal Recipe,2,2025-10-03 00:48:23.397269,time_constrained
+39,5336,Iyengar Style Whole Wheat & Oats Khara Biscuit Recipe (Savory Cookie Recipe),4,2025-08-08 00:48:23.397414,time_constrained
+39,3610,Apple And Pomegranate Smoothie Recipe,5,2025-08-07 00:48:23.397547,time_constrained
+39,3467,Kongunadu Urulai Kurma Recipe (Curried Potatoes from Kongunadu),2,2025-10-16 00:48:23.397684,time_constrained
+39,6566,Quinoa Veg Soup (Bolivian Style Stew) Recipe,2,2025-09-04 00:48:23.397823,time_constrained
+39,9071,Eggless Apple Strudel Recipe With Homemade Pastry Sheet,3,2025-09-16 00:48:23.397958,time_constrained
+39,7338,Roasted Tomato And Basil Bruschetta Recipe,5,2025-09-11 00:48:23.398089,time_constrained
+39,1025,Chilli Baby Corn (Manchurian) Recipe,5,2025-09-04 00:48:23.398223,time_constrained
+39,807,Bihari Aloo Bhujiya Recipe,4,2025-10-22 00:48:23.398354,time_constrained
+39,4837,Chenai Kizhangu Masiyal-South Indian Style Yam Masiyal,5,2025-10-15 00:48:23.398485,time_constrained
+39,183,Rock Toast Recipe - Semolina Bread Toast,5,2025-08-12 00:48:23.398615,time_constrained
+39,3942,Khakara Vegetable Pizza Recipe,5,2025-08-16 00:48:23.398744,time_constrained
+39,8879,Mango Kheer Recipe,2,2025-10-09 00:48:23.398877,time_constrained
+39,172,Eggless Devil's Food Cake Recipe,2,2025-09-27 00:48:23.399010,time_constrained
+39,8344,Kongunad Chicken Fry Recipe,5,2025-10-09 00:48:23.399151,time_constrained
+39,9496,Mushroom And Scrambled Egg Bagel Sandwich Recipe,5,2025-09-25 00:48:23.399303,time_constrained
+40,5452,Savory Tart Recipe with Grape and Gouda Cheese,2,2025-10-04 00:48:23.400120,time_constrained
+40,1548,Dahi Suran Ki Sabzi Recipe (Stir Fried Yam in Dry Yogurt Curry Recipe),2,2025-09-18 00:48:23.400276,time_constrained
+40,6220,No Onion No Garlic Black Eyed Beans Curry Recipe,3,2025-08-13 00:48:23.400420,time_constrained
+40,1972,दाल कबीला रेसिपी - Dal Kabila Recipe,4,2025-08-14 00:48:23.400556,time_constrained
+40,11142,Oriya Badi Chura Recipe | Sundried Lentil Dumpling Crumble,5,2025-08-13 00:48:23.400688,time_constrained
+40,139,Oreo Milkshake Recipe,5,2025-10-22 00:48:23.400824,time_constrained
+40,470,Sooji Halwa Breakfast Bowl Recipe,5,2025-09-28 00:48:23.400958,time_constrained
+40,1874,Karela Muthia Recipe - Bitter Gourd Steamed Dumplings,3,2025-09-09 00:48:23.401093,time_constrained
+40,2130,Parsi Style Baingan Capsicum Ka Salan Recipe,5,2025-09-03 00:48:23.401240,time_constrained
+40,8522,Aam Papad Recipe (Tasty Mango Bars),2,2025-08-01 00:48:23.401403,time_constrained
+40,7307,Soya Keema Matar Masala Recipe,1,2025-08-23 00:48:23.401539,time_constrained
+40,11240,कच्चे आमवाली मसूर दाल रेसिपी - Raw Mango Masoor Dal Recipe,5,2025-08-05 00:48:23.401672,time_constrained
+40,9704,Shrewsbury Cookies Recipe (Butter Cookies),4,2025-08-15 00:48:23.401802,time_constrained
+40,418,Cauliflower Croquettes Recipe,2,2025-10-01 00:48:23.401935,time_constrained
+40,1470,Cabbage Besan Fry Recipe,5,2025-08-29 00:48:23.402066,time_constrained
+40,508,High Protein Spinach Basil & Cheese Omelette Recipe,3,2025-09-18 00:48:23.402198,time_constrained
+41,10318,Biuli Dal Er Boda Recipe - Bengali Style Urad Dal Vada,4,2025-08-05 00:48:23.403007,health_conscious
+41,5291,Creme Caramel Flan Recipe (Caramel Custard),1,2025-09-23 00:48:23.403168,health_conscious
+41,9612,शहद वाला पनीर रेसिपी - Quick Honeyed Paneer Recipe,1,2025-08-12 00:48:23.403354,health_conscious
+41,5722,Dahi Methi Puri Recipe - Fenugreek Leaves Puri With Yogurt,3,2025-09-07 00:48:23.403509,health_conscious
+41,2245,Beetroot Juice Recipe With Cucumber & Pineapple,2,2025-10-23 00:48:23.403659,health_conscious
+41,6214,Kosamalli Recipe (Chettinad Style Brinjal and Potato Mash),5,2025-09-13 00:48:23.403800,health_conscious
+41,2938,Fettuccine Pasta Recipe With Roasted Red Bell Pepper Sauce,3,2025-09-23 00:48:23.403948,health_conscious
+41,2716,Chinese Style Sweet And Spicy Broccoli Stir Fry With Sausage Recipe,3,2025-10-12 00:48:23.404091,health_conscious
+41,1125,Pudina Quinoa Recipe,3,2025-09-07 00:48:23.404238,health_conscious
+41,1582,कद्दू की सब्ज़ी रेसिपी - Pumpkin Sabzi With Panch Phoron Masala (Recipe In Hindi),5,2025-09-21 00:48:23.404378,health_conscious
+41,3262,सरसों वाली आलू भिंडी की सब्ज़ी रेसिपी - Aloo Bhindi (Recipe In Hindi),4,2025-10-23 00:48:23.404522,health_conscious
+41,4486,Delicious Italian Chicken Cacciatore Recipe with Mushrooms & Olives - (Poultry & Vegetable Hunter's Stew),4,2025-07-31 00:48:23.404667,health_conscious
+41,1678,Indian Spiced Brussel Sprouts Sabzi Recipe (Brussel Sprouts Stir Fry),3,2025-08-08 00:48:23.404811,health_conscious
+41,977,ब्रोकली बादाम सूप रेसिपी - Broccoli Almond Soup Recipe,2,2025-10-04 00:48:23.404956,health_conscious
+41,2737,Lahori Aloo Recipe,3,2025-08-29 00:48:23.405098,health_conscious
+41,3537,Bengali Style Chingri Posto Recipe (Prawns Cooked In Poppy Seed Gravy),4,2025-10-01 00:48:23.405239,health_conscious
+41,2009,Maharashtrian Style Farasbi Chi Bhaji Recipe - Beans Cooked With Peanuts,3,2025-08-10 00:48:23.405405,health_conscious
+42,11036,Gajar Methi Sabzi Recipe (Carrot Fenugreek Leaves Stir Fry),4,2025-08-17 00:48:23.406204,foodie
+42,6096,Mexican Style Fresh Rajma Bean & Raw Mango Salad Recipe,4,2025-09-10 00:48:23.406356,foodie
+42,1198,Bajri Ki Roti Recipe,5,2025-09-25 00:48:23.406496,foodie
+42,329,Roasted Vegetable Pasta Primavera Recipe,4,2025-09-13 00:48:23.406661,foodie
+42,210,Chana Aur Aloo Ki Sookhi Sabzi Recipe,4,2025-08-03 00:48:23.406809,foodie
+42,755,Tamatar Chaat Banarasi Style Recipe,4,2025-08-22 00:48:23.406947,foodie
+42,4921,Kashmiri Anardan Chetin Recipe (Pomegranate Seeds Chutney),4,2025-09-10 00:48:23.407082,foodie
+42,1861,गाजर शिमला मिर्च दाल रेसिपी - Carrot And Capsicum Mix Dal Recipe,4,2025-10-10 00:48:23.407216,foodie
+42,1697,Sorakkai Puli Kuzhambu Recipe - Tangy Bottle Gourd Curry,5,2025-10-24 00:48:23.407373,foodie
+42,14019,One Pot Punjabi Rajma Masala Recipe In Preethi Electric Pressure Cooker,4,2025-10-19 00:48:23.407506,foodie
+42,9305,Rose Lassi Recipe,3,2025-10-05 00:48:23.407640,foodie
+42,4570,Broccoli Pakora Masala Recipe - Broccoli In Spicy Yogurt Gravy,4,2025-10-21 00:48:23.407774,foodie
+42,9938,Stuffed Cabbage Rolls Recipe,5,2025-09-13 00:48:23.407903,foodie
+42,5302,Cold Phyllo Tartlets With Cream Cheese And Dill Toppings Recipe,5,2025-10-27 00:48:23.408036,foodie
+42,580,KhiraSaku ( Odiya Style Rice Pan Cake) Recipe,5,2025-09-12 00:48:23.408167,foodie
+42,12418,Radish Leaves Pachadi Recipe,4,2025-09-07 00:48:23.408299,foodie
+42,11294,Baked Vermicelli Malpua Recipe,4,2025-09-16 00:48:23.408441,foodie
+42,3498,Vazhaithandu Mor Kootu Recipe (Tamil Nadu Style Banana Stem Recipe),2,2025-08-21 00:48:23.408575,foodie
+43,5529,Baby Potatoes Pulao Recipe - Aloo Pulao Recipe,1,2025-09-12 00:48:23.409697,diet_restricted
+43,5620,Vazhakkai Milagu Kootu Recipe - Plantains Pepper Curry,3,2025-10-20 00:48:23.409888,diet_restricted
+43,5020,Quick & Easy Apple Cake Recipe,5,2025-08-11 00:48:23.410043,diet_restricted
+43,806,Saragva Nu Shaak Recipe-Drumstick Masala Sabzi,4,2025-10-11 00:48:23.410194,diet_restricted
+43,966,बनारसी स्टाइल टमाटर चाट रेसिपी - Tamatar Chaat Banarasi Style (Recipe In Hindi),3,2025-09-21 00:48:23.410340,diet_restricted
+43,1133,Kashmiri Style Haak T Thool Recipe - Greens Cooked With Eggs,5,2025-10-02 00:48:23.410481,diet_restricted
+43,3738,S'mores Cake Recipe,3,2025-10-06 00:48:23.410637,diet_restricted
+43,8453,Goan Style Sangacho Ross Recipe-Drumstick Curry,5,2025-09-19 00:48:23.410785,diet_restricted
+43,303,Zucchini Tater Tots Recipe - A Delicious Party Appetizer,5,2025-08-31 00:48:23.410927,diet_restricted
+43,521,ओट्स और वेजिटेबल कबाब रेसिपी - Oats and Vegetable Kebab Recipe,3,2025-09-27 00:48:23.411083,diet_restricted
+43,12391,Spicy Thai Style Tofu With Quinoa Recipe,5,2025-10-19 00:48:23.411229,diet_restricted
+43,3090,Red Chilli Thecha - Maharashtrian Style Red Chilli Chutney Recipe,4,2025-10-21 00:48:23.411400,diet_restricted
+43,7428,Coconut Kewra Drink Recipe,5,2025-09-03 00:48:23.411542,diet_restricted
+43,1692,करामानी पोरियल रेसिपी - Karamani Poriyal (Recipe In Hindi),3,2025-09-05 00:48:23.411685,diet_restricted
+43,5777,Spicy Pepper Chicken Recipe,1,2025-10-17 00:48:23.411827,diet_restricted
+43,4028,Tomato Onion Tadka Raita Recipe,4,2025-10-10 00:48:23.411968,diet_restricted
+43,5434,Matar Pudina Oat & Broken Wheat Tikki Recipe,5,2025-08-17 00:48:23.412107,diet_restricted
+43,2638,Baked Jaggery Rasgulla Recipe,3,2025-08-05 00:48:23.412247,diet_restricted
+43,6740,Uppu Mani Kozhukattai Recipe - Kara Pidi Kozhukattai,4,2025-10-12 00:48:23.412389,diet_restricted
+43,1160,Khichdi Roti Recipe,4,2025-10-18 00:48:23.412531,diet_restricted
+43,6446,Plum Panna Shot Recipe,4,2025-09-02 00:48:23.412669,diet_restricted
+44,294,Lemon And Ginger Spicy Black Eyed Beans Recipe,4,2025-08-23 00:48:23.413530,time_constrained
+44,6703,Oats Apple Phirni Recipe,5,2025-08-19 00:48:23.413684,time_constrained
+44,4380,Paruppu Thogayal Recipe -Toor & Bengal Gram Chutney,4,2025-09-08 00:48:23.413828,time_constrained
+44,1186,Coconut Chia Pudding Recipe,2,2025-10-13 00:48:23.413969,time_constrained
+44,806,Saragva Nu Shaak Recipe-Drumstick Masala Sabzi,5,2025-08-28 00:48:23.414113,time_constrained
+44,1321,पालक चना दाल रेसिपी - Palak Chana Dal Recipe,2,2025-08-03 00:48:23.414251,time_constrained
+44,5226,Thai Style Noodles With Spinach And Leeks Recipe,4,2025-09-18 00:48:23.414388,time_constrained
+44,1454,Homemade Whole Wheat Pav Recipe / Ladi Pav,2,2025-10-08 00:48:23.414526,time_constrained
+44,1990,Bajri Methi Na Vada Recipe - Pearl Millet Flour Fritters,3,2025-10-03 00:48:23.414662,time_constrained
+44,6179,Strawberry Compote Galette Recipe,1,2025-10-03 00:48:23.414795,time_constrained
+44,3601,Red Capsicum Chutney Recipe - Red Bell Pepper Chutney,4,2025-10-02 00:48:23.414926,time_constrained
+44,11157,बेल पेप्पर और पार्सले राइस रेसिपी - Bell Pepper & Parsley Rice Recipe,4,2025-09-02 00:48:23.415066,time_constrained
+44,3033,Karnataka Style Bassaru Recipe - Dill flavored Coconut Rasam,3,2025-09-09 00:48:23.415200,time_constrained
+44,3497,Besan Aur Pyaz Ka Cheela Recipe - Roz Ka Khana With Figaro Olive Oil,2,2025-09-30 00:48:23.415352,time_constrained
+44,1510,Egg and Cheesy Garlic Mayo Sandwich,4,2025-08-08 00:48:23.415493,time_constrained
+44,11515,Avalakki Porridge In Warm Spiced Berries Recipe,5,2025-08-28 00:48:23.415624,time_constrained
+44,5246,Instant Mixed Vegetable Pickle Recipe,4,2025-10-05 00:48:23.415756,time_constrained
+44,10679,Kara Kadubu Recipe (Malanad Style Steamed Spiced Rice Dumplings),4,2025-10-13 00:48:23.415888,time_constrained
+44,2289,मोतीचूर मोदक रेसिपी - Motichoor Modak (Recipe In Hindi),3,2025-09-11 00:48:23.416022,time_constrained
+45,562,Vegetable Filled Souffle Recipe,4,2025-10-26 00:48:23.416838,health_conscious
+45,2530,Sweet And Spicy Tofu Salad With Beetroot Recipe,5,2025-09-13 00:48:23.417000,health_conscious
+45,476,चावल बनाने की विधि रेसिपी - Steamed Rice Recipe,2,2025-08-15 00:48:23.417155,health_conscious
+45,9704,Shrewsbury Cookies Recipe (Butter Cookies),2,2025-08-03 00:48:23.417304,health_conscious
+45,5543,Karwar Style Dali Thoy Recipe - Toor dal Curry,5,2025-10-03 00:48:23.417475,health_conscious
+45,2330,No Onion And No Garlic Aloo Gajar Matar Ki Sabzi Recipe,5,2025-10-08 00:48:23.417627,health_conscious
+45,4245,Spinach Ricotta Stuffed Ravioli Recipe Tossed In Cheesy Pumpkin Sauce,1,2025-08-16 00:48:23.417774,health_conscious
+45,146,Thandu Keerai Puli Kuzhambu Recipe - Amaranth Greens in Tangy Curry,5,2025-10-13 00:48:23.417919,health_conscious
+45,9448,Aam Pudina Ka Panna Recipe,5,2025-09-02 00:48:23.418060,health_conscious
+45,4056,Cauliflower Thai Red Curry Recipe,3,2025-08-28 00:48:23.418204,health_conscious
+45,4914,मेथी तुरई की सब्ज़ी रेसिपी - Methi Turai Ki Sabzi (Recipe In Hindi),4,2025-08-17 00:48:23.418345,health_conscious
+45,6370,Nagli Rava Upma Recipe - Healthy Ragi Rava Upma Recipe,3,2025-10-19 00:48:23.418488,health_conscious
+45,7794,Heerekai Sippe Chutney Recipe (Ridge Gourd Peel Chutney),3,2025-09-19 00:48:23.418631,health_conscious
+45,11269,Karnataka Style Aralu Sandige Recipe - Puffed Paddy Fryums,4,2025-08-25 00:48:23.418770,health_conscious
+45,2360,मूंग दाल सुखी सब्ज़ी रेसिपी - Moong Dal Sookhi Sabzi (Recipe In Hindi),5,2025-09-15 00:48:23.418911,health_conscious
+45,7210,Zucchini Paratha Recipe,4,2025-08-24 00:48:23.419051,health_conscious
+46,6399,Batani Gassi Recipe - Udupi Style Potatoes And Peas Curry,4,2025-10-02 00:48:23.419879,time_constrained
+46,314,Andhra Style Saggubiyyam Punugulu Recipe (Crispy Tapioca Snack),2,2025-10-20 00:48:23.420035,time_constrained
+46,3904,Mango Popsicle Recipe,5,2025-09-19 00:48:23.420175,time_constrained
+46,2902,Karwar style Tousali Recipe-Cucumber Steamed Cake,2,2025-08-07 00:48:23.420315,time_constrained
+46,3545,Mughalai Shahi Kaju Aloo Ki Sabzi Recipe,3,2025-08-11 00:48:23.420463,time_constrained
+46,13289,Pasta Aglio Olio Recipe,5,2025-08-08 00:48:23.420600,time_constrained
+46,2779,Sambal Telor with Nasi Uduk Recipe (Indonesian Style Eggs Cooked in Sambal and Lemongrass Coconut Rice),4,2025-09-02 00:48:23.420737,time_constrained
+46,3691,Carrot Cauliflower Peas Sabzi Recipe - Gajar Gobi Matar Sabzi,5,2025-09-18 00:48:23.420871,time_constrained
+46,2508,Broccoli Malai Kofta Recipe,1,2025-10-23 00:48:23.421016,time_constrained
+46,3682,Bengali Style Kosha Mangsho Recipe- Spicy Mutton Curry,5,2025-09-24 00:48:23.421153,time_constrained
+46,6415,Homemade Chocolate Almond Spread Recipe,2,2025-10-10 00:48:23.421287,time_constrained
+46,5064,Avocado Tomato Grilled Cheese Sandwich Recipe,5,2025-10-08 00:48:23.421443,time_constrained
+46,1820,Vetrilai Thogayal Recipe -  Paan Chutney Recipe,3,2025-08-28 00:48:23.421584,time_constrained
+46,5814,Gobi Musallam Recipe (Spicy Cauliflower Creamy Gravy),3,2025-10-26 00:48:23.421718,time_constrained
+46,487,Kashmiri Kokur T Nadir Recipe-Chicken and Lotus Stem Curry,2,2025-08-03 00:48:23.421854,time_constrained
+46,1169,Creamy Coconut Poached Pears Recipe,2,2025-08-16 00:48:23.421989,time_constrained
+46,2479,वाघरेला चावल रेसिपी - Vagharela Chawal Recipe,5,2025-09-08 00:48:23.422124,time_constrained
+46,4173,Spicy Indian Style Masala Frittata Recipe,3,2025-09-21 00:48:23.422260,time_constrained
+47,2528,Achari Masala Powder Recipe,5,2025-10-05 00:48:23.423071,traditional
+47,7204,Fusion Style Paneer Malai Makhani Recipe,5,2025-08-25 00:48:23.423227,traditional
+47,2927,Classic New York Style Cheesecake Recipe,2,2025-08-18 00:48:23.423422,traditional
+47,3195,Strawberry Mojito Recipe,2,2025-09-17 00:48:23.423604,traditional
+47,1517,Cauliflower And Peas Bhurji Recipe,5,2025-08-25 00:48:23.423757,traditional
+47,8333,Spiced Buttermilk With Coriander And Ginger Recipe,5,2025-08-14 00:48:23.423906,traditional
+47,3561,Mangalorean Chicken Ghee Roast Recipe,4,2025-10-23 00:48:23.424075,traditional
+47,6980,Mangalorean Style Ambe Upkari Recipe - Ripe Mango Curry,2,2025-09-10 00:48:23.424231,traditional
+47,1513,Karnataka Style Bassaru Palya Recipe - Toor Dal And Dill Leaves Stir Fry,3,2025-08-13 00:48:23.424384,traditional
+47,4833,हरे चने की चटनी रेसिपी - Green Chana Chutney (Recipe In Hindi),3,2025-08-05 00:48:23.424559,traditional
+47,10673,Cottage Cheese And Peas Oatmeal Pancakes Recipe,5,2025-10-07 00:48:23.424697,traditional
+47,1397,Pudina Rice Recipe,5,2025-10-09 00:48:23.424838,traditional
+47,8594,Mahunada Khaja Recipe - Rose Cookie Recipe,5,2025-08-22 00:48:23.424982,traditional
+47,614,Homemade Easy Gulab Jamun Recipe - Delicious & Tasty,5,2025-10-05 00:48:23.425134,traditional
+47,6214,Kosamalli Recipe (Chettinad Style Brinjal and Potato Mash),3,2025-10-28 00:48:23.425412,traditional
+48,1122,Alfredo Spaghetti with Roasted Mushroom & Broccoli Recipe,3,2025-10-18 00:48:23.426406,traditional
+48,2013,Vegan Curried Rice with Chickpeas Recipe,3,2025-09-14 00:48:23.426589,traditional
+48,3536,Creamy Mushroom Ravioli Recipe In Mint Mayo Sauce,3,2025-08-24 00:48:23.426768,traditional
+48,6709,Karwar Style Karatya Kismore Recipe - Sweet Tangy Bitter Gourd Sabzi,3,2025-08-01 00:48:23.426939,traditional
+48,5649,Mango & Mixed Fruit Popsicle Recipe,3,2025-08-25 00:48:23.427110,traditional
+48,1704,Punjabi Style Lobia Masala Recipe (Black Eyed Peas Masala),5,2025-09-27 00:48:23.427269,traditional
+48,11367,Stir Fried Honey Parsnip Recipe With Herbs,3,2025-09-03 00:48:23.427461,traditional
+48,11395,Spiced Prune Chutney Recipe,5,2025-08-10 00:48:23.427610,traditional
+48,5954,Farfalle Aglio-E-Olio Recipe,3,2025-10-06 00:48:23.427775,traditional
+48,451,Thandai Shrikhand Tart Recipe,5,2025-09-01 00:48:23.427916,traditional
+48,4844,Arbi Cutlet Recipe (Spiced Colocasia Patties),5,2025-09-09 00:48:23.428067,traditional
+48,7702,Balinese Black Rice Pudding Recipe,3,2025-09-13 00:48:23.428226,traditional
+48,896,Sweet & Spicy Ripe Mango Curry Recipe,5,2025-08-20 00:48:23.428379,traditional
+48,6434,Mexican Hot Chocolate Recipe,2,2025-09-22 00:48:23.428532,traditional
+48,7242,Caramelized Onion & Roasted Garlic Pasta Recipe,3,2025-10-06 00:48:23.428707,traditional
+48,4135,Kongunadu Style Arisi Paruppu Sadam Recipe,3,2025-09-30 00:48:23.428864,traditional
+48,1536,Stuffed Chicken Recipe With Mixed Vegetables,5,2025-09-09 00:48:23.429021,traditional
+48,1109,Erode Pallipalayam Chicken Fry Recipe,3,2025-08-31 00:48:23.429190,traditional
+48,5012,Chettinad Kozhi Rasam Recipe - Chettinad Chicken Rasam,3,2025-10-18 00:48:23.429356,traditional
+48,5706,ब्रोकली शिमला मिर्च जुन्का रेसिपी - Broccoli & Bell Pepper Zunka (Recipe In Hindi),5,2025-08-07 00:48:23.429561,traditional
+48,6073,Maharastrian Kairichi Amti Recipe - Raw Mango Curry Recipe,5,2025-09-18 00:48:23.429720,traditional
+48,8457,Chow Chow Pasi Paruppu Poriyal Recipe - Chayote Squash And Moong Stir Fry,4,2025-08-21 00:48:23.429875,traditional
+48,1637,Semiya Payasam Recipe - Vermicelli Kheer Recipe,5,2025-08-06 00:48:23.430025,traditional
+48,9111,Chicken Yakitori Recipe - Japanese Chicken Skewers,3,2025-10-23 00:48:23.430191,traditional
+49,6529,Suran Moongphali Curry Recipe (Yam/Jimikand Curry with Peanuts),5,2025-08-03 00:48:23.431033,traditional
+49,5990,Cauliflower And Soya Chunks Sabzi Recipe,5,2025-09-05 00:48:23.431209,traditional
+49,3431,Carrots And Coriander Fritters Recipe,5,2025-09-24 00:48:23.431369,traditional
+49,11986,छोटो आलूर दम रेसिपी - Choto Aloor Dum (Recipe In Hindi),5,2025-08-15 00:48:23.431578,traditional
+49,1769,मालाबार स्टाइल डेट्स धनिया चटनी रेसिपी - Malabar Style Dates Coriander Chutney Recipe,3,2025-09-25 00:48:23.431758,traditional
+49,12149,Eerulli Palya Recipe - Vengaya Poriyal Recipe,5,2025-08-23 00:48:23.431913,traditional
+49,389,Baked Roasted Vegetable Lasagna Recipe With Low Fat Cheese & Oat Sauce,3,2025-09-16 00:48:23.432069,traditional
+49,2655,ब्रोकली और आलू पोरियल रेसिपी - Broccoli And Aloo Poriyal Recipe (Recipe In Hindi),5,2025-08-10 00:48:23.432236,traditional
+49,1163,Besan Oats Ladoo Recipe,5,2025-10-13 00:48:23.432387,traditional
+49,8715,Chopped Spinach And Pomegranate Salad Recipe,2,2025-10-16 00:48:23.432555,traditional
+49,3873,Bihari Karela Aloo Sabzi Recipe,2,2025-10-23 00:48:23.432735,traditional
+49,1264,Karwar Style Kairichi Udid Methi Recipe (Raw Mango Methi Curry),3,2025-10-24 00:48:23.432901,traditional
+49,2479,वाघरेला चावल रेसिपी - Vagharela Chawal Recipe,2,2025-10-15 00:48:23.433077,traditional
+49,9231,Tofu Green Pulao Recipe,5,2025-09-16 00:48:23.433223,traditional
+49,1654,Baked Bhakarwadi Recipe,5,2025-09-21 00:48:23.433397,traditional
+50,4763,Pyaaz Ki Kachori Recipe,2,2025-10-28 00:48:23.434229,time_constrained
+50,5127,Capsicum Bajji Recipe -Kuda Milagai Bajji/ Bell Pepper Bajji,5,2025-08-09 00:48:23.434380,time_constrained
+50,11706,Chatpata Aloo Moong Sprouts Recipe With Buttered Pav Buns,2,2025-10-22 00:48:23.434523,time_constrained
+50,1508,Bajri-Til Bhakri Recipe (Sesame Crusted Bajra Flatbread),4,2025-09-25 00:48:23.434661,time_constrained
+50,11898,Suran Kebab Masala Recipe - Yam In Tomato Onion Gravy,4,2025-09-27 00:48:23.434801,time_constrained
+50,8247,Red Picante Salsa Recipe,2,2025-08-29 00:48:23.434940,time_constrained
+50,13091,Strawberry And Sooji Halwa Recipe,4,2025-08-02 00:48:23.435073,time_constrained
+50,8892,Murungai Keerai Paruppu Usili Recipe - Drumstick Leaves & Toor Dal,5,2025-09-28 00:48:23.435208,time_constrained
+50,1808,Mizoram Style Arsa Beipenek Recipe  - Spicy Chicken Stew,2,2025-09-07 00:48:23.435343,time_constrained
+50,1847,Karnataka Style Ranjaka Recipe (Red Chili Chutney Recipe),5,2025-08-07 00:48:23.435501,time_constrained
+50,801,Vegetable Tagine Recipe,2,2025-08-01 00:48:23.435640,time_constrained
+50,12221,मूली के पत्तो की पचड़ी रेसिपी - Radish Leaves Pachadi (Recipe In Hindi),2,2025-08-24 00:48:23.435776,time_constrained
+50,218,Raw Jackfruit Burrito Recipe,2,2025-10-16 00:48:23.435912,time_constrained
+50,3541,Mexican Style Vegetable Fajita Recipe,5,2025-08-18 00:48:23.436044,time_constrained
+50,502,Puli Upma Recipe - Tamarind & Rice Rava Upma,5,2025-09-17 00:48:23.436187,time_constrained
+50,9496,Mushroom And Scrambled Egg Bagel Sandwich Recipe,4,2025-10-06 00:48:23.436320,time_constrained
+50,3872,Orange Zested Shortbread Cookie Recipe (Egg Free/Eggless),2,2025-10-26 00:48:23.436462,time_constrained
+50,2704,Sweet and Spicy Pineapple Paneer Tikka Tawa Pizza Recipe,1,2025-10-24 00:48:23.436601,time_constrained
+50,5650,Sajjappa Recipe (Stuffed Sweetened Coconut Pastry),1,2025-08-24 00:48:23.436736,time_constrained
+50,2552,Chow Chow Milagu Kootu Recipe-Chayote Squash Cooked in Peppery Lentil Curry,5,2025-09-10 00:48:23.436867,time_constrained
+50,4072,Onion-Tomato Dosa Savoury Waffles Recipe,5,2025-09-26 00:48:23.436999,time_constrained
+51,719,Quick and Easy Eggless Whole Wheat Chocolate Cupcake Recipe,4,2025-07-31 00:48:23.437856,health_conscious
+51,5502,Pineapple Chicken Curry Recipe,3,2025-10-03 00:48:23.438018,health_conscious
+51,5518,Bharli Vangi Recipe - Maharashtrian Style Stuffed Brinjals,3,2025-10-13 00:48:23.438169,health_conscious
+51,9893,Fresh Fig Compote Recipe For Desserts,5,2025-09-23 00:48:23.438312,health_conscious
+51,1405,Panjiri Ladoo Recipe,1,2025-08-09 00:48:23.438459,health_conscious
+51,8567,मसूर दाल मखनी रेसिपी - Masoor Dal Makhani (Recipe In Hindi),5,2025-10-15 00:48:23.438602,health_conscious
+51,10047,ओकरा बामिआ रेसिपी - Okra Bamia (Recipe In Hindi),5,2025-08-28 00:48:23.438743,health_conscious
+51,8896,Mini Key Lime Pie Recipe (No Bake And Eggless),3,2025-10-05 00:48:23.438891,health_conscious
+51,413,Broken Wheat Upma Or Dalia Khichdi Recipe for Babies & Toddlers,5,2025-09-17 00:48:23.439033,health_conscious
+51,3828,पंजाबी स्टाइल अरबी की सब्ज़ी रेसिपी - Punjabi Style Arbi (Recipe In Hindi),5,2025-08-28 00:48:23.439171,health_conscious
+51,1765,Milk Braid Rolls Recipe,5,2025-07-31 00:48:23.439311,health_conscious
+51,11862,Karnataka Style Sabsige Soppu Paddu Recipe (Dill leaves Savory Fritters Recipe),4,2025-09-12 00:48:23.439451,health_conscious
+51,1681,Gluten-Free Mango and Coconut Milk Ice-Cream Recipe,5,2025-10-17 00:48:23.439622,health_conscious
+51,8864,Shakarkandi Malpua Recipe - Mishti Aloo Malpua Recipe,1,2025-09-05 00:48:23.439779,health_conscious
+51,5517,Dahi Wale Tinda Ki Sabzi Recipe - Apple Gourd in Yogurt Curry,2,2025-09-05 00:48:23.439925,health_conscious
+51,7132,Big Farm Fresh Pizza Recipe Loaded With Crisp Veggies,2,2025-09-10 00:48:23.440069,health_conscious
+51,2078,Spicy Soya Keema Masala Recipe,3,2025-08-03 00:48:23.440215,health_conscious
+51,3493,Homemade Healthy Sour Cream Recipe,3,2025-09-18 00:48:23.440349,health_conscious
+51,2321,Dhaba Style Green Moong Dal Tadka Recipe,4,2025-08-19 00:48:23.440492,health_conscious
+51,6137,Chana Dal And Methi Ki Sabzi Recipe,3,2025-08-06 00:48:23.440634,health_conscious
+51,7929,अमृतसरी दाल रेसिपी - Amritsari Dal (Recipe In Hindi),4,2025-10-21 00:48:23.440773,health_conscious
+51,259,Karnataka Style Ragi Ujju Rotti Recipe,5,2025-10-19 00:48:23.440920,health_conscious
+51,386,तुलसी और पान के पत्तो का रसम रेसिपी - Tulsi And Betel Leaves Rasam Recipe,5,2025-10-02 00:48:23.441061,health_conscious
+51,2592,"Oats, Peas & Tofu Stuffed Paratha Recipe",3,2025-08-25 00:48:23.441204,health_conscious
+52,9627,Lehsun Amla Chutney Recipe - Garlic Gooseberry Chutney,3,2025-08-20 00:48:23.442394,traditional
+52,1638,Raw Mango Dhokla Recipe Topped With Sweet Mango Chutney,5,2025-08-20 00:48:23.442597,traditional
+52,13107,Maharashtrian Kadhi Recipe,5,2025-09-29 00:48:23.442837,traditional
+52,2343,Bhoplyache Gharge Recipe (Maharashtrian Style Sweet Pumpkin Puris),5,2025-08-03 00:48:23.443021,traditional
+52,7125,पोहा चिवड़ा रेसिपी - Fried Poha Chivda Recipe,5,2025-09-10 00:48:23.443191,traditional
+52,6055,Chinese 5 spice powder Recipe,3,2025-09-09 00:48:23.443353,traditional
+52,2370,Spicy Rice Stuffed Paratha Recipe,5,2025-09-01 00:48:23.443529,traditional
+52,11006,Broccoli Paneer And Peanut Masala Recipe,5,2025-09-09 00:48:23.443679,traditional
+52,3789,Cheesy Baked Potato Gratin With Sweet Corn,3,2025-08-01 00:48:23.443861,traditional
+52,3362,पालक पप्पू रेसिपी -Spinach Dal (Recipe In Hindi),5,2025-09-15 00:48:23.444044,traditional
+52,9173,Sweet Pumpkin Green Smoothie Recipe,4,2025-10-15 00:48:23.444204,traditional
+52,3636,Herb Mushroom Bruschetta Recipe,3,2025-09-01 00:48:23.444373,traditional
+52,193,पनीर भरमा भिन्डी रेसिपी - Stuffed Bhindi With Paneer (Recipe In Hindi),5,2025-10-07 00:48:23.444555,traditional
+52,3794,Tamil Nadu Style Dal Masala Vada with Cabbage Recipe,3,2025-08-08 00:48:23.444717,traditional
+52,10295,Spicy Marinara Sauce Recipe,3,2025-10-11 00:48:23.444885,traditional
+52,1912,Karnataka Style Badnekayi Mosaru Gojju Recipe,3,2025-10-13 00:48:23.445041,traditional
+52,3529,Kaleji Ka Faal Recipe-Mutton Liver Pepper Fry,3,2025-09-01 00:48:23.445208,traditional
+52,3081,Beetroot And Tofu Patty Recipe,5,2025-10-26 00:48:23.445362,traditional
+52,5061,Fruit Kebabs Recipe,2,2025-10-16 00:48:23.445558,traditional
+52,3834,Methi Mushroom Masala Recipe,4,2025-09-24 00:48:23.445721,traditional
+52,9331,Andhra Style Patoli Recipe (Dal Usli/ Crumbled Dal Recipe),4,2025-09-02 00:48:23.445878,traditional
+52,3727,Mung Pani Recipe - Whole Green Mung Soup,5,2025-10-03 00:48:23.446018,traditional
+53,5252,Aloo Patta Gobi Sabzi Recipe - Potato Cabbage Sabzi,5,2025-09-28 00:48:23.446840,time_constrained
+53,1108,हल्दी की सब्ज़ी रेसिपी - Haldi Ki Sabzi Recipe,3,2025-09-27 00:48:23.446995,time_constrained
+53,2855,Baked Polenta Fries Recipe,1,2025-08-13 00:48:23.447137,time_constrained
+53,1008,बिहारी सुरन चटनी रेसिपी - Bihari Suran Chutney Recipe,4,2025-09-21 00:48:23.447277,time_constrained
+53,2752,Kothamalli Thogayal Recipe | Coriander Leaves Chutney,5,2025-08-14 00:48:23.447411,time_constrained
+53,9752,Rajma Saagwala (Dry Kidney Beans And Spinach Stir Fry) Recipe,3,2025-10-27 00:48:23.447572,time_constrained
+53,1150,बीटरूट पोरियल रेसिपी - Beetroot Poriyal (Recipe In Hindi),3,2025-08-20 00:48:23.447724,time_constrained
+53,6309,Hariyali Machali Recipe - Carp Fish In Green Spinach And Coriander Gravy,5,2025-10-17 00:48:23.447861,time_constrained
+53,3368,15 minute Cauliflower Fried Rice Recipe,5,2025-09-24 00:48:23.447997,time_constrained
+53,1985,One Pot Tomato Rice Recipe Using Preethi Electric Pressure Cooker - Thakkali Sadam,4,2025-09-05 00:48:23.448134,time_constrained
+53,8615,Mambhazam Pulissery Recipe,3,2025-08-28 00:48:23.448270,time_constrained
+53,15,Saunf Aloo (Fennel Potato Curry) Recipe,5,2025-10-03 00:48:23.448406,time_constrained
+53,3337,Andhra Dondakaya Ulli Kura Karam Recipe | Andhra Kovakkai Fry,3,2025-08-22 00:48:23.448542,time_constrained
+53,4565,Batata nu Shaak Recipe - Aloo Tamatar Ki Sabzi,5,2025-09-23 00:48:23.448672,time_constrained
+53,27,चेटिनाड मीठा पनियारम रेसिपी - Chettinad Sweet Paniyaram Recipe,3,2025-10-17 00:48:23.448803,time_constrained
+53,419,Broccoli And Aloo Poriyal Recipe - South Indian Broccoli And Potato Stir Fry,4,2025-09-16 00:48:23.448939,time_constrained
+53,5098,पुदीना दही चटनी रेसिपी - Pudina Dahi Chutney Recipe,5,2025-10-05 00:48:23.449069,time_constrained
+53,4680,How To Make Homemade Kashmiri Masala/ Spice Mix Recipe,2,2025-10-23 00:48:23.449204,time_constrained
+54,6469,Bengali Style Raw Jackfruit Curry Recipe - Enchor’er Dalana,5,2025-09-17 00:48:23.450042,diet_restricted
+54,406,Egg White Spinach Omelette Recipe With Garlic & Oregano,5,2025-10-22 00:48:23.450205,diet_restricted
+54,8057,Saunf Wali Hari Gobi Sabzi Recipe - Cauliflower Spiced with Fennel and Green Chutney,5,2025-09-08 00:48:23.450352,diet_restricted
+54,3587,Vegan Malai Gobhi Recipe,4,2025-10-04 00:48:23.450498,diet_restricted
+54,380,Khatta Meetha Petha Recipe (Yellow Pumpkin Sabzi),2,2025-08-19 00:48:23.450641,diet_restricted
+54,853,Caramel Apple Trifle Recipe,5,2025-09-03 00:48:23.450783,diet_restricted
+54,9148,Bhutte Ka Kees Recipe,3,2025-10-21 00:48:23.450926,diet_restricted
+54,5182,Sel Roti Recipe (Nepalese ring-Shaped Sweet bread),2,2025-08-23 00:48:23.451075,diet_restricted
+54,301,Stuffed Mooli Paneer Paratha Recipe,5,2025-09-13 00:48:23.451221,diet_restricted
+54,6316,Bengali Aam Chingri Recipe - Prawn Mango Curry In Mustard Sauce,2,2025-08-27 00:48:23.451364,diet_restricted
+54,2004,"Mexican Breakfast Tortilla, Fried Eggs & Black Beans With Salsa Recipe",5,2025-08-03 00:48:23.451501,diet_restricted
+54,1369,Spinach Cottage Cheese Cannelloni in Roasted Pepper Sauce Recipe,4,2025-10-22 00:48:23.451676,diet_restricted
+54,7826,Kelyachi Bhaji Recipe (Raw Banana Stir Fry),4,2025-10-04 00:48:23.451822,diet_restricted
+54,8333,Spiced Buttermilk With Coriander And Ginger Recipe,4,2025-09-19 00:48:23.451965,diet_restricted
+54,7530,Roasted Cauliflower Dill Soup Recipe,5,2025-08-28 00:48:23.452109,diet_restricted
+54,3691,Carrot Cauliflower Peas Sabzi Recipe - Gajar Gobi Matar Sabzi,5,2025-08-21 00:48:23.452253,diet_restricted
+54,6711,चीज़ वाले आलू रेसिपी - Cheesy Potatoes Recipe,2,2025-09-08 00:48:23.452398,diet_restricted
+54,6996,Mangalorean Style Kuvalyacho Pollav Recipe (Yellow Pumpkin Curry Recipe),5,2025-08-21 00:48:23.452536,diet_restricted
+54,399,Chicken and Mushroom Pot Pie Recipe,4,2025-10-09 00:48:23.452676,diet_restricted
+54,7678,Moong Dal Potli Recipe - With Baked Option,5,2025-09-22 00:48:23.452816,diet_restricted
+54,765,Arugula & Fig Salad Recipe,2,2025-09-01 00:48:23.452957,diet_restricted
+55,5008,Dal Shorba Recipe - Indian Style Lentil Soup,5,2025-09-26 00:48:23.453817,traditional
+55,9889,Sev Puri Recipe (Papdi Chaat) - Indian Street Food Evening Snack,5,2025-08-18 00:48:23.453990,traditional
+55,3255,Bloomed Potato Cheesy Muffins Recipe,5,2025-10-07 00:48:23.454158,traditional
+55,1492,Gujarati Style Multigrain Masala Kadak Puri Recipe - Masala Mathri,5,2025-09-12 00:48:23.454322,traditional
+55,830,Spicy Mixed Vegetable Lollipop Recipe,3,2025-10-14 00:48:23.454491,traditional
+55,407,सेब और टमाटर की सब्ज़ी रेसिपी - No Onion No Garlic Spiced Apple Tomato Curry (Recipe In Hindi),3,2025-08-24 00:48:23.454681,traditional
+55,11909,कशमीरी केसर पुलाव रेसिपी - Kashmiri Kesar Pulao Recipe,3,2025-08-08 00:48:23.454858,traditional
+55,5792,Tawa Paratha Recipe - Plain Paratha,5,2025-09-04 00:48:23.455017,traditional
+55,5825,Banana Butterscotch Cake Recipe,3,2025-09-06 00:48:23.455175,traditional
+55,4013,वेपम पु रसम रेसिपी - Neem Flower Rasam (Recipe In Hindi),5,2025-08-08 00:48:23.455342,traditional
+55,1897,स्ट्रॉबेरी रायता रेसिपी - Strawberry Raita (Recipe In Hindi),5,2025-09-12 00:48:23.455505,traditional
+55,1736,Spicy Coconut Peanut Stuffed Baby Brinjal Recipe,5,2025-10-23 00:48:23.455683,traditional
+55,5056,Homemade Whole Wheat Crepes Recipe,2,2025-08-26 00:48:23.455849,traditional
+55,11022,Banana Apple Porridge Recipe - 6 Months Above For Babies & Toddlers,2,2025-08-18 00:48:23.456007,traditional
+55,899,Aloo Masala Puri Recipe,5,2025-09-17 00:48:23.456161,traditional
+55,6293,Creamy Polenta Recipe  - Savory Cornmeal Porridge,3,2025-08-09 00:48:23.456326,traditional
+55,1532,Raw Banana Cutlet Recipe - No Onion No Garlic Jain Cutlet,5,2025-10-09 00:48:23.456476,traditional
+55,4324,Palak Kadhi Recipe - Spinach Kadhi,4,2025-08-23 00:48:23.456641,traditional
+55,7367,Sundaikkai Godumai Rava Upma Recipe,5,2025-10-09 00:48:23.456781,traditional
+55,2013,Vegan Curried Rice with Chickpeas Recipe,3,2025-10-13 00:48:23.456937,traditional
+55,1219,Delmonte Beetballs Pasta Recipe,3,2025-08-13 00:48:23.457091,traditional
+55,7636,Greek Style Grilled Pita Pizza Recipe,3,2025-09-24 00:48:23.457255,traditional
+55,11859,Spicy & Tangy Goan Chicken Stew Recipe With Vegetables,2,2025-09-30 00:48:23.457539,traditional
+55,1281,Whole Wheat And Ragi Crepe With Muesli And Strawberry Recipe,3,2025-08-29 00:48:23.457930,traditional
+55,8587,Lauki Bharta Recipe - Spiced & Mashed Bottled Gourd Recipe,5,2025-09-24 00:48:23.458189,traditional
+56,78,Dubuk Vade Recipe - Khandeshi Gram Flour Dumpling Curry,3,2025-08-23 00:48:23.459080,health_conscious
+56,8342,Stir Fried Wild Rice with Peri Peri Tofu Recipe,3,2025-10-12 00:48:23.459257,health_conscious
+56,4506,Chicken Chops Recipe,5,2025-08-30 00:48:23.459413,health_conscious
+56,909,Odia Chatu Besara Recipe (Mushrooms in Spicy Mustard Curry),5,2025-09-10 00:48:23.459560,health_conscious
+56,2737,Lahori Aloo Recipe,3,2025-10-21 00:48:23.459737,health_conscious
+56,2365,Chicken Malai Kabab Recipe,5,2025-10-04 00:48:23.459884,health_conscious
+56,7510,Gajar Shalgam Ka Paani Wala Achar Recipe - Carrot And Turnip Pickle,5,2025-08-27 00:48:23.460028,health_conscious
+56,4870,Padpe Uppukari -  Harive Soppu Palya Recipe,2,2025-09-21 00:48:23.460178,health_conscious
+56,3636,Herb Mushroom Bruschetta Recipe,5,2025-10-21 00:48:23.460321,health_conscious
+56,9496,Mushroom And Scrambled Egg Bagel Sandwich Recipe,2,2025-10-13 00:48:23.460465,health_conscious
+56,5953,राजस्थानी सेव टमाटर की सब्ज़ी रेसिपी - Rajasthani Sev Tamatar Ki Sabzi (Recipe In Hindi),3,2025-10-24 00:48:23.460612,health_conscious
+56,1103,Sobji Diye Bhaja Muger Dal Recipe - Bengali Style Moong Dal with Winter Vegetables,3,2025-09-29 00:48:23.460758,health_conscious
+56,1006,Chettinad Muttai Masala Recipe - Chettinad Style Egg Curry,2,2025-09-01 00:48:23.460905,health_conscious
+56,5889,स्पाइसी वेजीटेरियन हक्का नूडल्स रेसिपी - Vegetarian Hakka Noodles Recipe,5,2025-10-14 00:48:23.461054,health_conscious
+56,9505,Chicken with Creamy Mushroom Sauce Recipe,2,2025-08-03 00:48:23.461200,health_conscious
+56,4727,Hare Chane Ka Pulav Recipe,3,2025-08-29 00:48:23.461343,health_conscious
+56,494,Arunachal Pradesh Zan Recipe - Finger Millet Porridge with Vegetables Recipe,4,2025-09-19 00:48:23.461483,health_conscious
+56,10473,Kadali Bhanda O Chingudi Tarkari Recipe (Odia Style Banana Blossom & Prawn Curry),4,2025-08-07 00:48:23.461647,health_conscious
+56,546,Dum Pukht Gosht Recipe - Slow Cooked Mutton Curry,3,2025-07-31 00:48:23.461793,health_conscious
+56,8826,Capsicum Bath Recipe,3,2025-08-15 00:48:23.461935,health_conscious
+56,5517,Dahi Wale Tinda Ki Sabzi Recipe - Apple Gourd in Yogurt Curry,4,2025-08-09 00:48:23.462091,health_conscious
+56,2740,Tangy Tamarind Pumpkin Curry Recipe,2,2025-08-31 00:48:23.462236,health_conscious
+56,752,Baked Fish In Coconut Milk Recipe,4,2025-10-05 00:48:23.462379,health_conscious
+56,11897,Navrang Dal Recipe ( Spicy Mixed Lentils),4,2025-08-03 00:48:23.462520,health_conscious
+56,2715,Linzer Cookies Recipe,5,2025-09-29 00:48:23.462657,health_conscious
+57,7055,Pahari Style Phanu Recipe - Delicious Mixed Dal,5,2025-09-24 00:48:23.463460,diet_restricted
+57,653,Sorekai Majjige Huli Recipe (Bottle Gourd In Coconut Yogurt Curry Recipe),5,2025-08-26 00:48:23.463641,diet_restricted
+57,9848,Chicken Curry With Sweet Potatoes Recipe,3,2025-08-16 00:48:23.463800,diet_restricted
+57,2263,Chocolate And Semolina Halwa Recipe,4,2025-09-08 00:48:23.463942,diet_restricted
+57,13289,Pasta Aglio Olio Recipe,5,2025-10-21 00:48:23.464080,diet_restricted
+57,1187,Paneer Frankie Recipe - Delicious Kid Friendly Snack,5,2025-09-10 00:48:23.464217,diet_restricted
+57,1733,हरी मिर्च की सब्ज़ी रेसिपी - Green Chilli Vegetable (Recipe In Hindi),5,2025-10-01 00:48:23.464356,diet_restricted
+57,2915,Spinach Soft Shell Taco Stuffed with Cabbage Slaw Salad Recipe,5,2025-10-28 00:48:23.464496,diet_restricted
+57,12140,Moroccan Chicken Burgers With Feta And Carrot Recipe,5,2025-10-04 00:48:23.464641,diet_restricted
+57,6707,Grain Free Chocolate Porridge Recipe,4,2025-09-06 00:48:23.464784,diet_restricted
+57,9069,Sweet Corn Spring Onion Momo Recipe - Sweet Corn Dumplings,5,2025-08-02 00:48:23.464920,diet_restricted
+57,9938,Stuffed Cabbage Rolls Recipe,2,2025-08-03 00:48:23.465064,diet_restricted
+57,784,Kathiri Urulai Masala Kuzhambu Recipe - Brinjal And Potato Masala Gravy,5,2025-09-26 00:48:23.465203,diet_restricted
+57,3355,No Bake Cocoa Oats Cookies Recipe,5,2025-09-20 00:48:23.465338,diet_restricted
+57,4010,Barnyard Millet Sweet Pongal Recipe (Kuthiraivali Sakkarai Pongal),4,2025-08-06 00:48:23.465486,diet_restricted
+57,3270,"Beetroot, Amla And Pudina Juice Recipe",3,2025-08-11 00:48:23.465643,diet_restricted
+58,3412,Crunchy Carrots In Hot Dogs Buns Recipe,3,2025-08-28 00:48:23.466447,diet_restricted
+58,8345,Lemon Grilled Chicken Recipe,1,2025-10-02 00:48:23.466611,diet_restricted
+58,5976,Mangalorean Manoli Bheeja Upkari Recipe - Ivy Gourd & Cashew Sabzi,4,2025-10-10 00:48:23.466760,diet_restricted
+58,482,Tarkari Ni Kari Recipe (Parsi Style Vegetable Curry),5,2025-10-15 00:48:23.466903,diet_restricted
+58,4256,Kesar Elaichi Shrikand Recipe,5,2025-09-13 00:48:23.467040,diet_restricted
+58,252,Sweet & Spicy Vegetable Hong Kong Style Recipe,5,2025-08-31 00:48:23.467177,diet_restricted
+58,8892,Murungai Keerai Paruppu Usili Recipe - Drumstick Leaves & Toor Dal,3,2025-10-24 00:48:23.467319,diet_restricted
+58,10619,Watermelon & Feta Skewers Recipe,5,2025-09-05 00:48:23.467457,diet_restricted
+58,14019,One Pot Punjabi Rajma Masala Recipe In Preethi Electric Pressure Cooker,3,2025-08-14 00:48:23.467599,diet_restricted
+58,1472,Indian Style Fajitas Recipe,3,2025-09-22 00:48:23.467770,diet_restricted
+58,8301,Red Smoothie Bowl Recipe,5,2025-08-21 00:48:23.467908,diet_restricted
+58,135,Pasi Paruppu Kosumalli Recipe (Spiced Lentil Salad Recipe),3,2025-09-06 00:48:23.468050,diet_restricted
+58,9367,पालक तम्बूली रेसिपी - Palak Tambuli (Recipe In Hindi),5,2025-10-02 00:48:23.468190,diet_restricted
+58,5128,बंगाली आलू झिंगे पोश्तो करी रेसिपी - Bengali Aloo Jhinge Posto Curry (Recipe In Hindi)),4,2025-09-28 00:48:23.468330,diet_restricted
+58,1846,Kadai Egg Masala Recipe,4,2025-09-04 00:48:23.468470,diet_restricted
+58,1998,Kadai Mushroom Recipe,4,2025-08-15 00:48:23.468609,diet_restricted
+58,2895,Spirulina and Mint Basil Pesto Recipe,1,2025-10-06 00:48:23.468748,diet_restricted
+59,6657,Thengai Poornam Kozhukattai & Uppu Kozhukattai Recipe,1,2025-08-22 00:48:23.469548,diet_restricted
+59,8107,रोस्टेड कॉलीफ्लॉवर दिल सूप रेसिपी - Roasted Cauliflower Dill Soup Recipe,5,2025-10-12 00:48:23.469741,diet_restricted
+59,5191,Pumpkin Erissery Recipe - Kerala Pumpkin Coconut Curry,3,2025-10-21 00:48:23.469895,diet_restricted
+59,5352,"Creamy Cabbage, Sweet Corn Cole Slaw with Hung Curd Recipe",4,2025-10-28 00:48:23.470040,diet_restricted
+59,1222,Oven Roasted Peaches And Cream Recipe,5,2025-08-29 00:48:23.470179,diet_restricted
+59,951,वेपमपू करा कोलंब रेसिपी - Vepampoo Kara Kuzhambu Recipe,3,2025-09-20 00:48:23.470317,diet_restricted
+59,3267,Stuffed Portobello Mushrooms Recipe With 7 Grain Rice And Sprout Salad,3,2025-10-27 00:48:23.470460,diet_restricted
+59,11862,Karnataka Style Sabsige Soppu Paddu Recipe (Dill leaves Savory Fritters Recipe),4,2025-08-21 00:48:23.470600,diet_restricted
+59,2622,Kashmiri Style Rista Recipe - Mutton Kofta Curry,3,2025-10-01 00:48:23.470740,diet_restricted
+59,4500,Hariyali Matar Recipe,3,2025-08-23 00:48:23.470879,diet_restricted
+59,3915,Jeera Hing Aloo Recipe - No Onion No Garlic Recipe,5,2025-09-21 00:48:23.471016,diet_restricted
+59,9198,Ellu Chutney Recipe - Sesame Seeds Chutney Recipe,3,2025-08-01 00:48:23.471157,diet_restricted
+59,1370,Lahsuni Paneer Recipe - Paneer Flavoured With Garlic,4,2025-08-02 00:48:23.471297,diet_restricted
+59,5677,Financiers Recipe - French Almond Tea Cake,2,2025-09-03 00:48:23.471438,diet_restricted
+59,1873,Sweet Potato & Methi Stuffed Paratha Recipe,4,2025-08-27 00:48:23.471578,diet_restricted
+59,19,Homemade Tater Tots Recipe,5,2025-09-17 00:48:23.471743,diet_restricted
+59,2841,Vellarikka Kosumalli Recipe- South Indian Style Cucumber Salad,5,2025-08-20 00:48:23.471895,diet_restricted
+59,3721,Lebanese Fattoush Salad Recipe,2,2025-10-11 00:48:23.472039,diet_restricted
+59,467,Microwaved Egg-Omelette-In-A-Mug Recipe,4,2025-10-01 00:48:23.472180,diet_restricted
+59,13741,Kanchipuram Idlis Recipe,4,2025-10-01 00:48:23.472323,diet_restricted
+59,5727,Kashmiri Style Tamatar Chaman Recipe -Paneer Cooked With Tomatoes,2,2025-08-10 00:48:23.472476,diet_restricted
+59,2335,Strawberry and Avocado Caprese Salad Recipe,3,2025-10-28 00:48:23.472617,diet_restricted
+59,10221,Æbleskivers Recipe- Danish Chocolate Pancake Puffs,5,2025-09-19 00:48:23.472752,diet_restricted
+60,992,Shakshuka With Oats Recipe-A High Protein Breakfast,2,2025-10-06 00:48:23.473880,time_constrained
+60,9315,Moong Dal Methi Ki Sabzi Recipe,4,2025-10-10 00:48:23.474040,time_constrained
+60,10966,Sorakkai Paruppu Kuzhambu Recipe - Tamil Nadu Style Lauki Curry,5,2025-09-04 00:48:23.474181,time_constrained
+60,5871,Spicy Dalia Pulao Recipe - Broken Wheat Pulao,3,2025-10-20 00:48:23.474324,time_constrained
+60,3164,Almond Butter & Fig Muesli Bar Recipe,3,2025-09-30 00:48:23.474460,time_constrained
+60,487,Kashmiri Kokur T Nadir Recipe-Chicken and Lotus Stem Curry,2,2025-09-17 00:48:23.474599,time_constrained
+60,1174,Spicy Mexican Salsa Verde Recipe - Green Tomato Salsa,4,2025-09-02 00:48:23.474734,time_constrained
+60,3460,Goan Mushroom Xacuti Recipe,2,2025-09-16 00:48:23.474872,time_constrained
+60,1863,Mamidikaya Pappu Recipe - Andhra Pappu - Raw Mango Dal,4,2025-08-14 00:48:23.475007,time_constrained
+60,1252,Sweet Potato & Neem Leaves Vegetable Curry Recipe,3,2025-09-15 00:48:23.475140,time_constrained
+60,10265,Badusha Recipe | Balushahi Recipe - Sweet Indian Doughnut,3,2025-10-17 00:48:23.475275,time_constrained
+60,3238,Rajasthani Ghevar Recipe,4,2025-08-09 00:48:23.475409,time_constrained
+60,8852,Hariyali Gobi Recipe - Palak Cauliflower Curry Recipe,4,2025-10-24 00:48:23.475542,time_constrained
+60,12761,Banana Apple Mash Recipe,5,2025-08-27 00:48:23.475696,time_constrained
+60,11705,Motichoor Ladoo Yogurt Cheesecake Recipe,5,2025-08-15 00:48:23.475840,time_constrained
+61,70,Iranian Baida Curry Recipe,2,2025-08-07 00:48:23.476637,health_conscious
+61,10750,Lemon And Rosemary Shortbread Cookies Recipe,3,2025-09-10 00:48:23.476798,health_conscious
+61,4921,Kashmiri Anardan Chetin Recipe (Pomegranate Seeds Chutney),4,2025-09-01 00:48:23.476961,health_conscious
+61,3552,One Pot Pressure Cooker Chicken Curry Recipe,3,2025-07-31 00:48:23.477108,health_conscious
+61,343,Vendakka Stew Recipe (Kerala Style Okra Stew),3,2025-10-10 00:48:23.477255,health_conscious
+61,10454,"Pineapple, Onions and Cabbage Slaw with Honey Mustard Recipe",5,2025-09-07 00:48:23.477396,health_conscious
+61,8044,Couscous Salad With Cucumber And Feta Cheese Recipe,2,2025-10-01 00:48:23.477540,health_conscious
+61,10044,Bandhakopir Ghonto Recipe (Bengali Style Cabbage Fry),3,2025-10-18 00:48:23.477697,health_conscious
+61,2460,Herb & Cheese Mushroom Omelette Recipe,4,2025-08-08 00:48:23.477848,health_conscious
+61,2650,Hunan Style Smacked Cucumber Pickles Recipe,4,2025-10-10 00:48:23.477988,health_conscious
+61,3601,Red Capsicum Chutney Recipe - Red Bell Pepper Chutney,5,2025-09-06 00:48:23.478128,health_conscious
+61,3764,Open Bean and Veggies Burrito Muffin Recipe,3,2025-09-02 00:48:23.478268,health_conscious
+61,11186,Turai Moong Dal Recipe - Turia Mag Ni Dal,2,2025-09-15 00:48:23.478413,health_conscious
+61,11686,Saagwala Chicken  Recipe - Palak Chicken Curry,4,2025-09-19 00:48:23.478552,health_conscious
+61,1891,चनार दालना रेसिपी - Chanar Dalna (Recipe In Hindi),2,2025-10-13 00:48:23.478694,health_conscious
+61,890,Pineapple Rasam Recipe,4,2025-08-20 00:48:23.478837,health_conscious
+61,9249,Huruli Kaalu Chutney Pudi Recipe (Horse Gram Chutney Podi),5,2025-09-03 00:48:23.478977,health_conscious
+62,11597,Sauteed Spinach With Garlic And Cheese Recipe,4,2025-09-09 00:48:23.479775,health_conscious
+62,12201,Ambade Kaarle Lonche Recipe - Hog Plums & Bitter Gourd Pickle,4,2025-10-01 00:48:23.479939,health_conscious
+62,823,Strawberry Brownie Bars Recipe,3,2025-10-25 00:48:23.480092,health_conscious
+62,4774,Bedmi Poori Recipe - Spiced Split Black Lentil Pooris,1,2025-10-20 00:48:23.480242,health_conscious
+62,1409,Jain Style Dal Makhani Recipe,1,2025-10-02 00:48:23.480397,health_conscious
+62,6050,चेटिनाड बीन्स और गोभी पोरियल रेसिपी - Chettinad Beans & Cauliflower Poriyal (Recipe In Hindi),4,2025-08-15 00:48:23.480539,health_conscious
+62,938,Strawberry Raita Recipe,4,2025-09-29 00:48:23.480679,health_conscious
+62,6753,Cheesy Kulcha Sandwich Recipe With Ghee Roast Mushrooms,4,2025-10-24 00:48:23.480824,health_conscious
+62,2189,Chatpata Lobia Chaat Recipe - Healthy Black Eyed Bean Snack,3,2025-08-28 00:48:23.480967,health_conscious
+62,9133,Sweet Corn & Peas Upma Recipe For Babies and Toddlers,4,2025-09-07 00:48:23.481111,health_conscious
+62,4065,Harive Soppina Saaru Recipe (Karnataka Style Amaranth Leaves Cooked with Lentils),4,2025-09-15 00:48:23.481248,health_conscious
+62,1733,हरी मिर्च की सब्ज़ी रेसिपी - Green Chilli Vegetable (Recipe In Hindi),3,2025-09-24 00:48:23.481386,health_conscious
+62,4218,No Bake Fudge Brownies Recipe,4,2025-09-29 00:48:23.481525,health_conscious
+62,11252,Napa Cabbage Coleslaw with Greek Yogurt Recipe,5,2025-08-04 00:48:23.481661,health_conscious
+62,4275,Pan Fried Corn & Cheese Bites Recipe -Corn & Paneer Balls,4,2025-08-15 00:48:23.481831,health_conscious
+63,944,चटपटा आलू रेसिपी - Chatpata Baby Potato (Recipe In Hindi),1,2025-10-10 00:48:23.482632,health_conscious
+63,6022,अदरक लहुसन टोफू करी रेसिपी - Ginger Garlic Tofu Curry (Recipe In Hindi),4,2025-08-19 00:48:23.482791,health_conscious
+63,5795,पत्ता गोभी पल्या रेसिपी - Cabbage Palya (Recipe In Hindi),1,2025-09-29 00:48:23.482941,health_conscious
+63,11742,Chicken Seekh Kebab Recipe,3,2025-08-31 00:48:23.483090,health_conscious
+63,80,Radish Soup Recipe,5,2025-08-02 00:48:23.483235,health_conscious
+63,4183,Lal Bhoplyacha Bharit Recipe (Red Pumpkin Raita),2,2025-09-21 00:48:23.483543,health_conscious
+63,9401,Telangana Style Barada Palya Recipe - Chana Dal Dry Sabzi,3,2025-09-20 00:48:23.483700,health_conscious
+63,2632,Moru Kachiyathu Recipe - Kerala Style Seasoned Buttermilk,5,2025-09-26 00:48:23.483871,health_conscious
+63,9989,Sweet & Spicy Pineapple Pani Puri Recipe,5,2025-09-26 00:48:23.484014,health_conscious
+63,10498,Bharwa Karela Masala Recipe,1,2025-09-22 00:48:23.484170,health_conscious
+63,12584,हिमाचली कच्चे आम की चटनी रेसिपी - Himachali Dry Raw Mango Chutney Recipe,5,2025-10-06 00:48:23.484316,health_conscious
+63,3252,Sindhi Dharan Ji Kadhi Recipe - Besan Tikkis In Tomato Gravy,3,2025-10-06 00:48:23.484460,health_conscious
+63,2855,Baked Polenta Fries Recipe,1,2025-08-17 00:48:23.484601,health_conscious
+63,1149,Kongunadu Kathirikai Rasam Recipe - Spicy & Tangy Eggplant Rasam,3,2025-09-20 00:48:23.484745,health_conscious
+63,1470,Cabbage Besan Fry Recipe,4,2025-08-16 00:48:23.484886,health_conscious
+63,13559,"Eggless Strawberry, Rose And Pistachio Cake Recipe",4,2025-08-02 00:48:23.485029,health_conscious
+63,952,Bell Pepper Sabji Recipe-No Onion No Garlic,3,2025-09-08 00:48:23.485167,health_conscious
+63,7369,Chicken Pizza With Caramelised Red Onion Recipe,4,2025-08-05 00:48:23.485307,health_conscious
+63,9056,Red Capsicum Poriyal Recipe - Red Bell Pepper Stir Fry,4,2025-08-02 00:48:23.485448,health_conscious
+63,5505,Kashmir Style Bom Chount/Wangan Recipe-Spicy Apple Brinjal Curry,3,2025-10-22 00:48:23.485586,health_conscious
+63,629,Roasted Fennel and Tomato Soup Recipe,3,2025-10-21 00:48:23.485741,health_conscious
+63,3892,Murungai Keerai Masala Vadai Recipe,4,2025-10-11 00:48:23.485888,health_conscious
+63,12908,Parmesan And Fresh Herbs Savoury Scones Recipe,4,2025-09-30 00:48:23.486027,health_conscious
+63,1117,"Mung Bean & Tofu Salad Recipe With Sweet Potatoes, Cucumbers & Tomatoes",2,2025-09-23 00:48:23.486171,health_conscious
+64,4531,Afghani Dhoog Recipe - Cucumber Mint Buttermilk/ Chaas,2,2025-10-07 00:48:23.486980,diet_restricted
+64,3508,Mango Sago Kheer Recipe - Sabudana Kheer With Mangoes,5,2025-08-15 00:48:23.487138,diet_restricted
+64,821,Green Chutney Rava Dhokla Recipe - Sooji Dhokla,4,2025-09-09 00:48:23.487291,diet_restricted
+64,1660,Milagai Podi Uthappam Recipe - Spicy Chilli Powder Pancake Recipe,4,2025-10-08 00:48:23.487430,diet_restricted
+64,12030,वेगन छोले और ब्रोकली करी रेसिपी - Vegan Chickpeas And Broccoli Curry Recipe,4,2025-08-30 00:48:23.487584,diet_restricted
+64,1516,Chinese Bhel Recipe - Crispy Noodle Salad,2,2025-08-17 00:48:23.487756,diet_restricted
+64,11142,Oriya Badi Chura Recipe | Sundried Lentil Dumpling Crumble,3,2025-10-20 00:48:23.487907,diet_restricted
+64,7573,Grated Carrot Cucumber Tomato Raita Recipe,3,2025-10-26 00:48:23.488050,diet_restricted
+64,535,Goan Style Banana Halwa Recipe (Kelyacho Halwo),4,2025-08-05 00:48:23.488186,diet_restricted
+64,3484,Thai Coconut Garlic Rice Recipe,4,2025-10-07 00:48:23.488327,diet_restricted
+64,2400,Pineapple Cucumber Salad Recipe With Lemon Dressing,5,2025-08-26 00:48:23.488477,diet_restricted
+64,7007,Chicken Pad Thai Noodles Recipe,2,2025-10-06 00:48:23.488620,diet_restricted
+64,1571,Aloo Gajar Matar Sabzi Recipe,4,2025-10-17 00:48:23.488762,diet_restricted
+64,3423,Sali Par Eedu Recipe - Parsi Breakfast Eggs On Fried Potato,1,2025-08-19 00:48:23.488907,diet_restricted
+64,7495,Kacche Aam Aur Lehsun Ki Dal Recipe -Curried Lentils With Mango & Garlic,4,2025-10-20 00:48:23.489048,diet_restricted
+64,143,Rajasthani Style Sukhe Gatte Capsicum Ki Sabzi Recipe,3,2025-10-02 00:48:23.489204,diet_restricted
+64,4928,काली मिर्च वाली गोभी रेसिपी - Pepper Cauliflower (Recipe In Hindi),5,2025-09-14 00:48:23.489515,diet_restricted
+64,7743,Baked Chinese Potato Recipe (Koorka Mezhukuperatti),1,2025-09-17 00:48:23.489865,diet_restricted
+64,909,Odia Chatu Besara Recipe (Mushrooms in Spicy Mustard Curry),5,2025-09-22 00:48:23.490044,diet_restricted
+64,8879,Mango Kheer Recipe,3,2025-09-09 00:48:23.490197,diet_restricted
+64,8579,Maharashtrian Style Kairichi Dal Recipe (Chana Dal and Raw Mango Hash),2,2025-10-24 00:48:23.490345,diet_restricted
+64,4750,पंजाबी स्टाइल एग करी रेसिपी - Punjabi Style Egg Curry Recipe,5,2025-09-14 00:48:23.490483,diet_restricted
+65,8272,Sweet and Sour Mangalore Cucumber Chutney Recipe,5,2025-08-12 00:48:23.491334,traditional
+65,1595,Gawar Ki Sabzi Recipe - Cluster Beans Curry,3,2025-09-04 00:48:23.491525,traditional
+65,9617,Banana Bread With Chocolate Chips And Walnut Recipe,3,2025-09-29 00:48:23.491709,traditional
+65,4357,Cheese Crackers Recipe,2,2025-08-20 00:48:23.491906,traditional
+65,2960,Awadhi Style Chickpea Kofta Biryani Recipe,3,2025-08-29 00:48:23.492077,traditional
+65,2100,Mughlai Fish Curry Recipe,3,2025-08-08 00:48:23.492253,traditional
+65,10966,Sorakkai Paruppu Kuzhambu Recipe - Tamil Nadu Style Lauki Curry,4,2025-10-16 00:48:23.492422,traditional
+65,7125,पोहा चिवड़ा रेसिपी - Fried Poha Chivda Recipe,5,2025-09-24 00:48:23.492588,traditional
+65,297,Lacha Pyaz Recipe - Masala Pickled Onions,5,2025-08-23 00:48:23.492742,traditional
+65,3862,Kali Mirch Aloo Bhindi Sabzi - Aloo Bhindi Pepper Fry Recipe,5,2025-08-30 00:48:23.492897,traditional
+65,161,तड़का रायता रेसिपी - Spiced Curd With Onions (Recipe In Hindi),5,2025-08-07 00:48:23.493069,traditional
+65,1642,Rajasthani Style Mutton Banjara Recipe,3,2025-09-06 00:48:23.493230,traditional
+65,3962,No Cream Healthy Broccoli Pasta Recipe,2,2025-09-28 00:48:23.493397,traditional
+65,11017,Pineapple Crostini With Honey And Cream Cheese Recipe,2,2025-07-31 00:48:23.493561,traditional
+65,6528,Rajma Galouti Kebab Recipe,4,2025-08-02 00:48:23.493713,traditional
+65,5342,Baby Corn & Tomato Masala Bath-Rice Spiced With Pav Bhaji Masala,5,2025-09-15 00:48:23.493879,traditional
+65,8432,Herbed Tofu & Spinach In Tomato Basil Sauce Recipe,3,2025-08-06 00:48:23.494051,traditional
+65,3792,Broccoli Orange Asian Salad Recipe,3,2025-10-02 00:48:23.494223,traditional
+65,1766,Chilli Chocolate Cookies Recipe,2,2025-08-25 00:48:23.494389,traditional
+65,2467,Crunchy Creamy Coleslaw Recipe,3,2025-08-18 00:48:23.494575,traditional
+65,8177,Thakkali Rasam Recipe - South Indian Tomato Rasam,4,2025-08-21 00:48:23.494734,traditional
+65,1174,Spicy Mexican Salsa Verde Recipe - Green Tomato Salsa,3,2025-08-27 00:48:23.494908,traditional
+65,6215,Thai Pineapple Vegetarian Curry Recipe,2,2025-10-09 00:48:23.495078,traditional
+65,7151,Beet Latte Recipe,3,2025-08-30 00:48:23.495232,traditional
+65,6743,Cinnamon Spiced Black Lemon Tea Recipe,5,2025-10-06 00:48:23.495369,traditional
+66,3813,Manjal Poosanikai Sambar Recipe (Yellow Pumpkin in Toor Dal Recipe),5,2025-10-01 00:48:23.496219,foodie
+66,5759,Buckwheat Corn Dhokla Recipe,3,2025-08-16 00:48:23.496375,foodie
+66,1003,Sesame Bread Patties Recipe (Bread Cutlets),3,2025-09-20 00:48:23.496516,foodie
+66,9796,Chicken In Curry Leaves Gravy Recipe,3,2025-08-13 00:48:23.496657,foodie
+66,11612,Idichakka Thoran Recipe (Young Jack Fruit With Spiced Coconut),5,2025-08-07 00:48:23.496794,foodie
+66,8560,Tandoori Gobi Tikka Recipe,4,2025-10-18 00:48:23.496927,foodie
+66,7460,Thai Yellow Chicken Curry Recipe,2,2025-10-10 00:48:23.497063,foodie
+66,931,Eggless Tutti Frutti Cake Recipe,5,2025-10-02 00:48:23.497195,foodie
+66,1050,Punjabi Mooli Ki Bhurji Recipe,4,2025-09-13 00:48:23.497329,foodie
+66,12250,Fish Molee Recipe - Kerala Style Fish Curry,2,2025-07-31 00:48:23.497461,foodie
+66,1217,"Beetroot, Sweet Potato And Oatmeal Cutlet Recipe",3,2025-08-29 00:48:23.497597,foodie
+66,5048,Andhra Style Pachi Pulusu Recipe -Raw Tamarind Rasam,3,2025-08-03 00:48:23.497732,foodie
+66,6358,Mushroom and Broccoli Soup Recipe,5,2025-10-13 00:48:23.497887,foodie
+66,11856,Vazhaipoo Bajra Adai Recipe - Banana Flower & Pearl Millet Dosa,4,2025-09-12 00:48:23.498022,foodie
+66,1899,अमृतसरी अजवाइनी पनीर रेसिपी - Amritsari Ajwaini Paneer (Recipe In Hindi),4,2025-10-18 00:48:23.498154,foodie
+66,6875,Manipuri Style Chak Angouba Recipe - Vegetable Pulao Recipe,3,2025-10-04 00:48:23.498288,foodie
+66,429,Indian Beaten Coffee Recipe | Dalgona Coffee,3,2025-09-11 00:48:23.498431,foodie
+66,12208,Masala Bhurji Cheese Sandwich Recipe,4,2025-08-03 00:48:23.498566,foodie
+66,2439,Nolen Chawal Bhog Recipe (Rice Pudding With Nolen Jaggery),3,2025-08-27 00:48:23.498698,foodie
+66,497,Pacha Manga Pachadi Recipe - Raw Mango Pachadi,3,2025-08-08 00:48:23.498832,foodie
+66,2710,Maharastrian Batatyachi Bhaji Recipe-Quick and Simple Aloo Sabzi,3,2025-10-16 00:48:23.498962,foodie
+66,3260,Tomato Noodle Soup recipe,3,2025-09-29 00:48:23.499096,foodie
+67,7772,Roasted Chickpeas With Apples Salad Recipe,3,2025-10-11 00:48:23.499916,time_constrained
+67,1159,Onion Bajji Recipe -Vengaya Bajji/ South Indian Onion Pakora,5,2025-10-09 00:48:23.500065,time_constrained
+67,7793,Fusion Wrap Recipe (Mixed Vegetables Wrapped In Tortilla),3,2025-10-24 00:48:23.500204,time_constrained
+67,4589,Gujarati Lasaniya Batata Recipe - Garlic Potato Curry,3,2025-10-13 00:48:23.500342,time_constrained
+67,3662,Bengali Bhapa Doi Recipe,3,2025-08-24 00:48:23.500478,time_constrained
+67,12170,Spiced Cauliflower And Almond Soup Recipe,2,2025-09-22 00:48:23.500623,time_constrained
+67,2328,Spicy Schezwan Vegetable Noodles Recipe,1,2025-09-12 00:48:23.500760,time_constrained
+67,181,फ्रूट पचड़ी रेसिपी - Fruit Pachadi (Recipe In Hindi),5,2025-07-31 00:48:23.500895,time_constrained
+67,9645,Karnataka Style Menthe Kadubu Recipe (Fenugreek Leaves Wheat Dumpling Recipe),4,2025-09-12 00:48:23.501031,time_constrained
+67,7740,Vegetable Spring Rolls Recipe,3,2025-09-12 00:48:23.501168,time_constrained
+67,154,व्रत वाले आलू पनीर रेसिपी - Potato Paneer Curry Without Onion And Garlic Recipe (Recipe In Hindi),2,2025-09-05 00:48:23.501302,time_constrained
+67,4717,Eggless Marble Cake Recipe,4,2025-08-11 00:48:23.501436,time_constrained
+67,2608,Goan Vegetable Curry Recipe,4,2025-09-19 00:48:23.501568,time_constrained
+67,8965,Ice Tea Sangria Recipe,5,2025-09-02 00:48:23.501705,time_constrained
+67,5550,Paniyaram Muttai Masala Recipe - Spicy Egg Curry Made In Paniyaram Pan,3,2025-08-25 00:48:23.501840,time_constrained
+67,8807,Crispy Fried Kurkuri Bhindi Recipe Spiced With Cumin & Chaat Masala,4,2025-09-11 00:48:23.501995,time_constrained
+67,8345,Lemon Grilled Chicken Recipe,3,2025-09-09 00:48:23.502130,time_constrained
+67,1550,Delicious Spicy Chyawanprash Cookies Recipe,1,2025-09-17 00:48:23.502264,time_constrained
+67,38,Eggless Chocolate Cupcakes With Raspberry & Cheese Frosting,3,2025-09-24 00:48:23.502406,time_constrained
+68,7249,Bengali Style Chori Recipe-Mixed Vegetable Sabzi,5,2025-10-01 00:48:23.503228,traditional
+68,2734,Soulful Chicken Soup Recipe,3,2025-10-17 00:48:23.503422,traditional
+68,9964,Kesar Pista Lassi Recipe - Saffron & Pista Lassi Recipe,5,2025-09-25 00:48:23.503579,traditional
+68,2373,Stuffed Yellow Moong Dal And Onion Paratha Recipe,5,2025-08-18 00:48:23.503723,traditional
+68,5763,धनिया वाले आलू रेसिपी - Dhania Wale Aloo (Recipe In Hindi),5,2025-08-07 00:48:23.503911,traditional
+68,1548,Dahi Suran Ki Sabzi Recipe (Stir Fried Yam in Dry Yogurt Curry Recipe),5,2025-09-17 00:48:23.504073,traditional
+68,8777,Makai Ka Cheela Recipe - Delicious Corn Cheela Recipe,5,2025-10-23 00:48:23.504223,traditional
+68,1551,Goan Style Tonak Alsanyache Recipe (Black eyed beans cooked in Tonak Masala Recipe),3,2025-10-10 00:48:23.504379,traditional
+68,3010,Baingan Tamatar Sabzi - Brinjal/ Eggplant Masala Recipe,5,2025-08-27 00:48:23.504531,traditional
+68,61,Spicy Seafood Stew Casserole With Tomatoes And Lime Recipe,5,2025-10-20 00:48:23.504686,traditional
+68,11904,Whole Wheat Black Forest Cake In A Jar Recipe (Eggless),2,2025-08-02 00:48:23.504858,traditional
+68,1407,Fujian Style Green Vegetables Stir Fry Recipe,3,2025-08-12 00:48:23.505027,traditional
+68,11003,Mixed Vegetables Ajethna Recipe - Mangalorean Style Mixed Vegetables Sabzi,3,2025-08-28 00:48:23.505184,traditional
+68,2308,पत्ता गोभी थोरन रेसिपी - Cabbage Thoran/Poriyal Recipe,2,2025-10-20 00:48:23.505550,traditional
+68,2572,Kashmiri Paneer Gravy Recipe,1,2025-08-20 00:48:23.506154,traditional
+69,903,Dahi Sabudana Recipe (Savory Tapioca Pearls Seasoned with Yogurt),4,2025-10-22 00:48:23.507338,diet_restricted
+69,12,Veg Chili Cheese Burgers Recipe,1,2025-08-07 00:48:23.507619,diet_restricted
+69,2430,Aubergine Layered Baked Corn Cheese Quinoa Pasta Recipe,2,2025-10-06 00:48:23.507856,diet_restricted
+69,4716,Kashmiri Style Apple Tamatar Sabzi Recipe - No Onion No Garlic,4,2025-08-23 00:48:23.508109,diet_restricted
+69,2341,आलू गाजर की सब्ज़ी रेसिपी - No Onion No Garlic Aloo Gajar Ki Sabzi (Recipe In Hindi),5,2025-09-17 00:48:23.508303,diet_restricted
+69,6123,Gujarati Khichu Recipe - Steamed Rice Flour Savory Donuts,4,2025-10-01 00:48:23.508494,diet_restricted
+69,2934,Kerala Style Tomato Fry Recipe,4,2025-10-09 00:48:23.508683,diet_restricted
+69,3926,Pata Gobi Aur Kele Kofta Curry Recipe - No onion No Garlic,4,2025-10-02 00:48:23.508945,diet_restricted
+69,4133,सोया पालक करी रेसिपी - Soya And Spinach Curry Recipe,3,2025-08-14 00:48:23.509407,diet_restricted
+69,4650,Kongunadu Style Senai Kilangu Masala Recipe - Yam in Spicy Gravy,1,2025-09-26 00:48:23.509651,diet_restricted
+69,7807,सुरती जोवार वड़ा रेसिपी - Surati Jowar Vada,4,2025-10-16 00:48:23.509843,diet_restricted
+69,5789,Lemon Rasam Recipe - Nimbe Saaru Recipe,4,2025-09-04 00:48:23.510026,diet_restricted
+69,4202,Maharashtrian Ambat Goda Dal Recipe,5,2025-09-04 00:48:23.510173,diet_restricted
+69,888,Mullangi Mor Pachadi Recipe (Radish in spicy tempered Yogurt Gravy Recipe),4,2025-09-04 00:48:23.510319,diet_restricted
+69,8027,हरी फली की सब्ज़ी रेसिपी - Green Beans Fry (Recipe In Hindi),5,2025-08-31 00:48:23.510458,diet_restricted
+69,527,Sesame Noodles Recipe With Napa Cabbage,3,2025-08-19 00:48:23.510598,diet_restricted
+69,4935,Traditional Maharashtrian Bhakarwadi Recipe,3,2025-10-12 00:48:23.510763,diet_restricted
+69,5522,Assamese Bilahi Boror Tenga Recipe (Sour Curry With Red Lentil Fritters),4,2025-10-26 00:48:23.510927,diet_restricted
+70,8587,Lauki Bharta Recipe - Spiced & Mashed Bottled Gourd Recipe,5,2025-09-22 00:48:23.511823,traditional
+70,2535,Cabbage & Buttermilk Curry Recipe,5,2025-09-29 00:48:23.512004,traditional
+70,1459,Zucchini Zoodles with mushroom Meatball Recipe,3,2025-09-07 00:48:23.512191,traditional
+70,493,Parsi Style Lagan Sara Istew Recipe - Rich Sweet Assorted Vegetable Curry,2,2025-10-08 00:48:23.512368,traditional
+70,9111,Chicken Yakitori Recipe - Japanese Chicken Skewers,2,2025-09-10 00:48:23.512538,traditional
+70,316,Papaya Orange Pomegranate Salad Recipe With Roasted Peanuts,3,2025-09-30 00:48:23.512713,traditional
+70,2373,Stuffed Yellow Moong Dal And Onion Paratha Recipe,5,2025-10-07 00:48:23.512858,traditional
+70,6050,चेटिनाड बीन्स और गोभी पोरियल रेसिपी - Chettinad Beans & Cauliflower Poriyal (Recipe In Hindi),4,2025-10-28 00:48:23.513069,traditional
+70,11118,वेगन सोया आलू की सब्ज़ी रेसिपी - Vegan Soya Aloo Curry (Recipe In Hindi),5,2025-09-07 00:48:23.513248,traditional
+70,8190,गुजराती दाल रेसिपी - Gujarati Dal (Recipe In Hindi),5,2025-10-06 00:48:23.513442,traditional
+70,1432,Kathirikai Urulai Kizhangu Kara Kuzhambu Recipe,3,2025-09-24 00:48:23.513601,traditional
+70,13118,ड्रमस्टिक दाल सूप रेसिपी - Drumstick Dal Soup Recipe,5,2025-10-27 00:48:23.513762,traditional
+70,555,Kerala Style Chicken Chatti Pathiri Recipe,4,2025-08-18 00:48:23.513928,traditional
+70,7338,Roasted Tomato And Basil Bruschetta Recipe,3,2025-10-27 00:48:23.514096,traditional
+70,6909,पोरीचा कोरम्बुरेसिपी - Poricha Kuzhambu Tamil Nadu Style Mixed Vegetables and Lentil Stew (Recipe In Hindi),3,2025-09-08 00:48:23.514283,traditional
+70,6521,Broccoli Egg Scramble Recipe,3,2025-09-24 00:48:23.514451,traditional
+70,4143,"Cherry Tomato, Cucumber, Onion Salad in Red Wine Vinaigrette Dressing Recipe",3,2025-08-12 00:48:23.514613,traditional
+70,5632,Classic Pineapple Upside-Down Cake Recipe,3,2025-10-14 00:48:23.514780,traditional
+70,1056,मूली रायता रेसिपी - Mooli Raita Recipe,5,2025-08-22 00:48:23.514958,traditional
+70,4961,Kerala Style Pazham Pori Recipe (Banana Fry),5,2025-08-11 00:48:23.515117,traditional
+70,6761,Herbed Cheesy Bun Recipe,3,2025-09-18 00:48:23.515293,traditional
+70,991,Watermelon Cucumber Gazpacho Recipe,2,2025-09-03 00:48:23.515459,traditional
+71,10069,Rajma Kofta In Milk And Poppy Seed Gravy Recipe,4,2025-10-05 00:48:23.516303,foodie
+71,5733,"Summer Salad Recipe-Red Cabbage, Lettuce Onions & Tomatoes ",5,2025-08-25 00:48:23.516468,foodie
+71,3618,Whole Wheat Sun Dried Tomato Focaccia Bread | Healthy Homemade Bread Recipe,5,2025-09-21 00:48:23.516659,foodie
+71,5225,Menthe / Fenugreek Seeds Tambli Recipe (Karnataka Recipes),4,2025-09-15 00:48:23.516851,foodie
+71,962,Chettinad Beans & Cauliflower Poriyal Recipe (South Indian Stir Fry),4,2025-08-28 00:48:23.517019,foodie
+71,9547,अासामीस बिलाहिर तोक रेसिपी - Assamese Bilahir Tok Recipe,4,2025-08-12 00:48:23.517159,foodie
+71,6434,Mexican Hot Chocolate Recipe,4,2025-10-07 00:48:23.517294,foodie
+71,4664,Drumstick Leaves Fried Rice Recipe,3,2025-10-16 00:48:23.517428,foodie
+71,12947,Refreshing Sweet Lime Soda Recipe,5,2025-10-14 00:48:23.517595,foodie
+71,9300,Beans Muttai Poriyal Recipe - Chettinad Egg Scramble with Beans,4,2025-09-26 00:48:23.517779,foodie
+71,4436,Kashmiri Saag Recipe - Kashmiri Style Spinach / Palak,2,2025-09-01 00:48:23.517914,foodie
+71,2111,Mulakushyam Recipe - A Mixed Vegetable Lentil Curry,3,2025-08-25 00:48:23.518045,foodie
+71,317,Paka Kela Ki Sabzi Recipe | Paka Kela nu Shaak | Gujarati Jain Recipe,4,2025-09-03 00:48:23.518180,foodie
+71,11962,Gujarati Kadhi With Milk And Mint Recipe,5,2025-09-06 00:48:23.518314,foodie
+71,10002,Srilankan Style Sambol Recipe,4,2025-10-09 00:48:23.518450,foodie
+71,8951,Spring Onion Pakora Recipe - Made In Kuzhi Paniyaram Pan,4,2025-10-12 00:48:23.518583,foodie
+71,8853,Motichoor Modak Recipe,3,2025-09-02 00:48:23.518715,foodie
+71,5377,Roasted Beet & Walnut Dip Recipe,5,2025-10-21 00:48:23.518856,foodie
+71,89,Bengali Chirer Payesh / Poha Pudding Recipe With Nolen Gur,3,2025-09-07 00:48:23.519019,foodie
+71,1106,Rajasthani Ghasela Recipe (Besan Ka Pitta),3,2025-09-14 00:48:23.519158,foodie
+72,5889,स्पाइसी वेजीटेरियन हक्का नूडल्स रेसिपी - Vegetarian Hakka Noodles Recipe,5,2025-10-02 00:48:23.520000,diet_restricted
+72,686,Guacamole Stuffed Quesadilla With Mint Mayo Recipe,1,2025-09-17 00:48:23.520166,diet_restricted
+72,2206,Bengali Holud Mishti Pulao Recipe - Saffron Flavored Rice With Nuts,3,2025-09-17 00:48:23.520319,diet_restricted
+72,2793,Turai Aloo Ki Sabzi Recipe - Ridge Gourd Potato Curry,3,2025-09-05 00:48:23.520480,diet_restricted
+72,3567,Vegetable Tartlets Recipe,1,2025-09-20 00:48:23.520733,diet_restricted
+72,6625,Oriya Kakharu Phula Bhaja Recipe (Pumpkin Flower Fritters),4,2025-09-29 00:48:23.521075,diet_restricted
+72,2233,Roasted Tomato Basil Pasta & Pizza Sauce Recipe,1,2025-08-18 00:48:23.521478,diet_restricted
+72,13486,Kambu Murukku Recipe,2,2025-10-10 00:48:23.521720,diet_restricted
+72,550,Chatpati Sattu Ki Kachori Recipe - Kachori Stuffed With Sattu And Pickle,5,2025-10-09 00:48:23.521954,diet_restricted
+72,1050,Punjabi Mooli Ki Bhurji Recipe,3,2025-08-20 00:48:23.522121,diet_restricted
+72,6213,Fish Sukka Recipe - Fish With Spicy Masala Filling,5,2025-08-06 00:48:23.522268,diet_restricted
+72,14026,Creamy Spinach And Potato Breakfast Casserole Recipe,3,2025-09-13 00:48:23.522414,diet_restricted
+72,4193,Easy Tomato And Cheese Mini Pizza Recipe,1,2025-10-18 00:48:23.522561,diet_restricted
+72,9993,Bhindi Gosht Recipe-Okra With Meat In Coconut Gravy,4,2025-09-21 00:48:23.522701,diet_restricted
+72,6565,Masoor Moong Phali Ki Dal Recipe (Masoor Dal With Peanuts Recipe),4,2025-09-19 00:48:23.522842,diet_restricted
+72,12049,Hash Brown With Spinach & Cheese Recipe,4,2025-08-18 00:48:23.523047,diet_restricted
+72,222,Baby Corn Cigar Recipe,1,2025-10-12 00:48:23.523202,diet_restricted
+72,4934,French Madeleine Recipe,3,2025-08-18 00:48:23.523358,diet_restricted
+72,3418,Goli Baje Recipe - Mangalorean Vada Recipe,1,2025-09-18 00:48:23.523504,diet_restricted
+72,3317,Chettinad Sweet Paniyaram Recipe,5,2025-09-17 00:48:23.523639,diet_restricted
+72,4513,Spicy Hot Chocolate Recipe - Perfect Drink For A Rainy Day or Winters,5,2025-09-06 00:48:23.523774,diet_restricted
+72,7440,Kathirikkai Thogayal Recipe - Thuvaiyal (Spicy Brinjal Chutney Recipe),4,2025-08-01 00:48:23.523913,diet_restricted
+72,1423,Carrot Beet Amaranth Super Salad Recipe,5,2025-09-14 00:48:23.524111,diet_restricted
+72,3876,"Chickpea Salad with Cherry Tomatoes,Olives and Capsicum Recipe",2,2025-09-12 00:48:23.524256,diet_restricted
+72,2858,Menemen Recipe - Turkish Style Egg Scramble With Bell Peppers,2,2025-08-08 00:48:23.524396,diet_restricted
+73,2521,Eggless Dark Chocolate Cookies With Almonds Recipe,4,2025-08-20 00:48:23.525336,health_conscious
+73,4443,Mushroom Empanadas Recipe,5,2025-10-10 00:48:23.525499,health_conscious
+73,1643,Ulundogorai - Spicy Urad Dal flavoured Rice (for Prashad & Naivedyam) Recipe,3,2025-09-05 00:48:23.525653,health_conscious
+73,8864,Shakarkandi Malpua Recipe - Mishti Aloo Malpua Recipe,2,2025-08-30 00:48:23.525802,health_conscious
+73,3430,Vankaya Gasagasala Kura | Andhra Style Eggplant Poppy Seeds Curry Recipe,2,2025-10-18 00:48:23.525951,health_conscious
+73,455,How To Boil Eggs At Home - Boiled Eggs Recipe,4,2025-10-14 00:48:23.526107,health_conscious
+73,546,Dum Pukht Gosht Recipe - Slow Cooked Mutton Curry,4,2025-08-24 00:48:23.526248,health_conscious
+73,6441,Wheat Ladoo With Jaggery Recipe,3,2025-08-17 00:48:23.526388,health_conscious
+73,4768,गाजर का सूप रेसिपी - Carrot Soup Recipe,4,2025-09-23 00:48:23.526533,health_conscious
+73,7939,Vellai/Jaggery Dosa Recipe,3,2025-09-26 00:48:23.526675,health_conscious
+73,521,ओट्स और वेजिटेबल कबाब रेसिपी - Oats and Vegetable Kebab Recipe,2,2025-10-03 00:48:23.526818,health_conscious
+73,482,Tarkari Ni Kari Recipe (Parsi Style Vegetable Curry),5,2025-10-08 00:48:23.526995,health_conscious
+73,3867,"Cabbage, Bell Pepper and Apples with Sriracha Slaw Recipe ",5,2025-10-19 00:48:23.527147,health_conscious
+73,7947,Arbi Ke Patte Ke Pakode - Colocasia Leaf Rolls Recipe,3,2025-09-30 00:48:23.527290,health_conscious
+73,1558,Coconut Banana Oatmeal Porridge Recipe,3,2025-09-15 00:48:23.527432,health_conscious
+73,6749,Creamy Phirni Recipe - North Indian Rice Pudding,2,2025-09-06 00:48:23.527574,health_conscious
+73,3347,Matar Kachori Recipe,4,2025-08-11 00:48:23.527712,health_conscious
+73,6771,Singhara Pulao Recipe - Water Chestnut Mixed Rice,4,2025-09-20 00:48:23.527854,health_conscious
+73,2739,Pinacolada Smoothie Recipe,1,2025-09-14 00:48:23.527995,health_conscious
+73,13445,Jolada Roti Recipe - Jowar Bhakri,2,2025-08-31 00:48:23.528138,health_conscious
+73,181,फ्रूट पचड़ी रेसिपी - Fruit Pachadi (Recipe In Hindi),1,2025-09-17 00:48:23.528286,health_conscious
+73,2551,Spicy Chana Chaat Frankie Recipe,2,2025-10-19 00:48:23.528431,health_conscious
+73,4920,Paneer Chilli Dosa Recipe - Spicy Cottage Cheese Dosa,2,2025-09-20 00:48:23.528571,health_conscious
+74,13087,Kathiyawadi Stuffed Onion Recipe,1,2025-09-22 00:48:23.529440,diet_restricted
+74,2717,Alu Bukhara Murgh Recipe - Chicken With Indian Plums,5,2025-08-26 00:48:23.529603,diet_restricted
+74,292,Soft Millet Taco Recipe Topped With Hummus & Veggies,4,2025-08-20 00:48:23.529806,diet_restricted
+74,207,Steamed Bafauri Recipe (Bhojpuri Style Steamed Chana Dal Balls),5,2025-10-10 00:48:23.529960,diet_restricted
+74,4350,Fada Ni Khichdi Recipe,2,2025-08-08 00:48:23.530110,diet_restricted
+74,10002,Srilankan Style Sambol Recipe,4,2025-09-01 00:48:23.530253,diet_restricted
+74,12132,Khajoor Imli Ki Chutney With Panch Phoran Masala Recipe,5,2025-09-16 00:48:23.530392,diet_restricted
+74,8385,Bengali Style Shaak Bhaja Recipe (Stir Fried Green Amaranth leaves Recipe),4,2025-08-03 00:48:23.530534,diet_restricted
+74,1099,Wheat Rava Halwa Recipe,5,2025-08-12 00:48:23.530681,diet_restricted
+74,3628,Spinach & Broad Bean Shakshuka Recipe,3,2025-09-03 00:48:23.530822,diet_restricted
+74,11084,Karjikai (Karnataka Style Deep Fried Sweet Pastry Recipe),5,2025-10-12 00:48:23.531004,diet_restricted
+74,4519,Doi Shorshe Chingri - Prawn Mustard Curry Recipe,2,2025-09-03 00:48:23.531156,diet_restricted
+74,2576,Crispy Oven Roasted Curried Chickpeas Recipe,4,2025-08-27 00:48:23.531295,diet_restricted
+74,9071,Eggless Apple Strudel Recipe With Homemade Pastry Sheet,5,2025-08-05 00:48:23.531434,diet_restricted
+74,5077,हरी चटनी आलू चाट रेसिपी - Green Chutney Aloo Chaat Recipe,3,2025-09-29 00:48:23.531584,diet_restricted
+74,5310,Tandoori Chickpea & Cauliflower Curry Recipe (Vegan Curry),4,2025-09-14 00:48:23.531725,diet_restricted
+74,3825,Indian Style Beetroot Soup Recipe,3,2025-09-04 00:48:23.531866,diet_restricted
+74,8499,Healthy Maravalli Kizhangu Bonda Recipe - Spicy Tapioca Fritters,4,2025-10-27 00:48:23.532006,diet_restricted
+74,5745,Nawabi Paneer Curry Recipe,4,2025-09-10 00:48:23.532145,diet_restricted
+74,347,Carrot Chutney Recipe,5,2025-10-04 00:48:23.532281,diet_restricted
+74,2103,Cranberry Cookie Recipe,3,2025-08-04 00:48:23.532425,diet_restricted
+75,3464,दोंडकई पुली करी रेसिपी - Dondakkai Puli Curry Recipe,2,2025-09-11 00:48:23.533249,diet_restricted
+75,7913,Surul Appam Recipe,4,2025-09-17 00:48:23.533410,diet_restricted
+75,571,Tzatziki Recipe - A Greek Yogurt Dip,4,2025-08-30 00:48:23.533559,diet_restricted
+75,1757,बेक्ड चना दाल वड़ा रेसिपी - Baked Chana Dal Vada Recipe,4,2025-10-23 00:48:23.533705,diet_restricted
+75,951,वेपमपू करा कोलंब रेसिपी - Vepampoo Kara Kuzhambu Recipe,3,2025-09-07 00:48:23.533844,diet_restricted
+75,6229,Gujarati Trevti Dal Recipe (Creamy Lentils Cooked In Mild Spices),4,2025-09-03 00:48:23.533983,diet_restricted
+75,7883,Oriya Kancha Kadali Bara Recipe (Raw Banana Cutlets),3,2025-10-23 00:48:23.534133,diet_restricted
+75,2993,Gola Kebab (Indian Style Meat Balls) Recipe,2,2025-08-16 00:48:23.534278,diet_restricted
+75,9218,Palak Makhana Recipe (Navratri Fasting/Vrat Recipe),4,2025-08-04 00:48:23.534417,diet_restricted
+75,12524,Dry Jamun Recipe,5,2025-10-18 00:48:23.534553,diet_restricted
+75,2754,Kashmiri Style Noon Chai Recipe - Pink Tea,5,2025-10-25 00:48:23.534691,diet_restricted
+75,4910,गुट्टी वांकाया रेसिपी - Gutti Vankaya Recipe,5,2025-10-13 00:48:23.534824,diet_restricted
+75,2856,Beer Batter Prawns Recipe,2,2025-09-14 00:48:23.534965,diet_restricted
+75,8725,Lavender Lemonade Cooler Recipe,5,2025-10-12 00:48:23.535126,diet_restricted
+75,5761,Chammanthi Chutney Recipe (Coconut And Onion Chutney),5,2025-08-27 00:48:23.535267,diet_restricted
+75,1654,Baked Bhakarwadi Recipe,4,2025-08-15 00:48:23.535406,diet_restricted
+76,7139,Paatolyo Recipe (Goan Sweet Dish),5,2025-09-01 00:48:23.536204,time_constrained
+76,1344,Mutton Khurdi Recipe - Bohra Style White Mutton Stock Soup,4,2025-08-12 00:48:23.536355,time_constrained
+76,2477,Bengali Dhokar Dalna Recipe,2,2025-10-07 00:48:23.536498,time_constrained
+76,3387,Cucumber Tomato Corn Peanut Salad With Lemon Recipe,4,2025-09-16 00:48:23.536635,time_constrained
+76,1104,Healthy Pumpkin Carrot Idli Recipe,3,2025-08-11 00:48:23.536868,time_constrained
+76,575,Eggless Fudgy Chocolate Chunk Brownie Recipe,2,2025-10-01 00:48:23.537375,time_constrained
+76,6098,Sabsige Soppu Kootu (Dill Leaf Curry) Recipe,3,2025-10-15 00:48:23.537560,time_constrained
+76,6321,Savory Melon Salad Recipe - Spiced with Ginger & Mint,5,2025-09-18 00:48:23.537736,time_constrained
+76,2494,Zesty Fish Quiche Recipe Flavored With Cheesy Garlic Mayo,2,2025-10-28 00:48:23.537910,time_constrained
+76,3795,Punjabi Style Moth Beans Dal Recipe (Matki),2,2025-08-11 00:48:23.538089,time_constrained
+76,9570,Murunga Keerai Urula Poriyal Recipe - Moringa Aloo Sabzi,2,2025-08-31 00:48:23.538282,time_constrained
+76,10798,Whole Wheat Chocolate Cinnamon Cupcakes Recipe,3,2025-08-17 00:48:23.538428,time_constrained
+76,8200,मखाना पकोरा रेसिपी - Puffed Lotus Seed Pakoras Recipe,4,2025-09-03 00:48:23.538565,time_constrained
+76,1521,Vegan Cashew Mayonnaise Recipe,4,2025-10-08 00:48:23.538729,time_constrained
+76,3136,Chinese Style Stir Fried Water Chest Nut with Vegetables Recipe,1,2025-08-14 00:48:23.538868,time_constrained
+76,7658,Strawberry Panna Cotta Tart With Chocolate Ganache Recipe,1,2025-10-04 00:48:23.539004,time_constrained
+76,7398,Spinach Tomato Soup Italian Style Recipe,3,2025-09-20 00:48:23.539137,time_constrained
+76,4095,Pumpkin Hummus Recipe,3,2025-10-04 00:48:23.539301,time_constrained
+76,1602,Andhra Style Allam Pachadi (Ginger Chutney Recipe),4,2025-10-20 00:48:23.539437,time_constrained
+76,352,Coconut Chocolate Balls Recipe,1,2025-08-13 00:48:23.539577,time_constrained
+76,1816,Roasted Potato Wrap/Roll Recipe With Spiced Cheese Spread,4,2025-10-27 00:48:23.539714,time_constrained
+76,6258,Cabbage Slaw with Ginger Tahini Dressing Recipe,5,2025-10-05 00:48:23.539845,time_constrained
+76,1842,Homemade Summer Pasta Salad Recipe With Herbs,3,2025-09-22 00:48:23.539980,time_constrained
+77,3552,One Pot Pressure Cooker Chicken Curry Recipe,2,2025-08-10 00:48:23.540866,health_conscious
+77,3164,Almond Butter & Fig Muesli Bar Recipe,2,2025-09-06 00:48:23.541033,health_conscious
+77,9318,Pudina Shavige Recipe - Pudina Semiya Upma Recipe,2,2025-10-18 00:48:23.541182,health_conscious
+77,299,Tofu Bhurji Recipe - Spicy Scrambled Tofu,3,2025-07-31 00:48:23.541330,health_conscious
+77,959,Penne Pasta In White Sauce Recipe,1,2025-10-09 00:48:23.541477,health_conscious
+77,1218,Punjabi Lobia Masala Recipe (Punjabi Style Black Eyed Beans Curry),4,2025-09-15 00:48:23.541623,health_conscious
+77,5807,Soba Noodle Salad Recipe,2,2025-10-10 00:48:23.541782,health_conscious
+77,4496,Aloo Bhindi Recipe Flavored With Mustard And Poppy Seeds,4,2025-10-13 00:48:23.541930,health_conscious
+77,3630,Raw Mango Prawns Curry Recipe,3,2025-09-18 00:48:23.542076,health_conscious
+77,4042,अकुरी हरे मटर के साथ रेसिपी - Parsi Style Scrambled Eggs with Green Peas (Recipe In Hindi),3,2025-09-28 00:48:23.542219,health_conscious
+77,5919,Karnataka Style Chicken Saaru Recipe,1,2025-09-11 00:48:23.542361,health_conscious
+77,3149,Chikkudukaya Vepudu Recipe-Broad Beans Masala Poriyal,5,2025-08-09 00:48:23.542498,health_conscious
+77,2568,Chickpea Flour Crepes Recipe With Salad And Chutney Spread,3,2025-10-02 00:48:23.542666,health_conscious
+77,11034,Eggless Nutella Swirl Cupcakes Recipe,1,2025-08-03 00:48:23.542814,health_conscious
+77,3516,Nagori Puri Recipe (Semolina Puri),1,2025-08-16 00:48:23.542957,health_conscious
+77,2628,Rajasthani Kadhi Recipe,4,2025-10-10 00:48:23.543099,health_conscious
+77,364,Thai Som Tum Recipe (Thai Green Papaya Salad),3,2025-09-11 00:48:23.543246,health_conscious
+77,3311,Besan And Green Pea Cheela Recipe,2,2025-08-22 00:48:23.543391,health_conscious
+77,3273,Andhra Style Sarva Pindi/Gine Pindi Recipe (Rice Flour and Chana Dal Flatbread Recipe),1,2025-09-21 00:48:23.543536,health_conscious
+77,1666,Cucumber Neer Dosa Recipe-Rice Pancake,1,2025-08-22 00:48:23.543678,health_conscious
+77,2963,Tomato and Sunflower Seed Dip Recipe,4,2025-10-26 00:48:23.543818,health_conscious
+77,7251,Pumpkin Sabzi Recipe with Panch Phoron Masala,4,2025-07-31 00:48:23.543959,health_conscious
+77,1536,Stuffed Chicken Recipe With Mixed Vegetables,3,2025-10-17 00:48:23.544102,health_conscious
+77,5427,Ragi Pachchai Maa Puli Upma Recipe - Ragi Flour Upma Recipe,5,2025-10-24 00:48:23.544240,health_conscious
+78,2154,Spinach Hummus Recipe,4,2025-08-10 00:48:23.545089,time_constrained
+78,2351,Besan Bread Toast Recipe On Tawa - Vegetarian French Toast,5,2025-10-09 00:48:23.545238,time_constrained
+78,4403,Kerala Style Beetroot Pachadi Recipe,4,2025-08-23 00:48:23.545388,time_constrained
+78,6732,Sutlac Recipe - Rose Infused Turkish Rice Pudding,4,2025-09-26 00:48:23.545529,time_constrained
+78,2856,Beer Batter Prawns Recipe,2,2025-10-03 00:48:23.545665,time_constrained
+78,12560,Maharashtrian Style Kelfulachi Bhaji Recipe - Banana Flower Stir Fry Recipe,2,2025-08-15 00:48:23.545801,time_constrained
+78,5591,Chatpata Kabuli Chana Salad - Chickpea Salad Recipe,2,2025-08-27 00:48:23.545939,time_constrained
+78,8737,Thavala Adai Recipe,4,2025-10-28 00:48:23.546085,time_constrained
+78,5222,पंजाबी स्टाइल एस्प्रेसो कॉफ़ी रेसिपी - Punjabi Style Espresso Coffee Recipe,2,2025-08-09 00:48:23.546224,time_constrained
+78,3285,Raw Mango Raita Recipe,5,2025-09-19 00:48:23.546357,time_constrained
+78,510,Mexican Lime Chicken Recipe,3,2025-10-12 00:48:23.546494,time_constrained
+78,1993,Herbed Potato Salad Recipe,3,2025-10-24 00:48:23.546650,time_constrained
+78,3723,Chettinad Keerai Mandi Recipe With Amaranth Greens,5,2025-09-18 00:48:23.546792,time_constrained
+78,3703,Prawns Biryani Recipe,1,2025-10-16 00:48:23.546929,time_constrained
+78,99,Paal Kesari Recipe - South Indian Style Milk Kesari,3,2025-08-17 00:48:23.547065,time_constrained
+78,10002,Srilankan Style Sambol Recipe,3,2025-09-02 00:48:23.547208,time_constrained
+78,1732,Palak Kichdi Recipe,3,2025-08-14 00:48:23.547343,time_constrained
+78,137,Ragi Masala Roti Recipe,5,2025-08-26 00:48:23.547477,time_constrained
+78,12573,Pahadi Chicken Curry Recipe,5,2025-10-25 00:48:23.547610,time_constrained
+78,4799,Baked Yogurt With Honey Cinnamon Grilled Fruits Recipe,2,2025-08-13 00:48:23.547742,time_constrained
+78,5064,Avocado Tomato Grilled Cheese Sandwich Recipe,4,2025-08-04 00:48:23.547874,time_constrained
+78,460,Taiwanese Pineapple Cake Recipe - Shortcrust Pastry Cake,4,2025-10-24 00:48:23.548014,time_constrained
+78,5841,Sundried Tomato Pesto Recipe,5,2025-10-21 00:48:23.548144,time_constrained
+79,6294,Croissant Recipe,2,2025-09-27 00:48:23.549020,traditional
+79,1162,Foxtail Millet Rava Idli Recipe,5,2025-10-11 00:48:23.549180,traditional
+79,8615,Mambhazam Pulissery Recipe,4,2025-10-07 00:48:23.549344,traditional
+79,3927,Tuna Roasted Mushroom Sandwich Recipe with Tartare Dip Mayo,3,2025-08-04 00:48:23.549514,traditional
+79,3016,Apple Cinnamon French Toast Recipe,3,2025-09-05 00:48:23.549671,traditional
+79,2130,Parsi Style Baingan Capsicum Ka Salan Recipe,3,2025-08-30 00:48:23.549840,traditional
+79,572,क्रिस्पी पालक पकोरा रेसिपी - Crispy Palak Pakora Recipe,5,2025-08-26 00:48:23.550003,traditional
+79,3112,Paan Gulkand Sharbat Recipe,5,2025-09-02 00:48:23.550154,traditional
+79,6127,Curd Oats Recipe,5,2025-10-08 00:48:23.550295,traditional
+79,3153,"Kala Chana Salad Recipe With Carrots, Cucumber & Tomatoes ",5,2025-10-18 00:48:23.550444,traditional
+79,7424,Chicken Mie Goreng Recipe - Noodles Tossed In Sriracha Sauce,2,2025-09-02 00:48:23.550610,traditional
+79,5811,Aloo Raswala Sabzi Recipe,5,2025-09-30 00:48:23.550789,traditional
+79,8449,Tamil Nadu Style Arachuvitta Rasam Recipe,5,2025-09-25 00:48:23.550932,traditional
+79,3680,Kerala Style Chakka Varattiyathu Ari Payasam Recipe - Jackfruit Brown Rice Kheer,3,2025-10-09 00:48:23.551090,traditional
+79,9662,पत्ता गोभी पचड़ी रेसिपी - Cabbage Pachadi (Recipe In Hindi),5,2025-08-07 00:48:23.551259,traditional
+79,3955,Lal Mathachi Bhaji Recipe - Amaranth Leaves Moong Sprouts Sabzi,5,2025-09-20 00:48:23.551426,traditional
+79,8587,Lauki Bharta Recipe - Spiced & Mashed Bottled Gourd Recipe,5,2025-10-06 00:48:23.551576,traditional
+79,5502,Pineapple Chicken Curry Recipe,4,2025-09-02 00:48:23.551741,traditional
+79,966,बनारसी स्टाइल टमाटर चाट रेसिपी - Tamatar Chaat Banarasi Style (Recipe In Hindi),2,2025-10-09 00:48:23.551936,traditional
+79,7358,Mughlai Dum Arbi Recipe,5,2025-09-11 00:48:23.552093,traditional
+79,5804,Cantonese Style Dimsums Recipe-Sweet Corn & Tofu Steamed Dumpling,2,2025-10-05 00:48:23.552259,traditional
+80,3600,Pheki Mathri Recipe - Crispy Fried Savoury Fritters,5,2025-09-21 00:48:23.553394,traditional
+80,11012,Carrot Cake Recipe for Healthy Heart,3,2025-09-06 00:48:23.553604,traditional
+80,3128,Kaanole Recipe (Maharashtrian Steamed Wheat Flour Sweet),5,2025-10-09 00:48:23.553780,traditional
+80,6250,Thai Green Curry Recipe With Sweet Potato & Green Beans,4,2025-09-24 00:48:23.553960,traditional
+80,1679,Moong Matar Kebab Recipe - Green Lentil And Peas Kebab,2,2025-08-05 00:48:23.554121,traditional
+80,610,Crispy Eggless Pinwheels Bread Recipe,2,2025-09-10 00:48:23.554293,traditional
+80,747,Bhindi Raita Recipe (Okra Salad),5,2025-08-28 00:48:23.554452,traditional
+80,3547,Baked Penne Pasta With Roasted Peppers In Marinara Sauce Recipe,2,2025-10-08 00:48:23.554621,traditional
+80,11869,पितोर की सब्ज़ी रेसिपी - Pitor Ki Sabzi Recipe,3,2025-09-21 00:48:23.554839,traditional
+80,7935,Hesarukalu Bele Kosambari Recipe-Sprouted Green Moong With Tadka,5,2025-08-13 00:48:23.554984,traditional
+80,1887,पहाड़ी स्टाइल फनु रेसिपी - Pahari Style Phanu Recipe,3,2025-09-28 00:48:23.555175,traditional
+80,3601,Red Capsicum Chutney Recipe - Red Bell Pepper Chutney,5,2025-09-05 00:48:23.555318,traditional
+80,4314,Chicken Keema Samosa Recipe,5,2025-10-08 00:48:23.555476,traditional
+80,3497,Besan Aur Pyaz Ka Cheela Recipe - Roz Ka Khana With Figaro Olive Oil,5,2025-08-03 00:48:23.555626,traditional
+80,6402,Rajasthani Chawle Wale Dhokle Recipe,4,2025-08-13 00:48:23.555794,traditional
+80,12136,कढ़ाई पनीर रेसिपी - Kadai Paneer (Recipe In Hindi),5,2025-08-22 00:48:23.555978,traditional
+80,12374,गुजराती वाघरेली मग रेसिपी - Gujarati Vaghareli Mag (Recipe in Hindi),5,2025-10-13 00:48:23.556170,traditional
+80,6615,पालक कढ़ी रेसिपी - Palak Kadhi Recipe,2,2025-08-26 00:48:23.556351,traditional
+80,8606,Spiced Bottle Gourd And Spinach Juice Recipe,1,2025-10-12 00:48:23.556517,traditional
+80,12512,Paneer Bhurji Wraps Recipe,5,2025-10-18 00:48:23.556654,traditional
+80,2722,Masala Jowar Methi Roti Recipe,5,2025-10-17 00:48:23.556829,traditional
+80,7632,Tomato Rice With Basil Recipe,5,2025-09-14 00:48:23.556980,traditional
+80,7582,Coffee Raisin Cake With Sugar Glaze Recipe,2,2025-08-03 00:48:23.557149,traditional
+81,8081,Kolhapuri Akkha Masoor Dal Recipe (Masoor Dal in Kholapuri Masala),3,2025-08-23 00:48:23.557993,foodie
+81,3381,Green Chutney Aloo Chaat Recipe,5,2025-08-29 00:48:23.558150,foodie
+81,243,Dhania Wale Aloo Recipe - Coriander Potato Dry,4,2025-10-08 00:48:23.558296,foodie
+81,4540,Bow Tie Pasta With Baby Spinach Recipe,3,2025-10-23 00:48:23.558436,foodie
+81,1173,Karnataka Style Avarekalu Huli Saru Recipe (Field Beans in a Coconut based Gravy Recipe),4,2025-09-26 00:48:23.558574,foodie
+81,9132,Indian Spicy Masala Cookie Recipe (Khara Biscuit),4,2025-09-24 00:48:23.558727,foodie
+81,4866,Caramelized Carrots & Pumpkin Seeds Cake Recipe,5,2025-09-13 00:48:23.558873,foodie
+81,5840,Drunken Noodles Recipe - Pad Kee Mao,2,2025-09-05 00:48:23.559009,foodie
+81,1139,Mung Bean Sprouts Salad Recipe With Brussel Sprouts and Pomegranate,4,2025-08-12 00:48:23.559146,foodie
+81,3969,Honey Sesame Chilli Potato Recipe - Indian Chinese Chilli Potato,3,2025-08-25 00:48:23.559281,foodie
+81,2900,Honey Roasted Sweet Potato With Red Onions Recipe,5,2025-09-07 00:48:23.559413,foodie
+81,524,Healthy Fruit & Nut Watermelon Dessert Recipe With Greek Yogurt,4,2025-10-24 00:48:23.559551,foodie
+81,2315,Thai Baked Chicken Satay Recipe With Thai Peanut Sauce,3,2025-09-13 00:48:23.559684,foodie
+81,3194,Mushroom Poha Cutlets Recipe,3,2025-10-02 00:48:23.559827,foodie
+81,4628,Matar Poha Recipe (Flattened Rice Stir Fry with Green Peas),2,2025-08-21 00:48:23.559962,foodie
+81,4852,ऑरेंज रसम रेसिपी - Orange Rasam Recipe,3,2025-09-15 00:48:23.560094,foodie
+81,4268,Eggless Coffee Souffle Recipe With Chocolate Sauce,4,2025-10-15 00:48:23.560226,foodie
+81,6701,Kerala Style Chakkakuru Mezhukkupuratti Recipe-Jackfruit Seed Poriyal,4,2025-09-30 00:48:23.560354,foodie
+81,8716,Hariyali Chicken Tikka Masala Recipe,5,2025-09-19 00:48:23.560482,foodie
+81,6504,मसूर मूंगफली की दाल रेसिपी - Masoor Moong Phali Ki Dal Recipe,4,2025-10-26 00:48:23.560615,foodie
+81,663,Baby Corn Carrot Sabzi Recipe,3,2025-09-03 00:48:23.560768,foodie
+81,521,ओट्स और वेजिटेबल कबाब रेसिपी - Oats and Vegetable Kebab Recipe,4,2025-10-28 00:48:23.560902,foodie
+81,3825,Indian Style Beetroot Soup Recipe,4,2025-10-13 00:48:23.561035,foodie
+81,7708,Jowar and Vegetable Porridge Recipe,4,2025-09-19 00:48:23.561168,foodie
+82,3040,Creamy Garlic Mashed Potatoes Recipe,1,2025-09-25 00:48:23.561994,health_conscious
+82,362,कीरई मसियल रेसिपी - Keerai Masiyal (Recipe In Hindi),4,2025-09-07 00:48:23.562156,health_conscious
+82,12604,Beetroot And Celery Juice Recipe,5,2025-09-03 00:48:23.562306,health_conscious
+82,1466,Leftover Carrot Cake Mini Trifle Recipe,1,2025-09-05 00:48:23.562455,health_conscious
+82,6062,कश्मीरी साग रेसिपी - Kashmiri Saag Recipe,4,2025-09-22 00:48:23.562600,health_conscious
+82,7927,Chettinad Podalangai Vadai Recipe (Chettinad Style Snake Gourd Fritters),5,2025-08-10 00:48:23.562764,health_conscious
+82,10822,South Indian Style Vazhaithandu Poriyal Recipe - Banana Stem Curry with No Onion and No Garlic,1,2025-10-15 00:48:23.562917,health_conscious
+82,8273,Hot Coffee Latte Recipe,4,2025-08-05 00:48:23.563059,health_conscious
+82,5444,Chicken Pakora Recipe - Chicken Fritters,3,2025-08-10 00:48:23.563212,health_conscious
+82,9585,Goan Style Maskachi Bhaji Recipe-Moringa Leaves Stir Fry With Jackfruit Seeds,3,2025-08-31 00:48:23.563356,health_conscious
+82,6386,Lauki Aloo Sabzi Recipe - Bottle Gourd Potato Vegetable Curry,4,2025-09-13 00:48:23.563496,health_conscious
+82,5909,शकरकंदी और करेला कुलंबु रेसिपी - Sweet Potato And Bitter Gourd Kulambu (Recipe In Hindi),4,2025-10-02 00:48:23.563641,health_conscious
+82,6719,Burnt Garlic Chicken Fried Rice Recipe - Indo Chinese Fried Rice,1,2025-09-18 00:48:23.563781,health_conscious
+82,1990,Bajri Methi Na Vada Recipe - Pearl Millet Flour Fritters,3,2025-09-03 00:48:23.563926,health_conscious
+82,10618,Sweet and Spicy Tomato Chutney Recipe,1,2025-09-11 00:48:23.564069,health_conscious
+82,7040,Rajasthani Bajre Ki Khatti Raabdi Recipe,4,2025-07-31 00:48:23.564209,health_conscious
+82,3705,Rye Breakfast Sandwich With Cucumber And Eggs Recipe,4,2025-08-03 00:48:23.564351,health_conscious
+83,8963,Savory Bread Pudding with Broccoli and Tomato Recipe,3,2025-10-25 00:48:23.565183,time_constrained
+83,10209,Instant Kalakand Recipe -Indian Festive Sweet Recipe,3,2025-10-18 00:48:23.565337,time_constrained
+83,532,Cabbage Onion Vada Recipe,1,2025-08-30 00:48:23.565480,time_constrained
+83,2402,Bajra Kaddu Ki Roti Recipe - Bajra Pumpkin Roti Recipe,2,2025-10-26 00:48:23.565620,time_constrained
+83,7634,Udupi Style Alsande Kayi Saaru Recipe (Long Beans Gravy Recipe),3,2025-08-26 00:48:23.565757,time_constrained
+83,3872,Orange Zested Shortbread Cookie Recipe (Egg Free/Eggless),2,2025-09-27 00:48:23.565895,time_constrained
+83,12049,Hash Brown With Spinach & Cheese Recipe,5,2025-10-09 00:48:23.566028,time_constrained
+83,8352,Srilankan Prawn Curry Recipe,4,2025-09-24 00:48:23.566163,time_constrained
+83,2749,Instant Lemon Pickle Recipe,3,2025-09-20 00:48:23.566297,time_constrained
+83,7883,Oriya Kancha Kadali Bara Recipe (Raw Banana Cutlets),3,2025-10-16 00:48:23.566429,time_constrained
+83,9238,Healthy Yogurt Parfait with Oats and Fresh Fruits Recipe,4,2025-08-06 00:48:23.566569,time_constrained
+83,119,मसालेवाली तुरई की सब्ज़ी रेसिपी - Masalewali Turai Sabzi Recipe,1,2025-08-08 00:48:23.566712,time_constrained
+83,10774,Mango Ladoo Recipe,5,2025-08-04 00:48:23.566871,time_constrained
+83,923,Kerala Style Taroo Root Curry Recipe (Colacasia),2,2025-08-03 00:48:23.567006,time_constrained
+83,2873,Seppakizhangu Roast (South Indian Style Arbi Fry) Recipe,2,2025-08-12 00:48:23.567139,time_constrained
+83,10646,Bengali Bhetki Macher Paturi Recipe (Barramundi Fish Wrapped in Banana Leaf),3,2025-08-23 00:48:23.567273,time_constrained
+83,8516,Bhaji Vada Recipe (Lentil And Vegetable Fritters),2,2025-08-25 00:48:23.567409,time_constrained
+83,1653,Focaccia Bread with Sweet Onion and Capers Recipe,3,2025-10-19 00:48:23.567541,time_constrained
+84,8716,Hariyali Chicken Tikka Masala Recipe,4,2025-10-04 00:48:23.568344,foodie
+84,1440,Oats And Date Cookie Recipe,5,2025-10-13 00:48:23.568499,foodie
+84,6786,Mochiko Dango Recipe - Sweet Japanese Dumplings,3,2025-10-14 00:48:23.568850,foodie
+84,8579,Maharashtrian Style Kairichi Dal Recipe (Chana Dal and Raw Mango Hash),4,2025-08-31 00:48:23.569425,foodie
+84,4392,Spicy and Creamy Achari Mushroom Open Toast Recipe,5,2025-08-30 00:48:23.569653,foodie
+84,5976,Mangalorean Manoli Bheeja Upkari Recipe - Ivy Gourd & Cashew Sabzi,4,2025-08-14 00:48:23.569811,foodie
+84,3128,Kaanole Recipe (Maharashtrian Steamed Wheat Flour Sweet),3,2025-10-08 00:48:23.569985,foodie
+84,6959,साउथ इंडियन गाजर पोरियल रेसिपी - Carrot Poriyal (Recipe In Hindi),3,2025-10-08 00:48:23.570125,foodie
+84,6862,"Pita Topped With Oven Roasted Cauliflower, Basil Avocado Sauce Recipe",4,2025-09-04 00:48:23.570261,foodie
+84,7356,Steamed Vegetables With Chilli Lime Butter Recipe,5,2025-09-24 00:48:23.570399,foodie
+84,8464,Roasted Vegetable Au Gratin Recipe,5,2025-08-23 00:48:23.570532,foodie
+84,6353,Ginger Brandy Cookie Recipe,5,2025-09-11 00:48:23.570662,foodie
+84,6003,कथीरिकै रसा वांगी रेसिपी - Kathirikai Rasa Vangi Recipe,5,2025-08-19 00:48:23.570829,foodie
+84,10324,Hariyali Pav Bhaji Recipe,3,2025-09-13 00:48:23.570962,foodie
+84,4891,तुरई बैंगन की सब्ज़ी रेसिपी - Turai Baingan Ki Sabzi Recipe,5,2025-08-04 00:48:23.571095,foodie
+84,2568,Chickpea Flour Crepes Recipe With Salad And Chutney Spread,5,2025-10-16 00:48:23.571228,foodie
+84,5833,Peri Peri Fish Fingers Recipe,5,2025-10-02 00:48:23.571360,foodie
+84,7491,Indo Chinese Soya Stir Fry Recipe With Cashew Nuts,3,2025-09-21 00:48:23.571490,foodie
+84,4436,Kashmiri Saag Recipe - Kashmiri Style Spinach / Palak,4,2025-09-30 00:48:23.571621,foodie
+84,2952,Parsi Style Paneer Charvela Eda Sathe Recipe-Scrambled Eggs with Paneer Recipe,3,2025-10-10 00:48:23.571753,foodie
+84,4000,Hare Tamatar Ki Sabzi Recipe - Raw Tomato Curry,3,2025-08-31 00:48:23.571885,foodie
+84,5415,Ande Ka Salan Recipe - Tangy Egg Masala in Peanut Gravy,3,2025-08-18 00:48:23.572016,foodie
+85,6016,Mexican Style Bunuelos Recipe-Sweet Fritter,4,2025-08-17 00:48:23.573052,diet_restricted
+85,2786,Eggless Mango Cheesecake Recipe,5,2025-08-28 00:48:23.573219,diet_restricted
+85,9357,Allam Pachadi | Ginger Chutney Recipe,5,2025-08-01 00:48:23.573368,diet_restricted
+85,1071,Avocado Parsley Pasta Salad Recipe,4,2025-09-01 00:48:23.573520,diet_restricted
+85,2028,Mexican Inspired Vegetarian Oven Roasted Stuffed Pepper Recipe,2,2025-09-21 00:48:23.573698,diet_restricted
+85,1557,"Peas, Corn & Paneer Savory Hand Pies Recipe",5,2025-09-08 00:48:23.573838,diet_restricted
+85,2147,Sindhi Style Besan Tikki Ki Sabzi Recipe,2,2025-09-08 00:48:23.573982,diet_restricted
+85,6096,Mexican Style Fresh Rajma Bean & Raw Mango Salad Recipe,3,2025-09-29 00:48:23.574127,diet_restricted
+85,336,Spinach And Corn Sandwich Recipe Flavored With Sandwich Spread,5,2025-09-26 00:48:23.574273,diet_restricted
+85,1930,Gavar Pumpkin Sabji Recipe,4,2025-08-29 00:48:23.574418,diet_restricted
+85,2530,Sweet And Spicy Tofu Salad With Beetroot Recipe,5,2025-08-25 00:48:23.574574,diet_restricted
+85,9276,Wholesome Lentil Salad Recipe with Oven Roasted Tomatoes,3,2025-09-02 00:48:23.574715,diet_restricted
+85,4071,पालक और अंडे का मफिन रेसिपी - Spinach Egg Muffins Recipe,4,2025-10-19 00:48:23.574854,diet_restricted
+85,11630,Spicy Mango Lime Grilled Chicken Recipe,3,2025-08-15 00:48:23.575027,diet_restricted
+85,2478,Mushroom Curry Recipe,4,2025-09-28 00:48:23.575169,diet_restricted
+85,6287,Vanilla Fruit Sauce With Left Over Fruits Recipe,5,2025-10-28 00:48:23.575308,diet_restricted
+85,2628,Rajasthani Kadhi Recipe,3,2025-09-09 00:48:23.575449,diet_restricted
+85,2388,Stuffed Capsicum With Sweet Potato Recipe,2,2025-10-05 00:48:23.575589,diet_restricted
+85,313,Crispy Vegetable Tempura Recipe,5,2025-08-21 00:48:23.575727,diet_restricted
+85,2916,Herbed Brown Rice Recipe,3,2025-08-03 00:48:23.575869,diet_restricted
+85,8882,Anar & Aloo Pakora Recipe - Dry Pomegranate & Potato Pakora,4,2025-10-22 00:48:23.576011,diet_restricted
+85,1009,लाहोरी आलू रेसिपी - Lahori Aloo (Recipe In Hindi),4,2025-09-07 00:48:23.576151,diet_restricted
+85,8673,नागालैंड स्टाइल पम्पकिन ओमबाल रेसिपी - Nagaland Style Pumpkin Oambal Recipe,4,2025-09-28 00:48:23.576291,diet_restricted
+85,9153,Tindora Ka Salan Recipe,2,2025-10-24 00:48:23.576430,diet_restricted
+86,2253,Chicken Tariwala Recipe - Punjabi Murgh Tariwala Recipe,5,2025-08-12 00:48:23.577298,traditional
+86,11412,Konkani Style Koli Masala Recipe- Spice Mix,3,2025-09-11 00:48:23.577478,traditional
+86,6050,चेटिनाड बीन्स और गोभी पोरियल रेसिपी - Chettinad Beans & Cauliflower Poriyal (Recipe In Hindi),3,2025-09-28 00:48:23.577665,traditional
+86,7647,Raw Papaya Kofta In Yogurt Curry Recipe,5,2025-08-01 00:48:23.577830,traditional
+86,10998,Chettinad Idiyappam Recipe,4,2025-10-08 00:48:23.578002,traditional
+86,12429,Mexican Taco Recipe With Refried Beans & Fresh Summer Salad,2,2025-10-18 00:48:23.578167,traditional
+86,3010,Baingan Tamatar Sabzi - Brinjal/ Eggplant Masala Recipe,5,2025-08-07 00:48:23.578317,traditional
+86,6137,Chana Dal And Methi Ki Sabzi Recipe,5,2025-09-07 00:48:23.578460,traditional
+86,6612,Tangy Corn Tamatar Bharta Recipe,5,2025-10-01 00:48:23.578616,traditional
+86,1672,Andhra Style Bangaladumpa Vepudu Recipe - Potato Fry Recipe,4,2025-10-06 00:48:23.578773,traditional
+86,1739,Andhra Style Erra Kaaram Dosa Recipe (Spicy Red Chilli Chutney Dosa Recipe),4,2025-09-19 00:48:23.578947,traditional
+86,1282,Palak Bhajia Recipe - Spinach Pakoras,5,2025-08-28 00:48:23.579101,traditional
+86,3765,Murg Malai Kebab Recipe (Reshmi Kebab),3,2025-08-24 00:48:23.579271,traditional
+86,1535,Scrambled Paneer Sandwich Recipe,3,2025-10-27 00:48:23.579424,traditional
+86,959,Penne Pasta In White Sauce Recipe,3,2025-10-09 00:48:23.579594,traditional
+87,1408,Petha Wadi Sabzi Recipe,4,2025-09-25 00:48:23.580394,foodie
+87,10205,Hurali Kalu Chutney Recipe - Horse Gram Chutney Recipe,4,2025-08-20 00:48:23.580549,foodie
+87,5171,Zucchini Boats With Chickpeas In Tomato Hummus Recipe,4,2025-09-14 00:48:23.580690,foodie
+87,2275,Mustard Green Chilli Pickle Recipe,3,2025-10-06 00:48:23.580832,foodie
+87,5273,Green Beans Salad Recipe,5,2025-10-12 00:48:23.580993,foodie
+87,8990,Aloo Matar Paneer Curry Recipe,3,2025-10-04 00:48:23.581131,foodie
+87,8671,Kerala Style Varutharacha Mutton Curry Recipe,4,2025-10-11 00:48:23.581264,foodie
+87,6445,Cheese Stuffed Mashed Potato Balls Recipe (Non Fried),5,2025-08-17 00:48:23.581401,foodie
+87,5226,Thai Style Noodles With Spinach And Leeks Recipe,4,2025-09-01 00:48:23.581538,foodie
+87,301,Stuffed Mooli Paneer Paratha Recipe,4,2025-08-07 00:48:23.581674,foodie
+87,7369,Chicken Pizza With Caramelised Red Onion Recipe,5,2025-10-20 00:48:23.581803,foodie
+87,11924,Chilled Spinach And Cucumber Soup Recipe,5,2025-10-13 00:48:23.581940,foodie
+87,10214,Thai Style Sweet And Sour Cucumber & Carrot Salad Recipe,3,2025-08-12 00:48:23.582078,foodie
+87,11737,Chicken In Thai Basil Sauce Recipe,4,2025-08-16 00:48:23.582212,foodie
+87,4566,Red Wine Sauce Over Baked Sol Fish Recipe,5,2025-10-23 00:48:23.582346,foodie
+87,2197,Parmesan Corn Chili Fries Recipe,4,2025-08-04 00:48:23.582475,foodie
+87,5797,Pitor Ki Sabzi Recipe,4,2025-08-13 00:48:23.582604,foodie
+87,11005,Green Moong Dal Kootu with Raw Banana Peel Recipe,5,2025-10-10 00:48:23.582736,foodie
+88,4090,Punjabi Style Tinda Sabzi Recipe,4,2025-09-06 00:48:23.583583,foodie
+88,6560,Khatti Meethi Tinda Masala Recipe,4,2025-10-28 00:48:23.583739,foodie
+88,5347,Raab Recipe - Immunity Building Home Remedy Made From Millet Flour,3,2025-10-08 00:48:23.583881,foodie
+88,9553,Egg Lifafa Paratha Recipe,4,2025-10-12 00:48:23.584019,foodie
+88,12573,Pahadi Chicken Curry Recipe,4,2025-08-11 00:48:23.584159,foodie
+88,6690,Sindhi Style Doda Recipe (Spring Onion Rice Flour Flat Bread Recipe),4,2025-10-17 00:48:23.584298,foodie
+88,1715,Minced Meat And Egg Croquettes Recipe,4,2025-08-09 00:48:23.584448,foodie
+88,863,Carrot and Ginger Spiced Dosa Recipe,3,2025-08-18 00:48:23.584717,foodie
+88,2423,Pudina Rasam Recipe - Mint Leaves Rasam,4,2025-08-13 00:48:23.584932,foodie
+88,1492,Gujarati Style Multigrain Masala Kadak Puri Recipe - Masala Mathri,3,2025-09-04 00:48:23.585134,foodie
+88,413,Broken Wheat Upma Or Dalia Khichdi Recipe for Babies & Toddlers,4,2025-08-21 00:48:23.585274,foodie
+88,170,Dahi Wale Aloo Recipe (Indian Yogurt-based Potato Curry),4,2025-10-13 00:48:23.585412,foodie
+88,6287,Vanilla Fruit Sauce With Left Over Fruits Recipe,5,2025-08-02 00:48:23.585549,foodie
+88,1980,Spicy Egg Biryani Recipe with Figaro Olive Oil,4,2025-09-26 00:48:23.585682,foodie
+88,1511,Ragi Wheat Phulka Recipe- Diabetic Friendly Ragi Roti,3,2025-10-20 00:48:23.585818,foodie
+88,288,Spicy Paneer Bhurji Pav Sandwich Recipe - Breakfast Recipe,3,2025-08-14 00:48:23.585952,foodie
+88,4717,Eggless Marble Cake Recipe,5,2025-10-05 00:48:23.586086,foodie
+88,8723,Green Moong Dal Cheela Recipe - Savory Green Mung Bean Pancakes,4,2025-10-02 00:48:23.586220,foodie
+88,15,Saunf Aloo (Fennel Potato Curry) Recipe,2,2025-09-27 00:48:23.586356,foodie
+88,857,Parsi Style Sekta Ni Sing Recipe-Sweet & Spicy Drumsticks Cooked In Coconut Water/Toddy Recipe),4,2025-09-15 00:48:23.586488,foodie
+88,3118,Chow Chow Verkadalai Masala Curry Recipe - Chayote Peanut Poriyal Recipe,3,2025-08-09 00:48:23.586623,foodie
+88,1462,Pakistani Style Tinde Ki Tarkari Recipe - Apple Gourds Cooked With Tomatoes,3,2025-08-27 00:48:23.586757,foodie
+88,8455,Muesli Chia Seed and Dry Fruit Jar Recipe,5,2025-09-01 00:48:23.586891,foodie
+89,4920,Paneer Chilli Dosa Recipe - Spicy Cottage Cheese Dosa,3,2025-08-25 00:48:23.587751,health_conscious
+89,6270,Mixed Vegetable Noodle Cutlet Recipe,3,2025-10-20 00:48:23.587916,health_conscious
+89,2431,Makai Wali Bhindi Recipe,4,2025-08-27 00:48:23.588069,health_conscious
+89,4730,Thai Style Curried Corn Fritters Recipe,5,2025-08-31 00:48:23.588218,health_conscious
+89,3032,Apple Empanadas Recipe,3,2025-07-31 00:48:23.588362,health_conscious
+89,6775,Buttered Green Beans Recipe - Finger Food for Toddlers,2,2025-09-03 00:48:23.588506,health_conscious
+89,911,Baked Paneer Corn Kebab Recipe,3,2025-09-11 00:48:23.588654,health_conscious
+89,4274,Hyderabadi Marag Recipe,4,2025-09-02 00:48:23.588797,health_conscious
+89,5135,Asian Shrimp And Veggie Bowl Recipe,1,2025-09-14 00:48:23.588940,health_conscious
+89,8595,Spicy Tandoori Paneer Open Puff Recipe,3,2025-10-19 00:48:23.589109,health_conscious
+89,3153,"Kala Chana Salad Recipe With Carrots, Cucumber & Tomatoes ",3,2025-08-29 00:48:23.589257,health_conscious
+89,6753,Cheesy Kulcha Sandwich Recipe With Ghee Roast Mushrooms,3,2025-09-05 00:48:23.589403,health_conscious
+89,5727,Kashmiri Style Tamatar Chaman Recipe -Paneer Cooked With Tomatoes,5,2025-08-25 00:48:23.589546,health_conscious
+89,80,Radish Soup Recipe,5,2025-10-14 00:48:23.589687,health_conscious
+89,2051,Quinoa-Flaxseed Banana Muffins Recipe,3,2025-08-20 00:48:23.589832,health_conscious
+89,11877,टमाटर प्याज वाली अरबी की सब्ज़ी रेसिपी - Arbi Tomato Onion Sabzi (Recipe In Hindi),5,2025-09-24 00:48:23.589971,health_conscious
+89,9673,Warm Roasted Beet Salad Recipe - Roz Ka Khana With Figaro Olive Oil,4,2025-09-23 00:48:23.590114,health_conscious
+89,1989,Oven Crisped Burritos with Shredded Chicken Recipe,2,2025-09-29 00:48:23.590254,health_conscious
+89,249,Dahi Bhindi Recipe - Okra in Yogurt Curry with Caramelized Onions,4,2025-09-24 00:48:23.590394,health_conscious
+89,1762,चम्मंथी चटनी रेसिपी - Chammanthi Chutney Recipe,1,2025-08-06 00:48:23.590533,health_conscious
+89,985,Soft and Crispy Cheese Stuffed Puff Sticks Recipe,4,2025-09-14 00:48:23.590670,health_conscious
+89,6386,Lauki Aloo Sabzi Recipe - Bottle Gourd Potato Vegetable Curry,2,2025-09-05 00:48:23.590808,health_conscious
+90,8848,Konkani Style Kadgi Chakko Recipe - Raw Jackfruit With Coconut,4,2025-10-28 00:48:23.591640,time_constrained
+90,2152,"Broccoli, Carrot And Capsicum Sabzi Recipe",3,2025-09-05 00:48:23.591791,time_constrained
+90,83,Zucchini Roll Up Lasagne Recipe,1,2025-07-31 00:48:23.591933,time_constrained
+90,6364,Mediterranean Cucumber Salad Recipe,5,2025-10-21 00:48:23.592067,time_constrained
+90,7977,Dahi Ma Bheeda Recipe (Dahi Bhindi - Parsi Style Okras Cooked In Yogurt Recipe),4,2025-09-02 00:48:23.592212,time_constrained
+90,3261,Farfalle Pasta Recipe In a Creamy Mushroom Sauce,4,2025-10-14 00:48:23.592348,time_constrained
+90,27,चेटिनाड मीठा पनियारम रेसिपी - Chettinad Sweet Paniyaram Recipe,5,2025-10-23 00:48:23.592480,time_constrained
+90,5811,Aloo Raswala Sabzi Recipe,3,2025-10-21 00:48:23.592614,time_constrained
+90,1920,Whole Wheat Methi Garlic Naan Recipe  | Oven Method with yeast,2,2025-08-01 00:48:23.592750,time_constrained
+90,1872,Chicken Vindaloo Recipe,3,2025-08-22 00:48:23.592883,time_constrained
+90,2182,Curd Rice With Carrots Recipe,3,2025-08-29 00:48:23.593038,time_constrained
+90,1218,Punjabi Lobia Masala Recipe (Punjabi Style Black Eyed Beans Curry),4,2025-08-31 00:48:23.593179,time_constrained
+90,188,Homemade Granola Mix Recipe with Oats & Wheat Flakes,3,2025-09-08 00:48:23.593314,time_constrained
+90,11668,Buckwheat Dosa Recipe,4,2025-08-31 00:48:23.593446,time_constrained
+90,814,Mixed Millet Khichdi Recipe,2,2025-09-05 00:48:23.593581,time_constrained
+90,247,Andhra Style Vendakaya Charu Recipe - Ladies Finger Rasam,5,2025-08-15 00:48:23.593713,time_constrained
+90,1940,Doi Bhetki Recipe - Bengali Style Yogurt Fish Curry,2,2025-07-31 00:48:23.593845,time_constrained
+90,9940,Ingi Mangai Sadam Recipe,2,2025-10-24 00:48:23.593980,time_constrained
+90,7522,Spinach & Paneer Cornmeal Roll Recipe,2,2025-09-22 00:48:23.594115,time_constrained
+90,7603,Beguni Recipe - Baingan/Eggplant Pakora,2,2025-09-29 00:48:23.594247,time_constrained
+91,303,Zucchini Tater Tots Recipe - A Delicious Party Appetizer,5,2025-09-25 00:48:23.595073,foodie
+91,1252,Sweet Potato & Neem Leaves Vegetable Curry Recipe,4,2025-09-12 00:48:23.595229,foodie
+91,11252,Napa Cabbage Coleslaw with Greek Yogurt Recipe,5,2025-10-19 00:48:23.595373,foodie
+91,653,Sorekai Majjige Huli Recipe (Bottle Gourd In Coconut Yogurt Curry Recipe),3,2025-10-23 00:48:23.595511,foodie
+91,2689,Dubki Wale Aloo Recipe - Potatoes In A Spicy North Indian Gravy,5,2025-09-21 00:48:23.595649,foodie
+91,9483,Pudalangai Milagu Kootu Recipe (South Indian Snake Gourd Curry),4,2025-08-07 00:48:23.595784,foodie
+91,10318,Biuli Dal Er Boda Recipe - Bengali Style Urad Dal Vada,5,2025-10-05 00:48:23.595920,foodie
+91,2592,"Oats, Peas & Tofu Stuffed Paratha Recipe",3,2025-08-27 00:48:23.596057,foodie
+91,5745,Nawabi Paneer Curry Recipe,4,2025-08-19 00:48:23.596192,foodie
+91,5909,शकरकंदी और करेला कुलंबु रेसिपी - Sweet Potato And Bitter Gourd Kulambu (Recipe In Hindi),3,2025-09-28 00:48:23.596326,foodie
+91,1283,Chinese Bhel Recipe - No Onion No Garlic,2,2025-08-04 00:48:23.596461,foodie
+91,7700,आमला गवार फली की सब्ज़ी रेसिपी - Crispy Amla Gawar Phali Sabzi (Recipe In Hindi),4,2025-09-28 00:48:23.596595,foodie
+91,10924,Spinach Corn Sabzi Recipe,3,2025-08-06 00:48:23.596731,foodie
+91,527,Sesame Noodles Recipe With Napa Cabbage,3,2025-09-25 00:48:23.596867,foodie
+91,1117,"Mung Bean & Tofu Salad Recipe With Sweet Potatoes, Cucumbers & Tomatoes",5,2025-09-23 00:48:23.597004,foodie
+91,3561,Mangalorean Chicken Ghee Roast Recipe,4,2025-10-07 00:48:23.597160,foodie
+91,3090,Red Chilli Thecha - Maharashtrian Style Red Chilli Chutney Recipe,3,2025-10-05 00:48:23.597297,foodie
+91,7007,Chicken Pad Thai Noodles Recipe,3,2025-09-12 00:48:23.597430,foodie
+91,11012,Carrot Cake Recipe for Healthy Heart,5,2025-09-04 00:48:23.597563,foodie
+92,4359,Mango Jalapeno Bruschetta Recipe,3,2025-10-12 00:48:23.598385,traditional
+92,4592,कॉर्न और मटर की करी रेसिपी - Corn And Peas Curry Recipe,5,2025-09-24 00:48:23.598584,traditional
+92,4301,तीखा मटर मसाला रेसिपी - Spicy Matar Masala (Recipe In Hindi),5,2025-07-31 00:48:23.598761,traditional
+92,4706,Stuffed Kathal Recipe,5,2025-09-29 00:48:23.598904,traditional
+92,6215,Thai Pineapple Vegetarian Curry Recipe,3,2025-08-11 00:48:23.599102,traditional
+92,2957,Khao Neeo Mamuang -  Thai Sweet Sticky Rice With Mango,3,2025-10-03 00:48:23.599268,traditional
+92,6865,Oats and Besan Cheela Recipe (High Protein Spiced Crepes),5,2025-10-05 00:48:23.599422,traditional
+92,11003,Mixed Vegetables Ajethna Recipe - Mangalorean Style Mixed Vegetables Sabzi,2,2025-09-06 00:48:23.599577,traditional
+92,1378,Chicken Manchurian Dry Recipe,2,2025-09-22 00:48:23.599744,traditional
+92,4929,Fresh Apple Bundt Cake Recipe,3,2025-08-18 00:48:23.599898,traditional
+92,6712,Avarekalu Masala Vada Recipe,5,2025-10-26 00:48:23.600045,traditional
+92,2008,Instant Oats Rava Idli Recipe,5,2025-10-07 00:48:23.600186,traditional
+92,1813,Eggwhite Frittata With Roasted Vegetables Recipe,2,2025-08-26 00:48:23.600360,traditional
+92,5135,Asian Shrimp And Veggie Bowl Recipe,5,2025-09-13 00:48:23.600736,traditional
+92,7367,Sundaikkai Godumai Rava Upma Recipe,5,2025-10-05 00:48:23.601096,traditional
+93,109,Appalam Vatha Kuzhambu Recipe - Papad In Tamarind Gravy,5,2025-10-01 00:48:23.602030,traditional
+93,3467,Kongunadu Urulai Kurma Recipe (Curried Potatoes from Kongunadu),5,2025-10-12 00:48:23.602202,traditional
+93,2927,Classic New York Style Cheesecake Recipe,1,2025-08-31 00:48:23.602378,traditional
+93,133,Mushroom Paratha Recipe,5,2025-09-01 00:48:23.602540,traditional
+93,2399,Andhra Style Makka Garelu Recipe (Corn Vada Recipe),3,2025-10-21 00:48:23.602713,traditional
+93,3851,Corn And Onion Raita Recipe,5,2025-07-31 00:48:23.602868,traditional
+93,4417,Summer Squash Pasta Recipe,3,2025-10-17 00:48:23.603036,traditional
+93,1993,Herbed Potato Salad Recipe,2,2025-10-01 00:48:23.603236,traditional
+93,6333,Vendaikai (Okra) Puli Kootu Recipe,2,2025-09-01 00:48:23.603404,traditional
+93,94,सेनाइ पचड़ी रेसिपी - Elephant Yam Raita (Recipe In Hindi),5,2025-08-14 00:48:23.603573,traditional
+93,6296,Open Toast Macaroni Recipe,2,2025-08-01 00:48:23.603743,traditional
+93,1521,Vegan Cashew Mayonnaise Recipe,2,2025-08-31 00:48:23.603910,traditional
+93,2754,Kashmiri Style Noon Chai Recipe - Pink Tea,3,2025-09-26 00:48:23.604074,traditional
+93,12030,वेगन छोले और ब्रोकली करी रेसिपी - Vegan Chickpeas And Broccoli Curry Recipe,5,2025-09-28 00:48:23.604245,traditional
+93,2400,Pineapple Cucumber Salad Recipe With Lemon Dressing,5,2025-09-26 00:48:23.604396,traditional
+93,11245,आलू और मूली के पत्तो की सब्ज़ी रेसिपी - Aloo Aur Mooli Ke Patto Ki Sabzi (Recipe In Hindi),5,2025-08-17 00:48:23.604561,traditional
+93,4464,Brown Rice Flakes Pudding / Desi Poha Kheer Recipe,5,2025-09-23 00:48:23.604714,traditional
+93,6123,Gujarati Khichu Recipe - Steamed Rice Flour Savory Donuts,5,2025-08-10 00:48:23.604872,traditional
+93,1239,Vendakkai-Vazhakkai Mor Kuzhambu Recipe (Tamil Nadu Style Lady's Finger & Raw Banana Curry),2,2025-10-24 00:48:23.605025,traditional
+93,5529,Baby Potatoes Pulao Recipe - Aloo Pulao Recipe,5,2025-10-26 00:48:23.605191,traditional
+93,7499,Cheesy Masala Omelette Recipe With Roasted Vegetables,2,2025-10-08 00:48:23.605359,traditional
+93,1210,Thai Flavoured Vegetable Noodles In Coconut Curry Recipe,3,2025-08-21 00:48:23.605526,traditional
+94,3999,Thenkuzhal Murukku Recipe - South Indian Snack,2,2025-08-31 00:48:23.606351,health_conscious
+94,3390,Pyaz Wali Bhindi Recipe | Bhindi Do Pyaza - Okra Onion Stir Fry,4,2025-09-27 00:48:23.606514,health_conscious
+94,6908,Flourless Chilli Chocolate Cake Recipe,4,2025-10-17 00:48:23.606663,health_conscious
+94,10423,Thai Style Mango Chicken Coconut Curry Recipe,5,2025-10-02 00:48:23.606808,health_conscious
+94,4693,Pumpkin Cheesecake Recipe,3,2025-10-10 00:48:23.606953,health_conscious
+94,12873,Mushrooms Stuffed With Carrots And Mint Mayo Recipe,3,2025-08-29 00:48:23.607120,health_conscious
+94,5586,Ammini Kozhukattai (Rice Flour Dumplings) Recipe,4,2025-08-25 00:48:23.607276,health_conscious
+94,5001,Badam And Besan Ladoo Recipe,4,2025-08-18 00:48:23.607431,health_conscious
+94,12201,Ambade Kaarle Lonche Recipe - Hog Plums & Bitter Gourd Pickle,5,2025-09-07 00:48:23.607575,health_conscious
+94,9809,Kolambi Bhaath Recipe (Maharashtrian Prawn Rice),2,2025-10-10 00:48:23.607719,health_conscious
+94,7770,Choco Swirl Cookies Recipe (Eggless Choco Pinwheel Cookies),5,2025-09-07 00:48:23.607859,health_conscious
+94,3446,Granola Yogurt Parfait Recipe with Fresh Kiwi & Pomegranates,4,2025-10-14 00:48:23.608003,health_conscious
+94,8473,Conchiglie Pasta With Broccoli Recipe,3,2025-08-15 00:48:23.608143,health_conscious
+94,4609,Chickpea Sundal Recipe,4,2025-08-13 00:48:23.608281,health_conscious
+94,11706,Chatpata Aloo Moong Sprouts Recipe With Buttered Pav Buns,5,2025-10-25 00:48:23.608418,health_conscious
+94,1533,Carrot Paruppu Usili Recipe - Steamed Lentils Crumbled With Carrots,3,2025-08-30 00:48:23.608559,health_conscious
+94,11071,Andhra Style Kandi Pachadi Recipe (Masoor Dal Chutney Recipe),2,2025-08-08 00:48:23.608701,health_conscious
+95,2717,Alu Bukhara Murgh Recipe - Chicken With Indian Plums,4,2025-08-21 00:48:23.609549,traditional
+95,325,Gulkand Chai Recipe - A Delicious Rose Flavored Indian Tea,5,2025-10-03 00:48:23.609717,traditional
+95,11168,Green Apple Rasam Recipe,5,2025-08-26 00:48:23.609864,traditional
+95,1476,Broccoli With Lemon Butter Sauce Recipe,3,2025-10-09 00:48:23.610033,traditional
+95,2150,Spicy Matar Masala Recipe,5,2025-10-03 00:48:23.610192,traditional
+95,7274,South Indian Bajji Recipe - Onion Bajji | Raw Banana Bajji | Potato Bajji,4,2025-08-17 00:48:23.610345,traditional
+95,1916,Lebanese Style Mujaddara Recipe,2,2025-08-08 00:48:23.610503,traditional
+95,8553,Red Kidney Beans Chocolate Barfi Recipe,5,2025-09-17 00:48:23.610654,traditional
+95,7799,Shredded Chicken Cheese Sandwich Recipe,2,2025-08-22 00:48:23.610820,traditional
+95,1502,Pomegranate And Chia Seeds Yogurt Smoothie Recipe,2,2025-09-29 00:48:23.610987,traditional
+95,671,Tomato Kurma Recipe - Thakkali Kurma For Biryani & Parotta,5,2025-09-09 00:48:23.611160,traditional
+95,359,हरी मिर्च चिकन फ्राई रेसिपी - Green Chilli Chicken Fry Recipe,5,2025-10-22 00:48:23.611332,traditional
+95,6925,Zhejiang  Style Crispy Five Spice Powder Spring Roll Recipe,2,2025-10-03 00:48:23.611498,traditional
+95,5302,Cold Phyllo Tartlets With Cream Cheese And Dill Toppings Recipe,2,2025-10-26 00:48:23.611663,traditional
+95,962,Chettinad Beans & Cauliflower Poriyal Recipe (South Indian Stir Fry),3,2025-10-10 00:48:23.611816,traditional
+95,2478,Mushroom Curry Recipe,5,2025-10-19 00:48:23.611966,traditional
+95,2307,Iyengar Bakery Khara Biscuit Recipe,5,2025-09-03 00:48:23.612114,traditional
+96,6828,Spinach Foxtail Millet Dhokla Recipe,2,2025-10-24 00:48:23.612917,time_constrained
+96,933,Kiwi Basil Lemonade Recipe,5,2025-10-12 00:48:23.613063,time_constrained
+96,13741,Kanchipuram Idlis Recipe,2,2025-09-22 00:48:23.613230,time_constrained
+96,7578,Maharashtrian Chavali Chi Usal Recipe - Black Eyed Peas Curry,3,2025-08-25 00:48:23.613369,time_constrained
+96,7769,Tangy Red Purifier - Tomato Beetroot Juice Recipe,5,2025-10-20 00:48:23.613499,time_constrained
+96,13386,Gujarati Tawa Handvo Recipe With Sweet Corn,3,2025-09-01 00:48:23.613637,time_constrained
+96,8190,गुजराती दाल रेसिपी - Gujarati Dal (Recipe In Hindi),5,2025-10-14 00:48:23.613767,time_constrained
+96,259,Karnataka Style Ragi Ujju Rotti Recipe,4,2025-08-15 00:48:23.613904,time_constrained
+96,8364,Pina Colada Cake Recipe,3,2025-10-17 00:48:23.614042,time_constrained
+96,1052,Broccoli Salad Recipe with Roasted Onion & Peppers,5,2025-08-25 00:48:23.614172,time_constrained
+96,3585,Ragi Appam Recipe - A Healthy Twist To The Classic Kerala Appam,2,2025-09-02 00:48:23.614307,time_constrained
+96,3607,Mushroom Masala With Corn Recipe,5,2025-09-02 00:48:23.614439,time_constrained
+96,9453,दाल पालक रेसिपी - Dal Palak (Recipe In Hindi),3,2025-08-09 00:48:23.614581,time_constrained
+96,7228,"Stuffed Pita Recipe With Tandoori Mayo Chickpeas, Pickled Onions and Vegetables",1,2025-10-09 00:48:23.614717,time_constrained
+96,5273,Green Beans Salad Recipe,4,2025-10-10 00:48:23.614849,time_constrained
+96,3164,Almond Butter & Fig Muesli Bar Recipe,3,2025-08-24 00:48:23.614982,time_constrained
+96,7813,Methi Murgh Recipe - Chicken with Fenugreek Leaves,3,2025-09-18 00:48:23.615134,time_constrained
+97,4189,Chettinad Pattani Kurma Recipe (Chettinad Peas Curry),3,2025-08-01 00:48:23.615952,traditional
+97,8545,Boiled Egg White Sandwich Recipe,2,2025-09-07 00:48:23.616133,traditional
+97,8599,Smoked Dhaba Dal Recipe,5,2025-08-26 00:48:23.616407,traditional
+97,5706,ब्रोकली शिमला मिर्च जुन्का रेसिपी - Broccoli & Bell Pepper Zunka (Recipe In Hindi),5,2025-08-27 00:48:23.616804,traditional
+97,16,साउथ इंडियन प्याज चटनी रेसिपी - South Indian Onion Chutney (Recipe In Hindi),5,2025-08-13 00:48:23.617016,traditional
+97,1871,Lehsuni Pudina Chutney Recipe,5,2025-08-14 00:48:23.617208,traditional
+97,3881,पारसी बैंगन शिमला मिर्च की सब्ज़ी रेसिपी - Parsi Style Baingan Capsicum Ka Salan (Recipe In Hindi),3,2025-09-01 00:48:23.617405,traditional
+97,1312,Dal Palak Recipe With Moong & Masoor Dal,5,2025-09-19 00:48:23.617553,traditional
+97,12950,Spicy And Delicious Chicken Teriyaki Noodle Recipe,3,2025-08-15 00:48:23.617725,traditional
+97,1380,Cumin Spiced Potato And Leek Soup Recipe,2,2025-08-12 00:48:23.617896,traditional
+97,2008,Instant Oats Rava Idli Recipe,5,2025-08-22 00:48:23.618043,traditional
+97,3545,Mughalai Shahi Kaju Aloo Ki Sabzi Recipe,3,2025-10-05 00:48:23.618221,traditional
+97,9124,Focaccia With Cherry Tomatoes & Caramelized Onion Recipe,2,2025-08-24 00:48:23.618392,traditional
+97,2374,Baked Banana Chips Recipe,3,2025-09-21 00:48:23.618558,traditional
+97,1149,Kongunadu Kathirikai Rasam Recipe - Spicy & Tangy Eggplant Rasam,5,2025-10-25 00:48:23.618700,traditional
+98,758,Baked Pasta Recipe With Spinach And Artichoke,2,2025-08-14 00:48:23.619554,time_constrained
+98,9938,Stuffed Cabbage Rolls Recipe,3,2025-09-21 00:48:23.619714,time_constrained
+98,9627,Lehsun Amla Chutney Recipe - Garlic Gooseberry Chutney,5,2025-08-09 00:48:23.619854,time_constrained
+98,8848,Konkani Style Kadgi Chakko Recipe - Raw Jackfruit With Coconut,4,2025-10-13 00:48:23.619993,time_constrained
+98,4920,Paneer Chilli Dosa Recipe - Spicy Cottage Cheese Dosa,3,2025-10-05 00:48:23.620131,time_constrained
+98,3037,दाल वांगी रेसिपी - Dal Vangi Recipe,1,2025-09-23 00:48:23.620267,time_constrained
+98,633,Lilve Ki Sabzi Recipe (Green Chickpea Curry),1,2025-10-23 00:48:23.620406,time_constrained
+98,10510,Moong Dal Pani Recipe- Dal Soup For Babies 6 months & above,4,2025-08-02 00:48:23.620544,time_constrained
+98,3893,Dhaba Style Country Chicken Recipe,2,2025-08-19 00:48:23.620679,time_constrained
+98,6786,Mochiko Dango Recipe - Sweet Japanese Dumplings,3,2025-08-05 00:48:23.620817,time_constrained
+98,5282,Indo-Chinese Style Ginger Fish Recipe,3,2025-09-07 00:48:23.620952,time_constrained
+98,3523,Palak Matar Recipe - Spinach And Green Peas Curry,2,2025-10-15 00:48:23.621087,time_constrained
+98,398,Nutty Oats Almond Truffle Recipe - A Healthy Snack,5,2025-09-09 00:48:23.621240,time_constrained
+98,7065,Tangy Raw Beetroot & Tomato Chutney Recipe,5,2025-08-25 00:48:23.621374,time_constrained
+98,3438,Creamy Sweet Corn And Jalapeno Dip Recipe,5,2025-09-22 00:48:23.621505,time_constrained
+98,2982,बीटरूट और फिग चटनी रेसिपी - Beetroot and Fig Chutney Recipe,4,2025-08-12 00:48:23.621640,time_constrained
+98,11099,वेजिटेबल पराठा रोल रेसिपी - Healthy Vegetable Paratha Rolls Recipe,3,2025-10-16 00:48:23.621771,time_constrained
+98,4344,Mullangi Poriyal recipe - South Indian Style Radish Stir Fry,5,2025-10-25 00:48:23.621902,time_constrained
+98,10838,Peach Cobbler Scones Recipe,4,2025-10-20 00:48:23.622034,time_constrained
+98,606,Bengali Beetroot And Raw Banana Chop Recipe (Spiced Cutlet Recipe),2,2025-09-24 00:48:23.622185,time_constrained
+98,1706,Roasted Peppers And Mushroom Tortilla Pizza Recipe,4,2025-10-06 00:48:23.622316,time_constrained
+98,9182,Orange Flavored Barbecue Chicken With Fresh Salad Recipe,3,2025-08-18 00:48:23.622448,time_constrained
+98,2402,Bajra Kaddu Ki Roti Recipe - Bajra Pumpkin Roti Recipe,2,2025-09-24 00:48:23.622580,time_constrained
+98,11566,Thenga Manga Soya Sundal Recipe,2,2025-09-08 00:48:23.622713,time_constrained
+98,2701,राबोडी की सब्ज़ी रेसिपी - Rabodi Ki Sabzi (Recipe In Hindi),5,2025-09-02 00:48:23.622844,time_constrained
+99,7950,Mexican Vegetarian Fajitas Recipe,4,2025-10-20 00:48:23.623685,time_constrained
+99,11515,Avalakki Porridge In Warm Spiced Berries Recipe,5,2025-08-10 00:48:23.623839,time_constrained
+99,9773,अदरक चाय रेसिपी - Adrak Chai Recipe,5,2025-10-11 00:48:23.623978,time_constrained
+99,9198,Ellu Chutney Recipe - Sesame Seeds Chutney Recipe,5,2025-08-09 00:48:23.624111,time_constrained
+99,1785,Thandai Shahi Tukda Recipe,4,2025-10-05 00:48:23.624249,time_constrained
+99,4280,Suran Jo Kheemo Recipe-Sindhi Style Grated Yam Sabzi,5,2025-10-17 00:48:23.624382,time_constrained
+99,8278,Eggless Paneer Mc Puff Recipe -Mc Donald's Style,3,2025-08-25 00:48:23.624517,time_constrained
+99,9547,अासामीस बिलाहिर तोक रेसिपी - Assamese Bilahir Tok Recipe,5,2025-09-24 00:48:23.624651,time_constrained
+99,2420,Pumpkin Stew With Chickpeas Recipe,3,2025-08-05 00:48:23.624786,time_constrained
+99,5520,Vazhakkai Podimas Recipe (Ayurvedic Recipe With No Onion No Garlic),3,2025-10-10 00:48:23.624921,time_constrained
+99,1997,गाजर शिमला मिर्च पोरियल रेसिपी - Carrot Capsicum Poriyal Recipe,5,2025-10-23 00:48:23.625053,time_constrained
+99,8409,कुर्ग स्टाइल मशरुम करी रेसिपी - Coorg Style Mushroom Curry Recipe,3,2025-10-04 00:48:23.625207,time_constrained
+99,5612,Jackfruit Seed Modak Recipe,1,2025-08-27 00:48:23.625349,time_constrained
+99,6775,Buttered Green Beans Recipe - Finger Food for Toddlers,5,2025-10-21 00:48:23.625479,time_constrained
+99,730,Malabar Style Dates Pickle Recipe,5,2025-08-04 00:48:23.625625,time_constrained
+99,5615,महाराष्ट्रियन आलू भुजने रेसिपी - Maharashtrian Aloo Bhujne (Recipe In Hindi),3,2025-08-07 00:48:23.625762,time_constrained
+99,6713,Healthy Oats Waffles Recipe,5,2025-09-12 00:48:23.625891,time_constrained
+99,3160,Five Spice Bean Burger Recipe,4,2025-09-24 00:48:23.626022,time_constrained
+99,6208,Mango Rice Recipe,2,2025-08-07 00:48:23.626156,time_constrained
+99,7119,Carrot Soup Recipe,5,2025-10-04 00:48:23.626288,time_constrained
+99,3369,Peshawari Karahi Gosht Recipe,1,2025-10-06 00:48:23.626420,time_constrained
+99,2130,Parsi Style Baingan Capsicum Ka Salan Recipe,4,2025-08-08 00:48:23.626552,time_constrained
+99,5454,Healthy Tomato Carrot Onion Soup Recipe,4,2025-07-31 00:48:23.626685,time_constrained
+99,3665,Bharwa Karela Makhani  Recipe - Stuffed Karela Masala Gravy,3,2025-10-28 00:48:23.626818,time_constrained
+100,822,Mamidikaya Pesara Pappu Pachadi Recipe - Raw Mango & Dal Chutney,5,2025-10-08 00:48:23.627629,foodie
+100,4090,Punjabi Style Tinda Sabzi Recipe,5,2025-08-05 00:48:23.627782,foodie
+100,2752,Kothamalli Thogayal Recipe | Coriander Leaves Chutney,4,2025-08-03 00:48:23.627924,foodie
+100,2152,"Broccoli, Carrot And Capsicum Sabzi Recipe",4,2025-10-08 00:48:23.628062,foodie
+100,1423,Carrot Beet Amaranth Super Salad Recipe,4,2025-09-11 00:48:23.628198,foodie
+100,5171,Zucchini Boats With Chickpeas In Tomato Hummus Recipe,5,2025-08-24 00:48:23.628328,foodie
+100,4065,Harive Soppina Saaru Recipe (Karnataka Style Amaranth Leaves Cooked with Lentils),4,2025-08-01 00:48:23.628473,foodie
+100,2557,मटर पोहा रेसिपी - Matar Poha (Recipe In Hindi),4,2025-09-16 00:48:23.628608,foodie
+100,13210,Labra Assamese Chunky Mix Vegetables Recipe,3,2025-08-11 00:48:23.628738,foodie
+100,1373,Aloo Chaat Recipe With Baked Beans - Roz Ka Khana With Figaro Olive Oil,4,2025-09-29 00:48:23.628877,foodie
+100,8409,कुर्ग स्टाइल मशरुम करी रेसिपी - Coorg Style Mushroom Curry Recipe,3,2025-08-13 00:48:23.629012,foodie
+100,2800,Awadhi Style Nargisi Kofta Recipe (Boiled Egg Wrapped With Spiced Potato Recipe),5,2025-09-21 00:48:23.629143,foodie
+100,6127,Curd Oats Recipe,4,2025-10-19 00:48:23.629300,foodie
+100,4245,Spinach Ricotta Stuffed Ravioli Recipe Tossed In Cheesy Pumpkin Sauce,3,2025-08-16 00:48:23.629429,foodie
+100,3707,Banarasi Tamatar Chaat Recipe - Spicy Tomato Chaat,4,2025-08-01 00:48:23.629561,foodie
+100,895,Pudina Pyaz Kachumber Salad Recipe - Mint & Onion Salad,3,2025-10-01 00:48:23.629695,foodie
