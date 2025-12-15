@@ -6,20 +6,25 @@ import {
   Book, LayoutDashboard, HelpCircle, Settings, User,
   MessageCircle  // ← ADD THIS IMPORT
 } from 'lucide-react';
+import { ChefHat } from 'lucide-react';
+import { supabase } from '../../supabaseClient';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-
+  const handleSignOut = async () => {
+    await supabase.auth.signOut();
+    window.location.href = '/auth';
+  };
   const navItems = [
     { path: '/', label: 'Home', icon: Home },
     { path: '/symptom-checker', label: 'Symptoms', icon: Activity },
     { path: '/diet-plan', label: 'Diet Plan', icon: Apple },
     { path: '/ai-chatbot', label: 'AI Chat', icon: MessageCircle }, // ← ADD THIS
     { path: '/nutrition-predictor', label: 'Nutrition AI', icon: ChefHat },
-    { path: '/analytics', label: 'Analytics', icon: BarChart3 },
-    { path: '/explorer', label: 'Explorer', icon: Book },
-    { path: '/profile', label: 'Profile', icon: User },
+    // { path: '/analytics', label: 'Analytics', icon: BarChart3 },
+    // { path: '/explorer', label: 'Explorer', icon: Book },
+    // { path: '/profile', label: 'Profile', icon: User },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -62,29 +67,46 @@ const Navigation = () => {
 
           {/* Right side buttons */}
           <div className="hidden md:flex items-center space-x-2">
+            {/* <Link to="/dashboard">
+              <Button variant="outline" size="sm">
+                <LayoutDashboard className="h-4 w-4 mr-2" />
+                Dashboard
+              </Button>
+            </Link> */}
+            {/* <Link to="/settings">
+              <Button variant="ghost" size="icon">
+                <Settings className="h-5 w-5" />
+              </Button>
+            </Link> */}
+            {/* <Link to="/support">
+              <Button variant="ghost" size="icon">
+                <HelpCircle className="h-5 w-5" />
+              </Button>
+            </Link> */}
+          </div>
+          {/* <Button onClick={async () => {
+            await supabase.auth.signOut();
+            window.location.href = "/auth";
+          }}>
+            Sign Out
+          </Button> */}
+          {/* Right side buttons + Sign Out */}
+          <div className="hidden md:flex items-center space-x-2">
+            {/* <Link to="/settings">
+              <Button variant="ghost" size="icon">
+                <Settings className="h-5 w-5" />
+              </Button>
+            </Link> */}
             <Link to="/dashboard">
               <Button variant="outline" size="sm">
                 <LayoutDashboard className="h-4 w-4 mr-2" />
                 Dashboard
               </Button>
             </Link>
-            <Link to="/settings">
-              <Button variant="ghost" size="icon">
-                <Settings className="h-5 w-5" />
-              </Button>
-            </Link>
-            <Link to="/support">
-              <Button variant="ghost" size="icon">
-                <HelpCircle className="h-5 w-5" />
-              </Button>
-            </Link>
+            <Button variant="outline" size="sm" onClick={handleSignOut}>
+              Sign Out
+            </Button>
           </div>
-          <Button onClick={async () => {
-            await supabase.auth.signOut();
-            window.location.href = "/auth";
-          }}>
-            Sign Out
-          </Button>
 
           {/* Mobile menu button */}
           <Button
@@ -130,12 +152,12 @@ const Navigation = () => {
                     Dashboard
                   </Button>
                 </Link>
-                <Link to="/support" onClick={() => setIsOpen(false)}>
+                {/* <Link to="/support" onClick={() => setIsOpen(false)}>
                   <Button variant="ghost" className="w-full justify-start">
                     <HelpCircle className="h-4 w-4 mr-2" />
                     Support
                   </Button>
-                </Link>
+                </Link> */}
                 <Link to="/settings" onClick={() => setIsOpen(false)}>
                   <Button variant="ghost" className="w-full justify-start">
                     <Settings className="h-4 w-4 mr-2" />

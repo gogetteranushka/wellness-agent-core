@@ -43,6 +43,13 @@ const Home = () => {
     },
     {
       icon: Book,
+      title: 'AI Chatbot',
+      description: 'Get instant answers to your nutrition and health questions with our AI assistant.',
+      link: '/ai-chatbot',
+      color: 'from-purple-400 to-pink-400',
+    },
+    {
+      icon: Book,
       title: 'Condition Explorer',
       description: 'Discover relationships between conditions, nutrients, and foods.',
       link: '/explorer',
@@ -97,16 +104,16 @@ const Home = () => {
                   Get Started <ArrowRight className="ml-2" />
                 </Button>
               </Link>
-              <Link to="/auth">
+              {/* <Link to="/auth">
                 <Button variant="outline" size="lg" className="glass-card">
                   Sign In
                 </Button>
-              </Link>
+              </Link> */}
 
-              <Button variant="ghost" size="lg" className="group">
+              {/* <Button variant="ghost" size="lg" className="group">
                 <Play className="mr-2 group-hover:scale-110 transition-transform" />
                 Watch Demo
-              </Button>
+              </Button> */}
             </div>
             {loading && <p>Loading content...</p>}
             {error && <p className="text-red-600">{error}</p>}
@@ -126,7 +133,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {features.map((feature, index) => {
               const Icon = feature.icon;
               return (
@@ -154,48 +161,83 @@ const Home = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 bg-gradient-to-br from-muted/30 to-background">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="animate-slide-up">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Why Choose AI Wellness?
-              </h2>
-              <div className="space-y-4">
-                {[
-                  'Evidence-based AI recommendations',
-                  'Personalized health insights',
-                  'Comprehensive nutritional tracking',
-                  'Easy-to-understand analytics',
-                  'Privacy-focused and secure',
-                ].map((benefit) => (
-                  <div key={benefit} className="flex items-start gap-3">
-                    <CheckCircle className="h-6 w-6 text-secondary shrink-0 mt-0.5" />
-                    <span className="text-lg">{benefit}</span>
-                  </div>
-                ))}
-              </div>
-              <Link to="/profile">
-                <Button variant="hero" size="lg" className="mt-8">
-                  Create Your Profile <ArrowRight className="ml-2" />
-                </Button>
-              </Link>
-            </div>
+<section className="py-20 bg-gradient-to-br from-muted/30 to-background">
+  <div className="container mx-auto px-4">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+      {/* Left: Why choose us */}
+      <div className="animate-slide-up lg:pr-8">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          Why Choose AI Wellness?
+        </h2>
+        <p className="text-muted-foreground mb-8 max-w-2xl">
+          FitMind AI helps you understand how food and health conditions connect,
+          using clear language and Indian meal examples so you can act on the
+          advice immediately.
+        </p>
 
-            <div className="glass-card-elevated p-8 animate-float">
-              <div className="aspect-video bg-gradient-to-br from-primary/20 to-accent/20 rounded-xl flex items-center justify-center">
-                <Play className="h-20 w-20 text-primary" />
-              </div>
-              <h3 className="text-xl font-semibold mt-6 mb-2">See How It Works</h3>
-              <p className="text-muted-foreground">
-                Watch our comprehensive guide to understanding and using all the platform features.
-              </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {[
+            'Evidence-based AI recommendations',
+            'Personalized health insights',
+            'Comprehensive nutritional guidance',
+            'Condition-aware meal suggestions',
+            'Privacy-focused and secure',
+          ].map((benefit) => (
+            <div key={benefit} className="flex items-start gap-3">
+              <CheckCircle className="h-6 w-6 text-secondary shrink-0 mt-0.5" />
+              <span className="text-base md:text-lg">{benefit}</span>
             </div>
+          ))}
+        </div>
+
+        <Link to="/profile">
+          <Button variant="hero" size="lg" className="mt-8">
+            View Profile <ArrowRight className="ml-2" />
+          </Button>
+        </Link>
+      </div>
+
+      {/* Right: simple illustration card (no scores) */}
+      <div className="glass-card-elevated p-8 lg:p-10 animate-float">
+        <h3 className="text-xl font-semibold mb-3">
+          Built for Everyday Use
+        </h3>
+        <p className="text-muted-foreground mb-6">
+          Ask questions the way you naturally speak, like “What should I eat
+          for breakfast with diabetes?” and get clear, practical answers in
+          seconds.
+        </p>
+
+        <div className="space-y-3 text-sm">
+          <div className="rounded-lg border bg-muted/40 p-3">
+            <p className="font-semibold mb-1">Natural conversation</p>
+            <p className="text-muted-foreground">
+              Follow-up questions like “Can they eat sugar?” keep context from
+              your earlier messages.
+            </p>
+          </div>
+          <div className="rounded-lg border bg-muted/40 p-3">
+            <p className="font-semibold mb-1">Condition-aware guidance</p>
+            <p className="text-muted-foreground">
+              Answers adapt when you mention age, gender, or health conditions
+              such as diabetes or heart disease.
+            </p>
+          </div>
+          <div className="rounded-lg border bg-muted/40 p-3">
+            <p className="font-semibold mb-1">Clear next steps</p>
+            <p className="text-muted-foreground">
+              Suggestions are specific—meals, portions, and tips you can apply
+              the same day.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
 
-      {/* Testimonials Section */}
+
+      {/* Testimonials Section
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -226,7 +268,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 relative overflow-hidden">

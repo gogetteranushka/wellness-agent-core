@@ -1,34 +1,35 @@
-from typing import List, Dict
+# rag_pipeline.py - OPTIMIZED VERSION (No Intent Classification)
+
+from typing import List, Dict, Optional
 from langchain_core.documents import Document
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
-from langchain_ollama import ChatOllama
+from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
 from tavily import TavilyClient
 import os
 from dotenv import load_dotenv
 import time
+from profiler import profiler
 
 load_dotenv()
-
 
 class RAGPipeline:
     def __init__(
         self,
-        vectorstore_path: str,
+        vectorstore_path: str = "rag_chatbot/vectorstore/chromadb",
         embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2",
-        llm_model: str = "llama3.2",
+        llm_model: str = "llama-3.1-8b-instant",
         temperature: float = 0.1,
         top_k: int = 3,
-        enable_web_search: bool = True
+        enable_web_search: bool = True,
     ):
-        """Initialize RAG pipeline with web search capability"""
+        """Initialize RAG pipeline"""
         
         self.vectorstore_path = vectorstore_path
         self.top_k = top_k
-        
+        self.enable_web_search = enable_web_search
+
         # Initialize embeddings
         print("Loading embedding model...")
         self.embeddings = HuggingFaceEmbeddings(
@@ -49,17 +50,22 @@ class RAGPipeline:
             search_kwargs={"k": top_k}
         )
         
-        # Initialize LLM
-        print("Initializing Llama LLM...")
-        self.llm = ChatOllama(
+        # Initialize Groq LLM
+        print("Initializing Groq LLM...")
+        groq_api_key = os.getenv("GROQ_API_KEY")
+        if not groq_api_key:
+            raise ValueError("GROQ_API_KEY not found in .env file")
+
+        self.llm = ChatGroq(
             model=llm_model,
             temperature=temperature,
-            base_url="http://localhost:11434",
-            request_timeout=30.0
+            api_key=groq_api_key,
+            max_tokens=512,
+            timeout=10.0
         )
+        print(f"✓ Groq LLM initialized with model: {llm_model}")
         
         # Initialize Tavily web search
-        self.enable_web_search = enable_web_search
         if enable_web_search:
             try:
                 tavily_api_key = os.getenv("TAVILY_API_KEY")
@@ -76,174 +82,185 @@ class RAGPipeline:
         # Create prompt template
         self.prompt = self._create_prompt_template()
         
-        # Create RAG chain
-        self.rag_chain = (
-            {"context": self.retriever | self._format_docs, "question": RunnablePassthrough()}
-            | self.prompt
-            | self.llm
-            | StrOutputParser()
-        )
-        
         print("RAG pipeline initialized successfully!\n")
     
     def _create_prompt_template(self) -> ChatPromptTemplate:
-        """Create prompt template with relevance checking"""
-        
+        """Optimized prompt that handles greetings AND nutrition queries"""
         template = """You are FitMind AI, a nutrition assistant specializing in Indian dietary advice.
 
-**CRITICAL**: Only use context that is RELEVANT to the user's demographic and question.
-- Ignore information about different demographics (pregnant women vs men, children vs adults)
-- If NO relevant information exists in context, respond with: "I don't have specific information about that in my knowledge base."
+Chat history:
+{chat_history}
 
-Context:
+Knowledge base context:
 {context}
 
-Question: {question}
 
-Instructions:
-1. Answer ONLY if context is relevant to the question's demographic/topic
-2. Keep answers concise (2-3 sentences) unless detailed advice is requested
-3. Admit when you don't have relevant information
-4. Emphasize Indian food options when applicable
-5. Recommend consulting healthcare providers for medical decisions
+User question: {question}
+
+INTERNAL DECISION PROCESS (don't show this to user):
+
+1. Is this question EXACTLY a greeting word?
+   - Greeting words ONLY: "hi", "hello", "hey", "thanks", "thank you", "bye", "goodbye"
+   - NOT greetings: "what is...", "who should...", "how to...", "can you..."
+   
+   If YES (exact greeting): Say "Namaste! I'm FitMind AI, your nutrition assistant. Ask me about diabetes diet, meal plans, or health conditions!"
+   
+   If NO (not a greeting): Continue to step 2
+
+2. Is this a NEW topic or FOLLOW-UP?
+   - NEW: "what is diabetes?" (asking for definition)
+   - FOLLOW-UP: "what about lunch?" (continuing previous discussion)
+   
+   If NEW: Ignore conversation history, answer current question only
+   If FOLLOW-UP: Use conversation history for context
+
+3. Check user's demographic constraints and filter documents:
+   - If user says "vegetarian": IGNORE any documents with "animal_foods", "meat", "fish", "poultry" in the source name
+   - If user says "vegan": IGNORE any documents with "animal_foods", "meat", "fish", "dairy", "egg", "milk" in the source name
+   - If user says "male" OR mentions age 18-60 WITHOUT "pregnant"/"lactating": IGNORE any documents with "pregnant", "pregnancy", "lactating" in the source name
+   - If user says "child" OR mentions age under 18: IGNORE any documents with "pregnant", "pregnancy", "lactating", "adult" in the source name
+   - After filtering, use ONLY the remaining relevant documents to answer
+
+4. Does knowledge base have relevant info (after filtering)?
+   - YES: Answer using context (2-3 sentences, focus on nutrition, Indian foods)
+   - NO or OUT-OF-SCOPE (exercise/gym/medicine): Say "I don't have specific information about that in my knowledge base."
+
+IMPORTANT:
+- NEVER say "Namaste!" unless the question is an EXACT greeting word
+- NEVER show your reasoning (no "STEP 1", "analyzing", etc.)
+- Answer directly and naturally
+- Keep it concise (2-3 sentences)
+
+HARD CONSTRAINTS (must never be violated):
+- If the user is vegetarian, NEVER use or cite documents related to animal foods, meat, fish, poultry, eggs, or dairy unless the user explicitly allows them.
+- Unless the user explicitly states pregnancy or lactation, assume they are NOT pregnant or lactating and NEVER use pregnancy or lactation-related documents.
+- If a document violates the user’s dietary type or life stage, it must be COMPLETELY IGNORED even if present in the context.
+
 
 Answer:"""
-
+        
         return ChatPromptTemplate.from_template(template)
     
     def _format_docs(self, docs: List[Document]) -> str:
         """Format retrieved documents"""
         return "\n\n".join(doc.page_content for doc in docs)
     
-    # def _is_answer_uncertain(self, answer: str) -> bool:
-    #     """Check if RAG answer indicates uncertainty"""
-    #     answer_lower = answer.lower()
-    #     uncertain_phrases = [
-    #         "i don't have", "no information", "not sure",
-    #         "cannot find", "no specific", "don't know",
-    #         "unable to", "not available", "insufficient information",
-    #         "no relevant", "cannot provide"
-    #     ]
-    #     return any(phrase in answer_lower for phrase in uncertain_phrases)
-    def _is_answer_uncertain(self, answer: str) -> bool:
-        """Enhanced uncertainty detection with pattern matching"""
-        answer_lower = answer.lower()
-        
-        # Direct uncertainty phrases
-        uncertain_phrases = [
-            "i don't have", "no information", "not sure",
-            "cannot find", "no specific", "don't know",
-            "unable to", "not available", "insufficient information",
-            "no relevant", "cannot provide", "couldn't find",
-            "could not find", "not widely recognized",
-            "no universally accepted", "not a widely",
-            "not familiar with", "not recognized"
-        ]
-        
-        # Check for direct matches
-        if any(phrase in answer_lower for phrase in uncertain_phrases):
-            return True
-        
-        # Check for apologetic patterns (often indicates uncertainty)
-        apologetic_patterns = [
-            "i can tell you that there is no",
-            "however, i can tell you",
-            "unfortunately",
-            "i'm sorry",
-            "i apologize"
-        ]
-        
-        if any(pattern in answer_lower for pattern in apologetic_patterns):
-            return True
-        
-        # Check if answer is very short (likely uncertain)
-        if len(answer.split()) < 20:  # Less than 20 words
-            return True
-        
-        return False
-    
-    def query(self, question: str) -> Dict:
-        """
-        Query with demographic-aware filtering
-        (Your existing optimized query method - keep as is)
-        """
+    def _get_demographic_filter(self, question: str) -> Optional[dict]:
+        """Simple demographic filtering for Chroma"""
         question_lower = question.lower()
         
-        # Detect demographic and build exclusion filters
-        exclude_categories = []
+        # Exclude pregnancy docs for males/children
+        if any(word in question_lower for word in ['male', 'man', 'boy', 'men']):
+            return {"category": {"$nin": ["pregnant_women", "lactating_women", "pregnancy"]}}
         
-        if any(word in question_lower for word in ['male', 'man', 'men', 'boy', 'he', 'his', 'him']):
-            exclude_categories.extend(['pregnant_women', 'lactating_women', 'pregnancy', 'lactation'])
+        if any(word in question_lower for word in ['child', 'children', 'kid', 'toddler']):
+            return {"category": {"$nin": ["pregnant_women", "lactating_women", "adult"]}}
         
-        if any(word in question_lower for word in ['female', 'woman', 'women', 'girl', 'she', 'her']):
-            if 'pregnant' not in question_lower and 'pregnancy' not in question_lower:
-                exclude_categories.extend(['pregnant_women', 'pregnancy'])
+        return None  # No filter
+    
+    def query(self, question: str, conversation_history: List[Dict] | None = None) -> Dict:
+        """Query with post-filtering using the same filter logic"""
+        if conversation_history is None:
+            conversation_history = []
         
-        if any(word in question_lower for word in ['child', 'children', 'kid', 'toddler', 'infant']):
-            exclude_categories.extend(['pregnant_women', 'lactating_women', 'adult'])
+        profiler.reset()
+        total_start = time.perf_counter()
         
-        # Retrieve documents with filtering
-        try:
-            if exclude_categories:
-                print(f"[FILTERING] Excluding categories: {exclude_categories}")
-                all_docs = self.vectorstore.similarity_search(question, k=10)
+        print(f"\n{'='*70}")
+        print(f"🔍 QUERY: {question[:60]}...")
+        print(f"{'='*70}\n")
+        
+        # STAGE 1: Vector retrieval with post-filtering
+        with profiler.timer("1_vector_search"):
+            # Get filter criteria (what to exclude)
+            filter_dict = self._get_demographic_filter(question)
+            
+            if filter_dict:
+                # We know what to exclude, so fetch more candidates
+                print(f"[FILTER] Demographic filtering enabled")
+                all_docs = self.vectorstore.similarity_search(question, k=15)
                 
-                filtered_docs = [
-                    doc for doc in all_docs 
-                    if doc.metadata.get('category', '').lower() not in [cat.lower() for cat in exclude_categories]
-                    and not any(excl in doc.metadata.get('source', '').lower() for excl in ['pregnant', 'pregnancy', 'lactating'])
-                ]
+                # Extract exclusion list from filter_dict
+                # filter_dict = {'category': {'$nin': ['pregnant_women', 'lactating_women', 'pregnancy']}}
+                excluded_categories = filter_dict.get('category', {}).get('$nin', [])
                 
-                source_docs = filtered_docs[:3] if filtered_docs else all_docs[:3]
-                print(f"[FILTERING] Retrieved {len(source_docs)} relevant documents")
+                print(f"[FILTER] Excluding categories: {excluded_categories}")
+                
+                # Post-filter: Check SOURCE filename for keywords
+                # Map category names to filename keywords
+                category_to_keywords = {
+                    'pregnant_women': ['pregnant', 'pregnancy'],
+                    'lactating_women': ['lactating', 'lactation'],
+                    'pregnancy': ['pregnant', 'pregnancy'],
+                    'adult': ['adult']
+                }
+                
+                # Build list of keywords to exclude based on filter_dict
+                exclude_keywords = []
+                for cat in excluded_categories:
+                    exclude_keywords.extend(category_to_keywords.get(cat, []))
+                
+                # Remove duplicates
+                exclude_keywords = list(set(exclude_keywords))
+                print(f"[FILTER] Excluding source files containing: {exclude_keywords}")
+                
+                # Filter documents by checking SOURCE filename
+                source_docs = []
+                excluded_count = 0
+                
+                for doc in all_docs:
+                    source_name = doc.metadata.get('source', '').lower()
+                    
+                    # Check if source contains any excluded keyword
+                    should_exclude = any(keyword in source_name for keyword in exclude_keywords)
+                    
+                    if should_exclude:
+                        excluded_count += 1
+                        print(f"[FILTER]   ✗ Excluded: {doc.metadata.get('source', 'Unknown')}")
+                    else:
+                        source_docs.append(doc)
+                        if len(source_docs) >= self.top_k:
+                            break  # Got enough
+                
+                print(f"[FILTER] ✓ Kept {len(source_docs)} docs, excluded {excluded_count} docs")
+            
             else:
-                source_docs = self.retriever.invoke(question)
-        except Exception as e:
-            print(f"[ERROR] Retrieval failed: {e}")
-            source_docs = self.retriever.invoke(question)
+                # No filtering needed
+                print(f"[FILTER] No demographic filtering needed")
+                source_docs = self.vectorstore.similarity_search(question, k=self.top_k)
         
-        # if not source_docs:
-        #     return {
-        #         "question": question,
-        #         "answer": "I don't have specific information about that in my knowledge base.",
-        #         "source_documents": [],
-        #         "source_type": "none"
-        #     }
+        print(f"[RETRIEVAL] {len(source_docs)} final documents")
         
-        # # Format context and generate answer
-        # context = self._format_docs(source_docs)
-        # prompt_value = self.prompt.format(context=context, question=question)
-        # answer = self.llm.invoke(prompt_value).content
+        # Show final docs
+        for i, doc in enumerate(source_docs, 1):
+            print(f"[DOC {i}] {doc.metadata.get('source', 'Unknown')}")
         
-        # return {
-        #     "question": question,
-        #     "answer": answer,
-        #     "source_documents": source_docs,
-        #     "source_type": "local"
-        # }
-        if not source_docs:
-            return {
-                "question": question,
-                "answer": "I don't have specific information about that in my knowledge base.",
-                "source_documents": [],
-                "source_type": "none"
-            }
+        # STAGE 2: Build context
+        with profiler.timer("2_context_build"):
+            context = self._format_docs(source_docs) if source_docs else "No specific information found."
+            history = "\n".join([
+                f"User: {t['question'][:100]}\nAssistant: {t['answer'][:150]}" 
+                for t in conversation_history[-3:]
+            ]) if conversation_history else ""
         
-        # Format context and generate answer
-        try:
-            context = self._format_docs(source_docs)
-            prompt_value = self.prompt.format(context=context, question=question)
-            
-            print("[LLM] Generating answer...")
-            answer = self.llm.invoke(prompt_value).content
-            print("[LLM] ✓ Answer generated")
-            
-        except TimeoutError:
-            print("[LLM] ⚠ Timeout - LLM took too long")
-            answer = "I don't have specific information about that in my knowledge base."
-        except Exception as e:
-            print(f"[LLM ERROR] {e}")
-            answer = "I don't have specific information about that in my knowledge base."
+        # STAGE 3: Groq generation
+        with profiler.timer("3_groq_generation"):
+            try:
+                print("[GROQ] Generating answer...")
+                prompt_value = self.prompt.format(
+                    context=context,
+                    question=question,
+                    chat_history=history
+                )
+                answer = self.llm.invoke(prompt_value).content
+                print(f"[GROQ] ✓ Generated: {answer[:80]}...")
+            except Exception as e:
+                print(f"[GROQ ERROR] {e}")
+                answer = "I'm experiencing technical difficulties. Please try again."
+        
+        total_time = (time.perf_counter() - total_start) * 1000
+        print(f"\n⏱️  [TOTAL] {total_time:.2f}ms")
+        profiler.summary("QUERY PERFORMANCE")
         
         return {
             "question": question,
@@ -251,323 +268,257 @@ Answer:"""
             "source_documents": source_docs,
             "source_type": "local"
         }
-    
+
     def web_search(self, query: str, max_results: int = 3) -> List[Dict]:
-        """
-        Perform optimized web search using Tavily
-        
-        Args:
-            query: Search query
-            max_results: Maximum number of results (default: 3 for speed)
-            
-        Returns:
-            List of search results with title, url, content
-        """
+        """Perform web search using Tavily"""
         if not self.enable_web_search:
             return []
         
         try:
-            start_time = time.time()
-            print(f"[WEB SEARCH] Searching: {query}")
+            print(f"[WEB] Searching: {query}")
             
-            # Use Tavily with optimized parameters
             response = self.tavily_client.search(
                 query=query,
                 max_results=max_results,
-                search_depth="basic",  # Use "basic" for faster results
-                include_answer=False,  # Skip AI summary for speed
-                include_raw_content=False  # Skip full content for speed
+                search_depth="basic",
+                include_answer=False,
+                include_raw_content=False
             )
             
-            results = []
-            for result in response.get('results', []):
-                results.append({
-                    'title': result.get('title', ''),
-                    'url': result.get('url', ''),
-                    'content': result.get('content', ''),
-                    'score': result.get('score', 0)
-                })
+            results = [
+                {
+                    'title': r.get('title', ''),
+                    'url': r.get('url', ''),
+                    'content': r.get('content', ''),
+                    'score': r.get('score', 0)
+                }
+                for r in response.get('results', [])
+            ]
             
-            elapsed = time.time() - start_time
-            print(f"[WEB SEARCH] Found {len(results)} results in {elapsed:.2f}s")
+            print(f"[WEB] Found {len(results)} results")
             return results
         
         except Exception as e:
-            print(f"[WEB SEARCH ERROR] {e}")
+            print(f"[WEB ERROR] {e}")
             return []
     
-    def query_with_web_fallback(self, question: str, force_web: bool = False) -> Dict:
-        """
-        OPTIMIZED: Query with smart web search fallback
+    # def query_with_web_fallback(
+    #     self,
+    #     question: str,
+    #     force_web: bool = False,
+    #     conversation_history: List[Dict] | None = None,
+    # ) -> Dict:
+    #     """Query with smart web search fallback"""
         
-        Strategy:
-        1. Try local RAG first (fast)
-        2. Check if answer is confident
-        3. Only trigger web search if uncertain
+    #     if conversation_history is None:
+    #         conversation_history = []
         
-        Args:
-            question: User's question
-            force_web: Skip local RAG and go straight to web
+    #     profiler.reset()
+    #     total_start = time.perf_counter()
+        
+    #     # Force web search
+    #     if force_web:
+    #         print("[HYBRID] Force web search")
+    #         with profiler.timer("web_search"):
+    #             web_results = self.web_search(question)
             
-        Returns:
-            Dictionary with answer, sources, and source_type
-        """
-        # Force web search if requested
+    #         with profiler.timer("web_answer"):
+    #             result = self._generate_web_answer(question, web_results)
+            
+    #         total_time = (time.perf_counter() - total_start) * 1000
+    #         print(f"\n⏱️  [TOTAL_WEB] {total_time:.2f}ms")
+    #         profiler.summary("WEB SEARCH PERFORMANCE")
+    #         return result
+        
+    #     # Try local RAG first
+    #     print("[HYBRID] Trying local RAG...")
+    #     with profiler.timer("local_rag"):
+    #         local_result = self.query(question, conversation_history=conversation_history)
+        
+    #     # Check if answer indicates no information
+    #     with profiler.timer("uncertainty_check"):
+    #         answer_lower = local_result['answer'].lower()
+    #         is_uncertain = any(p in answer_lower for p in [
+    #             "i don't have", "no information", "i'm not aware"
+    #         ])
+        
+    #     if not is_uncertain and local_result.get('source_documents'):
+    #         print("[HYBRID] ✓ Local RAG confident")
+    #         return local_result
+        
+    #     # Fallback to web
+    #     if is_uncertain:
+    #         print("[HYBRID] Uncertain, trying web...")
+    #         with profiler.timer("web_search_fallback"):
+    #             web_results = self.web_search(question)
+            
+    #         if web_results:
+    #             with profiler.timer("web_answer"):
+    #                 result = self._generate_web_answer(question, web_results)
+                
+    #             total_time = (time.perf_counter() - total_start) * 1000
+    #             print(f"\n⏱️  [TOTAL_HYBRID] {total_time:.2f}ms")
+    #             profiler.summary("HYBRID (Web Fallback)")
+    #             return result
+        
+    #     print("[HYBRID] Returning local result")
+    #     return local_result
+
+    def query_with_web_fallback(
+        self,
+        question: str,
+        force_web: bool = False,
+        conversation_history: List[Dict] | None = None,
+    ) -> Dict:
+        """Query with smart web search fallback for out-of-scope questions"""
+        
+        if conversation_history is None:
+            conversation_history = []
+        
+        profiler.reset()
+        total_start = time.perf_counter()
+        
+        # Force web search
         if force_web:
-            print("[HYBRID] Force web search mode")
-            web_results = self.web_search(question)
-            return self._generate_web_answer(question, web_results)
+            print("[HYBRID] 🌐 Force web search")
+            with profiler.timer("web_search"):
+                web_results = self.web_search(question)
+            
+            with profiler.timer("web_answer"):
+                result = self._generate_web_answer(question, web_results)
+            
+            total_time = (time.perf_counter() - total_start) * 1000
+            print(f"\n⏱️  [TOTAL_WEB] {total_time:.2f}ms")
+            profiler.summary("WEB SEARCH PERFORMANCE")
+            return result
         
-        # Try local RAG first (faster)
-        print("[HYBRID] Trying local RAG first...")
-        start_time = time.time()
-        local_result = self.query(question)
-        local_time = time.time() - start_time
-        print(f"[HYBRID] Local RAG completed in {local_time:.2f}s")
+        # Try local RAG first
+        print("[HYBRID] Trying local RAG...")
+        with profiler.timer("local_rag"):
+            local_result = self.query(question, conversation_history=conversation_history)
         
-        # Check if local answer is confident
-        is_uncertain = self._is_answer_uncertain(local_result['answer'])
-        has_sources = len(local_result.get('source_documents', [])) > 0
+        # Check if answer indicates uncertainty OR out-of-scope
+        with profiler.timer("uncertainty_check"):
+            answer_lower = local_result['answer'].lower()
+            source_type = local_result.get('source_type', '')
+            
+            # Trigger web search if:
+            # 1. Answer is uncertain
+            # 2. OR it's an out-of-scope question
+            is_uncertain = any(p in answer_lower for p in [
+                "i don't have", "no information", "i'm not aware", "no specific information"
+            ])
+            
+            is_out_of_scope = source_type == "out_of_scope_uncertain"
         
-        if not is_uncertain and has_sources:
-            # Local answer is good, return it
-            print("[HYBRID] ✓ Local RAG answer is confident")
+        # If confident local answer, return it
+        if not is_uncertain and not is_out_of_scope and local_result.get('source_documents'):
+            print("[HYBRID] ✓ Local RAG confident")
             return local_result
         
-        # Local answer is uncertain, try web search
-        print("[HYBRID] Local answer uncertain, falling back to web search...")
-        web_start = time.time()
-        web_results = self.web_search(question)
-        web_time = time.time() - web_start
-        print(f"[HYBRID] Web search completed in {web_time:.2f}s")
+        # Fallback to web for uncertain OR out-of-scope
+        if is_uncertain or is_out_of_scope:
+            reason = "out-of-scope" if is_out_of_scope else "uncertain"
+            print(f"[HYBRID] 🌐 Local RAG {reason}, trying web search...")
+            
+            with profiler.timer("web_search_fallback"):
+                web_results = self.web_search(question)
+            
+            if web_results:
+                with profiler.timer("web_answer"):
+                    result = self._generate_web_answer(question, web_results)
+                
+                total_time = (time.perf_counter() - total_start) * 1000
+                print(f"\n⏱️  [TOTAL_HYBRID] {total_time:.2f}ms")
+                profiler.summary("HYBRID (Web Fallback)")
+                return result
         
-        if not web_results:
-            # Web search failed, return local result anyway
-            print("[HYBRID] ⚠ Web search failed, returning local result")
-            return {
-                **local_result,
-                "source_type": "local_fallback"
-            }
-        
-        # Generate answer from web results
-        return self._generate_web_answer(question, web_results)
+        # No web results, return local answer
+        print("[HYBRID] Returning local result")
+        return local_result
+
     
+    # def _generate_web_answer(self, question: str, web_results: List[Dict]) -> Dict:
+    #     """Generate answer from web search results"""
+    #     if not web_results:
+    #         return {
+    #             "question": question,
+    #             "answer": "I couldn't find relevant information. Please try rephrasing.",
+    #             "source_documents": [],
+    #             "source_type": "none"
+    #         }
+        
+    #     web_context = "\n\n".join([
+    #         f"Source: {r['title']}\n{r['content']}"
+    #         for r in web_results[:3]
+    #     ])
+        
+    #     # Reuse main prompt with web context
+    #     answer = self.llm.invoke(
+    #         self.prompt.format(
+    #             context=web_context,
+    #             question=question,
+    #             chat_history=""
+    #         )
+    #     ).content
+        
+    #     return {
+    #         "question": question,
+    #         "answer": answer,
+    #         "source_documents": web_results,
+    #         "source_type": "web"
+    #     }
+
+
     def _generate_web_answer(self, question: str, web_results: List[Dict]) -> Dict:
-        """Generate answer from web search results"""
+        """Generate answer from web search results with appropriate prompt"""
         if not web_results:
             return {
                 "question": question,
-                "answer": "I couldn't find relevant information. Please try rephrasing your question.",
+                "answer": "I couldn't find relevant information. Please try rephrasing.",
                 "source_documents": [],
                 "source_type": "none"
             }
         
-        # Format web results as context
+        # Format web context
         web_context = "\n\n".join([
-            f"Source: {result['title']}\n{result['content']}"
-            for result in web_results[:3]  # Limit to top 3 for speed
+            f"Source: {r['title']}\n{r['content']}"
+            for r in web_results[:3]
         ])
         
-        # Create web-optimized prompt
-        web_prompt = f"""You are FitMind AI, a nutrition assistant. Answer the question using the web search results below.
+        # WEB-SPECIFIC PROMPT (different from local RAG prompt)
+        web_prompt = f"""You are FitMind AI, a nutrition assistant. You have access to current web search results.
 
-Question: {question}
+    Web Search Results:
+    {web_context}
 
-Web Search Results:
-{web_context}
+    User question: {question}
 
-Instructions:
-1. Provide a clear, accurate answer based on the search results
-2. Keep it concise (2-3 sentences unless more detail is needed)
-3. Mention this is based on current web sources
-4. Recommend consulting healthcare providers for personalized medical advice
+    INSTRUCTIONS:
+    1. The web search results above contain current, relevant information from trusted sources
+    2. Use these results to provide a helpful, accurate answer
+    3. You can answer questions about exercise, prices, locations, or other topics IF the web results contain that information
+    4. Keep your answer concise (2-3 sentences) and cite the information from the sources
+    5. If the question is about medical/exercise topics, remind users to consult appropriate professionals
+    6. Always recommend consulting healthcare providers for personalized medical or fitness advice
 
-Answer:"""
-        
-        # Generate answer
-        web_answer = self.llm.invoke(web_prompt).content
-        
-        return {
-            "question": question,
-            "answer": web_answer,
-            "source_documents": web_results,
-            "source_type": "web"
-        }
-    
-    def chat(self, question: str, show_sources: bool = True) -> str:
-        """Interactive chat interface with web fallback"""
-        result = self.query_with_web_fallback(question)
-        
-        response = f"Question: {result['question']}\n\n"
-        response += f"Answer: {result['answer']}\n"
-        response += f"Source: {result.get('source_type', 'unknown')}\n"
-        
-        if show_sources and result.get('source_documents'):
-            response += f"\n{'='*60}\nSources:\n"
-            
-            if result.get('source_type') == 'web':
-                for i, doc in enumerate(result['source_documents'], 1):
-                    response += f"\n{i}. {doc.get('title', 'N/A')}\n"
-                    response += f"   URL: {doc.get('url', 'N/A')}\n"
-                    response += f"   {doc.get('content', '')[:150]}...\n"
-            else:
-                for i, doc in enumerate(result['source_documents'], 1):
-                    response += f"\n{i}. {doc.metadata['source']} (Category: {doc.metadata['category']})\n"
-                    response += f"   {doc.page_content[:150]}...\n"
-        
-        return response
-    
-    def query_with_history(self, question: str, conversation_history: List[Dict] = None) -> Dict:
-        """
-        Query with conversation history for context retention
-        
-        Args:
-            question: Current user question
-            conversation_history: List of previous Q&A pairs in format:
-                [{"question": "...", "answer": "..."}, ...]
-                
-        Returns:
-            Dict with question, answer, source_documents, and source_type
-        """
-        if conversation_history is None:
-            conversation_history = []
-        
-        # Build conversation context from history
-        history_text = ""
-        if conversation_history and len(conversation_history) > 0:
-            history_text = "PREVIOUS CONVERSATION:\n"
-            # Use last 3 exchanges to keep context manageable
-            for exchange in conversation_history[-3:]:
-                if isinstance(exchange, dict):
-                    # Handle both formats: {"question": "...", "answer": "..."} or {"role": "...", "content": "..."}
-                    if "question" in exchange and "answer" in exchange:
-                        history_text += f"User: {exchange['question'][:200]}\n"
-                        history_text += f"Assistant: {exchange['answer'][:200]}\n\n"
-                    elif "role" in exchange and "content" in exchange:
-                        role = "User" if exchange["role"] == "user" else "Assistant"
-                        history_text += f"{role}: {exchange['content'][:200]}\n\n"
-            history_text += "---\n\n"
-        
-        # Detect if we should use web search based on question
-        if self._should_use_web_search(question):
-            print("[HISTORY] Question routed to web search (location/brand/recent)")
-            web_results = self.web_search(question)
-            result = self._generate_web_answer(question, web_results)
-            result["conversation_history_used"] = len(conversation_history) > 0
-            return result
-        
-        # Use local RAG with history context
-        question_lower = question.lower()
-        
-        # Apply demographic filtering
-        exclude_categories = []
-        if any(word in question_lower for word in ['male', 'man', 'men', 'boy', 'he', 'his', 'him']):
-            exclude_categories.extend(['pregnant_women', 'lactating_women', 'pregnancy', 'lactation'])
-        
-        if any(word in question_lower for word in ['female', 'woman', 'women', 'girl', 'she', 'her']):
-            if 'pregnant' not in question_lower and 'pregnancy' not in question_lower:
-                exclude_categories.extend(['pregnant_women', 'pregnancy'])
-        
-        # Retrieve documents
+    Answer based on the web search results:"""
+
         try:
-            if exclude_categories:
-                print(f"[FILTERING] Excluding categories: {exclude_categories}")
-                all_docs = self.vectorstore.similarity_search(question, k=10)
-                filtered_docs = [
-                    doc for doc in all_docs 
-                    if doc.metadata.get('category', '').lower() not in [cat.lower() for cat in exclude_categories]
-                    and not any(excl in doc.metadata.get('source', '').lower() for excl in ['pregnant', 'pregnancy', 'lactating'])
-                ]
-                source_docs = filtered_docs[:3] if filtered_docs else all_docs[:3]
-            else:
-                source_docs = self.retriever.invoke(question)
-        except Exception as e:
-            print(f"[ERROR] Retrieval failed: {e}")
-            source_docs = self.retriever.invoke(question)
-        
-        if not source_docs:
+            answer = self.llm.invoke(web_prompt).content
+            print(f"[WEB ANSWER] Generated: {answer[:80]}...")
+            
             return {
                 "question": question,
-                "answer": "I don't have specific information about that in my knowledge base.",
-                "source_documents": [],
-                "source_type": "none",
-                "conversation_history_used": len(conversation_history) > 0
+                "answer": answer,
+                "source_documents": web_results,
+                "source_type": "web"
             }
-        
-        # Format context with history
-        docs_context = self._format_docs(source_docs)
-        full_context = history_text + "KNOWLEDGE BASE:\n" + docs_context
-        
-        # Generate answer with history context
-        try:
-            prompt_value = self.prompt.format(context=full_context, question=question)
-            print("[LLM] Generating answer with conversation history...")
-            answer = self.llm.invoke(prompt_value).content
-            print("[LLM] ✓ Answer generated")
-            
-            # Check if answer is uncertain
-            if self._is_answer_uncertain(answer):
-                print("[HISTORY] Local answer uncertain, falling back to web search...")
-                web_results = self.web_search(question)
-                if web_results:
-                    result = self._generate_web_answer(question, web_results)
-                    result["conversation_history_used"] = len(conversation_history) > 0
-                    return result
-        
         except Exception as e:
-            print(f"[LLM ERROR] {e}")
-            answer = "I'm experiencing technical difficulties. Please try again."
-        
-        return {
-            "question": question,
-            "answer": answer,
-            "source_documents": source_docs,
-            "source_type": "local",
-            "conversation_history_used": len(conversation_history) > 0
-        }
-    
-    def _should_use_web_search(self, question: str) -> bool:
-        """
-        Determine if question should route directly to web search
-        
-        Args:
-            question: User's question
-            
-        Returns:
-            True if question should use web search, False otherwise
-        """
-        question_lower = question.lower()
-        
-        # Location-specific queries
-        location_keywords = [
-            "restaurant", "cafe", "café", "location", "where", "place",
-            "bangalore", "delhi", "mumbai", "chennai", "hyderabad",
-            "pune", "kolkata", "address", "near me", "recommend a place",
-            "store", "shop", "market"
-        ]
-        
-        # Brand/product specific queries
-        brand_keywords = [
-            "brand", "product name", "buy", "purchase",
-            "glucon", "horlicks", "boost", "complan",
-            "amazon", "flipkart"
-        ]
-        
-        # Current/recent information
-        time_keywords = [
-            "latest", "recent", "2025", "2024", "2023",
-            "current", "new", "updated", "today",
-            "this year", "this month"
-        ]
-        
-        # Check if any trigger keywords are present
-        if any(keyword in question_lower for keyword in location_keywords):
-            return True
-        
-        if any(keyword in question_lower for keyword in brand_keywords):
-            return True
-        
-        if any(keyword in question_lower for keyword in time_keywords):
-            return True
-        
-        return False
+            print(f"[WEB ANSWER ERROR] {e}")
+            return {
+                "question": question,
+                "answer": "I found some results but had trouble processing them. Please try again.",
+                "source_documents": web_results,
+                "source_type": "web"
+            }
