@@ -22,6 +22,10 @@ import { supabase } from '../supabaseClient';
 import Onboarding from "./pages/Onboarding";
 import WorkoutPlan from "./pages/WorkoutPlan";
 
+/*------- New Import for AI Chatbot Page -------*/
+import AIChatbot from './pages/AIChatbot';
+
+
 const queryClient = new QueryClient();
 
 function App() {
@@ -83,6 +87,7 @@ function App() {
                 <Route path="/support" element={session ? <Support /> : <Navigate to="/auth" />} />
                 <Route path="/settings" element={session ? <Settings /> : <Navigate to="/auth" />} />
                 <Route path="/onboarding" element={session ? <Onboarding /> : <Navigate to="/auth" />} />
+                <Route path="/ai-chatbot" element={session ? <AIChatbot /> : <Navigate to="/auth" />} />
                 <Route path="*" element={<NotFound />} />
                 <Route
                   path="/profile"

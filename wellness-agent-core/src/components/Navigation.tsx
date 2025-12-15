@@ -3,8 +3,9 @@ import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { 
   Menu, X, Heart, Home, Activity, Apple, BarChart3, 
-  Book, LayoutDashboard, HelpCircle, Settings, User, ChefHat, Dumbbell
+  Book, LayoutDashboard, HelpCircle, Settings, User, ChefHat, Dumbbell, MessageCircle  
 } from 'lucide-react';
+import { supabase } from '../../supabaseClient';  // Add this line
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,13 +15,14 @@ const Navigation = () => {
     { path: '/', label: 'Home', icon: Home },
     { path: '/symptom-checker', label: 'Symptoms', icon: Activity },
     { path: '/diet-plan', label: 'Diet Plan', icon: Apple },
+    { path: '/workout', label: 'Workout Plan', icon: Dumbbell },  // Your addition (fixed)
+    { path: '/ai-chatbot', label: 'AI Chat', icon: MessageCircle },  // Teammate's
     { path: '/nutrition-predictor', label: 'Nutrition AI', icon: ChefHat },
     { path: '/analytics', label: 'Analytics', icon: BarChart3 },
     { path: '/explorer', label: 'Explorer', icon: Book },
     { path: '/profile', label: 'Profile', icon: User },
-    { name: "Workout Plan", path: "/workout", icon: Dumbbell}
-
   ];
+
 
   const isActive = (path: string) => location.pathname === path;
 
