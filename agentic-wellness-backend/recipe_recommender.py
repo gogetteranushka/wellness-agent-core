@@ -12,6 +12,7 @@ class MedicalAwareRecipeRecommender:
     Features:
     - Medical constraint filtering (sodium, carbs, protein limits)
     - Ingredient-based exclusions (avoid harmful foods)
+    - LLM preference filtering (cuisines, dislikes, allergies, time)
     - Weighted nutritional scoring (prioritizes protein)
     - Non-food item filtering (spice mixes, pastes)
     - Protein gap analysis and suggestions
@@ -45,6 +46,7 @@ class MedicalAwareRecipeRecommender:
         print(f"Columns: {self.recipes.columns.tolist()}")
         print(f"\nUnique Diets: {self.recipes['Diet'].unique()}")
         print(f"\nUnique Courses: {self.recipes['Course'].unique()}")
+        print(f"\nUnique Cuisines: {self.recipes['Cuisine'].unique()[:10]}")  # Show first 10
         print(f"\nSample recipe:")
         print(self.recipes.iloc[0][['RecipeName', 'Course', 'Diet', 'TotalTimeInMins']])
         
@@ -120,6 +122,56 @@ class MedicalAwareRecipeRecommender:
                     filtered = filtered[
                         ~filtered['Ingredients'].str.contains(ingredient, case=False, na=False)
                     ]
+        
+        return filtered
+    
+    def filter_by_preferences(self, recipes_df, preferred_cuisines=None, disliked_ingredients=None, allergies=None):
+        """
+        Apply LLM-parsed user preferences
+        
+        Args:
+            recipes_df: DataFrame of recipes to filter
+            preferred_cuisines: List of cuisine names to include (or None for all)
+            disliked_ingredients: List of ingredients to exclude
+            allergies: List of allergens to strictly exclude
+        
+        Returns:
+            Filtered DataFrame
+        """
+        filtered = recipes_df.copy()
+        
+        # Filter by preferred cuisines
+        if preferred_cuisines and isinstance(preferred_cuisines, list) and len(preferred_cuisines) > 0:
+            print(f"   🍽️  Filtering for cuisines: {preferred_cuisines}")
+            filtered = filtered[filtered['Cuisine'].isin(preferred_cuisines)]
+            print(f"   After cuisine filtering: {len(filtered)} recipes")
+        
+        # Exclude disliked ingredients
+        if disliked_ingredients and isinstance(disliked_ingredients, list):
+            print(f"   🚫 Excluding disliked ingredients: {disliked_ingredients}")
+            for ingredient in disliked_ingredients:
+                # Check in recipe name and ingredients column
+                mask = ~(
+                    filtered['RecipeName'].str.contains(ingredient, case=False, na=False) |
+                    filtered['Ingredients'].str.contains(ingredient, case=False, na=False)
+                )
+                filtered = filtered[mask]
+            print(f"   After disliked ingredient filtering: {len(filtered)} recipes")
+        
+        # Exclude allergens (stricter - also check ingredientsname column if exists)
+        if allergies and isinstance(allergies, list):
+            print(f"   ⚠️  Excluding allergens: {allergies}")
+            for allergen in allergies:
+                mask = ~(
+                    filtered['RecipeName'].str.contains(allergen, case=False, na=False) |
+                    filtered['Ingredients'].str.contains(allergen, case=False, na=False)
+                )
+                # Also check ingredientsname if column exists
+                if 'ingredientsname' in filtered.columns:
+                    mask = mask & ~filtered['ingredientsname'].str.contains(allergen, case=False, na=False)
+                
+                filtered = filtered[mask]
+            print(f"   After allergen filtering: {len(filtered)} recipes")
         
         return filtered
     
@@ -234,12 +286,21 @@ class MedicalAwareRecipeRecommender:
                 'suggestion': f'Add 2 eggs + 50g paneer (+15g protein) or protein shake (+20g)'
             }
     
-    def recommend(self, user_targets, medical_conditions=[], top_n=10):
+    def recommend(self, user_targets, medical_conditions=[], preferred_cuisines=None, 
+                  disliked_ingredients=None, allergies=None, top_n=10):
         """
-        Complete recommendation pipeline with medical safety and protein analysis
+        Complete recommendation pipeline with medical safety, LLM preferences, and protein analysis
+        
+        Args:
+            user_targets: Dict with 'course', 'diet', 'max_time', 'calories', 'protein_g', etc.
+            medical_conditions: List of medical conditions
+            preferred_cuisines: List of cuisine names (from LLM parser)
+            disliked_ingredients: List of ingredients to avoid (from LLM parser)
+            allergies: List of allergens to exclude (from LLM parser)
+            top_n: Number of recommendations to return
         """
         
-        # Step 1: Basic filtering (course, diet, time) - FIXED VERSION
+        # Step 1: Basic filtering (course, diet, time)
         
         # Ensure required columns exist and have no NaN
         required_cols = ['Course', 'Diet', 'TotalTimeInMins']
@@ -272,40 +333,35 @@ class MedicalAwareRecipeRecommender:
         filtered = filtered[course_filter]
         print(f"After course filtering ({course}): {len(filtered)} recipes")
         
-        # DEBUG: Check what diet value is being received
-        print(f"🔍 DEBUG: Received diet from frontend: '{user_targets.get('diet', 'Vegetarian')}'")
-        diet_input = user_targets.get('diet', 'Vegetarian').lower().replace('-', ' ').strip()
-        print(f"🔍 DEBUG: Normalized diet input: '{diet_input}'")
-        diet_values = self.DIET_MAPPING.get(diet_input)
-        print(f"🔍 DEBUG: Mapped to diet values: {diet_values}")
-        
-        # TEMPORARY TEST - Check if Non Vegeterian exists in filtered data
-        print(f"🧪 TEST: Checking for 'Non Vegeterian' in filtered data...")
-        test_nv = filtered[filtered['Diet'].str.contains('Non Vegeterian', case=False, na=False)]
-        print(f"🧪 TEST: Found {len(test_nv)} 'Non Vegeterian' recipes in current filtered set")
-        
         # Handle diet matching with typo correction
+        diet_input = user_targets.get('diet', 'Vegetarian').lower().replace('-', ' ').strip()
+        diet_values = self.DIET_MAPPING.get(diet_input)
+        
         if diet_values:
-            # Use exact match with mapped values (handles typos)
             filtered = filtered[filtered['Diet'].isin(diet_values)]
             print(f"After diet filtering (mapped {diet_input} → {diet_values}): {len(filtered)} recipes")
         else:
-            # Fallback to partial match if not in mapping
             filtered = filtered[
                 filtered['Diet'].str.contains(user_targets.get('diet', 'Vegetarian'), case=False, na=False)
             ]
             print(f"After diet filtering (fallback - {diet_input}): {len(filtered)} recipes")
         
         # Handle time filtering
-        max_time = user_targets.get('max_time_mins', 60)
+        max_time = user_targets.get('max_time', user_targets.get('max_time_mins', 60))
         filtered = filtered[filtered['TotalTimeInMins'] <= max_time]
         print(f"After time filtering (<={max_time}min): {len(filtered)} recipes")
         
-        # FALLBACK: If still 0 recipes, relax constraints progressively
+        # Step 2: Apply LLM PREFERENCE FILTERS (NEW!)
+        filtered = self.filter_by_preferences(
+            filtered, 
+            preferred_cuisines=preferred_cuisines,
+            disliked_ingredients=disliked_ingredients,
+            allergies=allergies
+        )
+        
         if len(filtered) == 0:
-            print("⚠️  No recipes found, trying relaxed filters...")
-            
-            # Retry without time constraint
+            print("⚠️  No recipes after preference filtering, relaxing cuisine constraint...")
+            # Retry without cuisine filter
             filtered = self.recipes.copy()
             for col in required_cols:
                 if col in filtered.columns:
@@ -320,42 +376,27 @@ class MedicalAwareRecipeRecommender:
             
             if diet_values:
                 filtered = filtered[filtered['Diet'].isin(diet_values)]
-            else:
-                filtered = filtered[
-                    filtered['Diet'].str.contains(user_targets.get('diet', 'Vegetarian'), case=False, na=False)
-                ]
             
-            print(f"After removing time constraint: {len(filtered)} recipes")
+            filtered = filtered[filtered['TotalTimeInMins'] <= max_time]
+            
+            # Retry preferences without cuisine constraint
+            filtered = self.filter_by_preferences(
+                filtered, 
+                preferred_cuisines=None,  # Remove cuisine constraint
+                disliked_ingredients=disliked_ingredients,
+                allergies=allergies
+            )
         
-        if len(filtered) == 0:
-            print("⚠️  Still no match, trying just diet filter...")
-            # Try just diet
-            filtered = self.recipes[self.recipes['Diet'].notna()]
-            if diet_values:
-                filtered = filtered[filtered['Diet'].isin(diet_values)]
-            else:
-                filtered = filtered[
-                    filtered['Diet'].str.contains(user_targets.get('diet', 'Vegetarian'), case=False, na=False)
-                ]
-            print(f"After just diet filter: {len(filtered)} recipes")
-        
-        if len(filtered) == 0:
-            print("❌ No recipes found even with relaxed filters")
-            print(f"DEBUG: Requested diet: '{diet_input}'")
-            print(f"DEBUG: Mapped values: {diet_values}")
-            print(f"DEBUG: Available diets in dataset: {self.recipes['Diet'].unique()}")
-            return pd.DataFrame()
-        
-        # Step 2: Apply MEDICAL SAFETY CONSTRAINTS
+        # Step 3: Apply MEDICAL SAFETY CONSTRAINTS
         if medical_conditions:
             filtered = self.filter_by_medical_constraints(filtered, medical_conditions)
             print(f"After medical filtering: {len(filtered)} recipes")
         
         if len(filtered) == 0:
-            print("⚠️  No medically-safe recipes found")
+            print("❌ No recipes found even with relaxed filters")
             return pd.DataFrame()
         
-        # Step 3: Calculate match scores
+        # Step 4: Calculate match scores
         scores = []
         protein_gaps = []
         suggestions = []
@@ -380,7 +421,7 @@ class MedicalAwareRecipeRecommender:
         filtered['protein_gap'] = protein_gaps
         filtered['protein_suggestion'] = suggestions
         
-        # Step 4: Rank by match score and return top N
+        # Step 5: Rank by match score and return top N
         recommendations = filtered.sort_values('match_score', ascending=False).head(top_n)
         
         return recommendations[[
@@ -390,13 +431,18 @@ class MedicalAwareRecipeRecommender:
             'sodium_per_serving', 'match_score', 'protein_gap', 'protein_suggestion'
         ]]
     
-    def recommend_with_display(self, user_targets, medical_conditions=[], top_n=5):
+    def recommend_with_display(self, user_targets, medical_conditions=[], 
+                               preferred_cuisines=None, disliked_ingredients=None, 
+                               allergies=None, top_n=5):
         """
         Get recommendations with formatted display output
         
         Returns both DataFrame and formatted string for printing
         """
-        recommendations = self.recommend(user_targets, medical_conditions, top_n)
+        recommendations = self.recommend(
+            user_targets, medical_conditions, 
+            preferred_cuisines, disliked_ingredients, allergies, top_n
+        )
         
         if len(recommendations) == 0:
             return recommendations, "No suitable recipes found"

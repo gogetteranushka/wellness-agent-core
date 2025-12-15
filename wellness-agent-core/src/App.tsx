@@ -20,6 +20,7 @@ import NotFound from "./pages/NotFound";
 import { useEffect, useState } from 'react';
 import { supabase } from '../supabaseClient';
 import Onboarding from "./pages/Onboarding";
+import WorkoutPlan from "./pages/WorkoutPlan";
 
 const queryClient = new QueryClient();
 
@@ -75,6 +76,7 @@ function App() {
                 <Route path="/update-data" element={session ? <UpdateData /> : <Navigate to="/auth" />} />
                 <Route path="/symptom-checker" element={session ? <SymptomChecker /> : <Navigate to="/auth" />} />
                 <Route path="/diet-plan" element={session ? <DietPlan /> : <Navigate to="/auth" />} />
+                <Route path="/workout" element={session ? <WorkoutPlan /> : <Navigate to="/auth" replace />}/>
                 <Route path="/nutrition-predictor" element={session ? <NutritionPredictor /> : <Navigate to="/auth" />} />
                 <Route path="/analytics" element={session ? <Analytics /> : <Navigate to="/auth" />} />
                 <Route path="/explorer" element={session ? <Explorer /> : <Navigate to="/auth" />} />

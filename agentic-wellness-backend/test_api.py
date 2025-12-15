@@ -16,7 +16,7 @@ user_data = {
     "goal": "weight_loss",
     "medical_conditions": ["diabetes", "hypertension"],
     "diet_type": "Vegetarian",
-    "max_prep_time": 45
+    
 }
 
 try:

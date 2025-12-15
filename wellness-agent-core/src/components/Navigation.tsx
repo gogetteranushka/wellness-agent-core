@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { 
   Menu, X, Heart, Home, Activity, Apple, BarChart3, 
-  Book, LayoutDashboard, HelpCircle, Settings, User, ChefHat
+  Book, LayoutDashboard, HelpCircle, Settings, User, ChefHat, Dumbbell
 } from 'lucide-react';
 
 const Navigation = () => {
@@ -18,6 +18,8 @@ const Navigation = () => {
     { path: '/analytics', label: 'Analytics', icon: BarChart3 },
     { path: '/explorer', label: 'Explorer', icon: Book },
     { path: '/profile', label: 'Profile', icon: User },
+    { name: "Workout Plan", path: "/workout", icon: Dumbbell}
+
   ];
 
   const isActive = (path: string) => location.pathname === path;

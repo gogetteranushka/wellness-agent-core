@@ -17,6 +17,9 @@ interface Ingredient {
 interface PredictionResult {
   predicted_nutrition: {
     calories: number;
+    protein_g: number;
+    carbs_g: number;
+    fat_g: number;
     confidence_range: {
       min: number;
       max: number;
@@ -321,6 +324,28 @@ const NutritionPredictor = () => {
                   </div>
                 </div>
 
+                {/* Macros Breakdown */}
+                <div className="grid grid-cols-3 gap-3">
+                  <div className="glass-card p-4 text-center">
+                    <p className="text-sm text-muted-foreground mb-1">Protein</p>
+                    <p className="text-2xl font-bold text-primary">
+                      {result.predicted_nutrition.protein_g}g
+                    </p>
+                  </div>
+                  <div className="glass-card p-4 text-center">
+                    <p className="text-sm text-muted-foreground mb-1">Carbs</p>
+                    <p className="text-2xl font-bold text-accent">
+                      {result.predicted_nutrition.carbs_g}g
+                    </p>
+                  </div>
+                  <div className="glass-card p-4 text-center">
+                    <p className="text-sm text-muted-foreground mb-1">Fats</p>
+                    <p className="text-2xl font-bold text-orange-500">
+                      {result.predicted_nutrition.fat_g}g
+                    </p>
+                  </div>
+                </div>
+
                 {/* Model Info */}
                 <div className="space-y-3">
                   <h4 className="font-semibold">Model Information</h4>
@@ -346,8 +371,8 @@ const NutritionPredictor = () => {
                 {/* Disclaimer */}
                 <div className="bg-muted/50 border border-border rounded-lg p-4">
                   <p className="text-xs text-muted-foreground">
-                    <strong>Note:</strong> Predictions are based on 1,014 Indian recipes. 
-                    Actual calories may vary based on cooking method and ingredient quality.
+                    <strong>Note:</strong> Predictions are based on Indian recipes using Gradient Boosting. 
+                    Actual values may vary based on cooking method and ingredient quality.
                   </p>
                 </div>
               </div>
