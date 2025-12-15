@@ -20,3 +20,4 @@ supabase
 dotenv
 matplotlib
 seaborn
+colorama
